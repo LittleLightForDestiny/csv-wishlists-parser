@@ -33,10 +33,10 @@ var memory: ItemMemory = {
     perkHashes: {},
 };
 
-var errors:string[] = [
+var errors: string[] = [
 ];
 
-var filename = "forsaken-pvp";
+var filename = process.argv[2] || "forsaken-pve";
 
 var bungieRoot = "https://www.bungie.net";
 var itemDefinitions: { [hash: string]: DestinyInventoryItemDefinition };
@@ -91,7 +91,7 @@ async function loadErrors(): Promise<string[]> {
     return errors;
 }
 
-async function logError(message:string){
+async function logError(message: string) {
     errors.push(message);
     errors = _.uniq(errors);
     try {
@@ -129,12 +129,31 @@ async function parseLine(line: string[]): Promise<JsonWishlistItem[]> {
     for (var w in weaponHashes) {
         var weaponHash: number = weaponHashes[w];
         var item: JsonWishlistItem = { name: weaponName, description: "", plugs: [], hash: weaponHash, tags: [] };
-        for (var i = 1; i <= 4; i++) {
-            var perks = await getPerks(weaponHash, line[i]);
-            item.plugs.push(perks);
+        for (let i = 1; i <= 4; i++) {
+            let perks = await getPerks(weaponHash, line[i]);
+            if (perks.length > 0) {
+                item.plugs.push(perks);
+            }
         }
         item.tags = line[5].split(",");
         items.push(item);
+
+        var generateGodRoll = false;
+        for (var i in item.plugs) {
+            if (item.plugs[i].length > 1) {
+                generateGodRoll = true;
+            }
+        }
+        if (generateGodRoll) {
+            var godrollPlugs = item.plugs.map((p) => [p[0]]);
+            var godrollTags = item.tags.map((v) => {
+                if (v == "pve") return "godpve";
+                if (v == "pvp") return "godpvp";
+                return v;
+            });
+            let godrollItem: JsonWishlistItem = { name: weaponName, description: "", plugs: godrollPlugs, hash: weaponHash, tags: godrollTags };
+            items.push(godrollItem);
+        }
     }
     return items;
 }
@@ -164,32 +183,32 @@ async function decideWeaponHash(weaponName: string): Promise<number[]> {
     });
     return askForWeaponHash(weaponName, items);
 }
-async function askForMultiple(options:number[], message:string):Promise<number[]|null>{
-        var counts = _.countBy(options, (o)=>o);
-        let _options = _.map(counts, (v, k) => ({
-            title: `${k} (${v})`,
-            value: parseInt(k),
-        }));
-        _options.push({
-            title: "Other",
-            value: 0,
-        })
-        let result = await prompts({
-            type: "multiselect",
-            name: "hashes",
-            choices: _options,
-            message: message,
-        });
-        if (!result.hashes) {
-            process.exit(0);
-        }
-        if (result.hashes.indexOf(0) > -1) {
-            return null
-        }
-        return result.hashes;
+async function askForMultiple(options: number[], message: string): Promise<number[] | null> {
+    var counts = _.countBy(options, (o) => o);
+    let _options = _.map(counts, (v, k) => ({
+        title: `${k} (${v})`,
+        value: parseInt(k),
+    }));
+    _options.push({
+        title: "Other",
+        value: 0,
+    })
+    let result = await prompts({
+        type: "multiselect",
+        name: "hashes",
+        choices: _options,
+        message: message,
+    });
+    if (!result.hashes) {
+        process.exit(0);
+    }
+    if (result.hashes.indexOf(0) > -1) {
+        return null
+    }
+    return result.hashes;
 }
 
-async function askOpenly(message:string):Promise<number[]>{
+async function askOpenly(message: string): Promise<number[]> {
     await logError(message);
     let result = await prompts({
         type: "text",
@@ -199,21 +218,21 @@ async function askOpenly(message:string):Promise<number[]>{
     if (result.hashes == null) {
         process.exit(0);
     }
-    if(result.hashes.length == 0){
+    if (result.hashes.length == 0) {
         return [];
     }
-    var hashes = result.hashes.split(",");
+    var hashes = result.hashes.split(",").map((h:any)=>parseInt(h));
     return hashes;
 }
 
-async function addToMemory(object:{[id:string]:number[]}, key:string, items:number[]){
-    var group:number[];
-    if(object[key]){
+async function addToMemory(object: { [id: string]: number[] }, key: string, items: number[]) {
+    var group: number[];
+    if (object[key]) {
         group = object[key];
-    }else{
+    } else {
         group = object[key] = [];
     }
-    for(var i in items){
+    for (var i in items) {
         group.push(items[i]);
     }
     await saveMemory();
@@ -223,20 +242,20 @@ async function askForWeaponHash(weaponName: string, items: DestinyInventoryItemD
     weaponName = weaponName.trim();
     if (memory.weaponHashes[weaponName]) {
         let result = await askForMultiple(memory.weaponHashes[weaponName], `Use previously saved values for ${weaponName} ?`);
-        if(result){
+        if (result) {
             await addToMemory(memory.weaponHashes, weaponName, result);
             return result;
         }
     }
     if (items.length > 0) {
-        let result = await askForMultiple(items.map((i)=>i.hash), `What's the weapon hash for ${weaponName} ?`);
-        if(result){
+        let result = await askForMultiple(items.map((i) => i.hash), `What's the weapon hash for ${weaponName} ?`);
+        if (result) {
             await addToMemory(memory.weaponHashes, weaponName, result);
             return result;
         }
     }
     let result = await askOpenly(`What's the weapon hash for ${weaponName} ?`);
-    if(result.length > 0){
+    if (result.length > 0) {
         await addToMemory(memory.weaponHashes, weaponName, result);
     }
     return result;
@@ -293,20 +312,20 @@ async function askForPlugHash(weaponName: string, perkName: string, plugHashes: 
     if (memory.perkHashes[perkName]) {
         var onMemory = memory.perkHashes[perkName];
         let result = await askForMultiple(onMemory, `Use previously saved values for ${perkName} on ${weaponName} ?`)
-        if(result){
+        if (result) {
             addToMemory(memory.perkHashes, perkName, result);
             return result;
         }
     }
     if (plugHashes.length > 0) {
         let result = await askForMultiple(plugHashes, `What's the plug hash for ${perkName} on ${weaponName} ?`);
-        if(result){
+        if (result) {
             addToMemory(memory.perkHashes, perkName, result);
             return result;
         }
     }
     let result = await askOpenly(`What's the plug hash for ${perkName} on ${weaponName} ?`);
-    if(result.length > 0){
+    if (result.length > 0) {
         addToMemory(memory.perkHashes, perkName, result);
     }
     return result;
