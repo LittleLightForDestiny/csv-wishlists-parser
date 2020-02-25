@@ -1,0 +1,26 @@
+{
+  "name": "csv-to-wishlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fast-csv/parse": "^4.1.1",
+    "@types/axios": "^0.14.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/fs-extra": "^8.1.0",
+    "@types/lodash": "^4.14.149",
+    "@types/prompts": "^2.0.3",
+    "axios": "^0.19.2",
+    "bungie-api-ts": "^2.3.0",
+    "csv-parse": "^4.8.6",
+    "dotenv": "^8.2.0",
+    "fs-extra": "^8.1.0",
+    "lodash": "^4.17.15",
+    "prompts": "^2.3.1"
+  }
+}
