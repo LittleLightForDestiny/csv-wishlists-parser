@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node src/index",
-    "fix": "ts-node src/fix"
+    "fix": "ts-node src/fix",
+    "bundle": "ts-node src/bundle"
   },
   "author": "",
   "license": "ISC",
