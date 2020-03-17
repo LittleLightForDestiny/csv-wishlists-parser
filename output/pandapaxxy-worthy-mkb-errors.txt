@@ -1,0 +1,4 @@
+What's the weapon hash for Timeline's Vertex ?
+What's the plug hash for Swordmaster’s Guard on Honor's Edge ?
+What's the plug hash for Auto Loading Holster on Interference VI ?
+What's the plug hash for High Velocity Rounds on Interference VI ?
