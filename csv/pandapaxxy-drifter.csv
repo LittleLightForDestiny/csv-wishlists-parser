@@ -1,45 +1,56 @@
-Oxygen SR3,Polygonal Rifling,Accurized Rounds,Dragonfly,Meganeura,"curated,pve,pvp"
-The Recluse,Polygonal Rifling,Ricochet Rounds,Feeding Frenzy,Master of Arms,"curated,pve,pvp"
-21% Delirium,Polygonal Rifling,Extended Mag,Overflow,Killing Tally,"curated,pve,pvp"
-,,,,,
-Gnawing Hunger,"Arrowhead Brake, Chambered Compensator, Corkscrew Rifling","Tactical Mag, Appended Mag, Extended Mag","Zen Moment, Tap the Trigger, Subsistence","Rampage, Multikill Clip, Demolitionist",pve
-Gnawing Hunger,"Extended Barrel, Hammer Forged Rifling, Smallbore","Accurized Rounds, Tactical Mag","Tap the Trigger, Zen Moment","Kill Clip, Demolitionist",pvp
-,,,,,
-Service Revolver,"TrueSight HCS, Fastdraw HCS, SteadyHand HCS","Appended Mag, Extended Mag, High-Caliber Rounds, Light Mag","Outlaw, Rapid Hit, Triple Tap","Rampage, Kill Clip",pve
-Service Revolver,"SureShot HCS, Crossfire HCS","Ricochet Rounds, Accurized Rounds","Rangefinder, Moving Target, Outlaw","Opening Shot, Kill Clip, Zen Moment",pvp
-Spare Rations,"Hammer-Forged Rifling, Corkscrew Rifling, Fluted Barrel","Appended Mag, High-Caliber Rounds, Flared Magwell","Fourth Times the Charm, Rapid Hit","Rampage, Kill Clip, Multikill Clip",pve
-Spare Rations,"Full Bore, Hammer-Forged Rifling, Smallbore","Ricochet Rounds, Light Mag, High-Caliber Rounds","Rapid Hit, Snapshot","Kill Clip, Rangefinder, Slideshot, Moving Target",pvp
-,,,,,
-Outlast,"Arrowhead Brake, Chambered Compensator, Extended Barrel","Tactical Mag, Appended Mag, Extended Mag, Flared Magwell","Feeding Frenzy, Outlaw, Full Auto Trigger System","Rampage, Kill Clip, Demolitionist",pve
-Outlast,"Arrowhead Brake, Extended Barrel, Chambered Compensator","Accurized Rounds, Steady Rounds, Tactical Mag","Feeding Frenzy, Rangefinder, Full Auto Trigger System, Outlaw","Kill Clip, Demolitonist, Rampage",pvp
-Last Perdition,"SLO-10 Post, SPO-28 Front, SPO-57 Front","Tactical Mag, Appended Mag, Extended Mag, Steady Rounds","Outlaw, Rangefinder","Rampage, Kill Clip, High-Impact Reserves, Full Auto Trigger System",pve
-Last Perdition,"SPO-57 Front, SPO-28 Front, SPO-26 Front","Steady Rounds, Accurized Rounds, Tactical mag","Rangefinder, Moving Target, Outlaw","Kill Clip, Zen Moment, Snapshot",pvp
-,,,,,
-Night Watch,"Arrowhead Brake, Fluted Barrel, Chambered Compensator","Tactical Mag, Appended Mag","Rapid Hit, Outlaw, Subsistence","Rampage, Explosive Rounds, Multikill Clip",pve
-Night Watch,"Arrowhead Brake, Extended Barrel","Tactical Mag, Flared Magwell, Steady Rounds,Accurized Rounds","Rapid Hit, Outlaw","Explosive Rounds, Moving Target, Demolitionist",pvp
-,,,,,
-Lonesome,"Arrowhead Brake, Fluted Barrel, Polygonal Rifling","Appended Mag, Flared Magwell, Alloy Mag","Outlaw, Rapid Hit, Full Auto Trigger System, Zen Moment","Kill Clip, Multikill Clip, Demolitionist, Swashbuckler",pve
-Lonesome,"Hammer-Forged Rifling, Extended Barrel, Chambered Compensator","Ricochet Rounds, High-Caliber Rounds, Light Mag","Zen Moment, Full Auto Trigger System, Grave Robber","Kill Clip, Opening Shot, Demolitionist",pvp
-,,,,,
-Bug-Out Bag,"Arrowhead Brake, Chambered Compensator, Corkscrew Rifling","Tactical Mag, Appended Mag, Extended Mag","Zen Moment, Tap the Trigger, Subsistence","Rampage, Multikill Clip, Demolitionist",pve
-Bug-Out Bag,"Extended Barrel, Hammer Forged Rifling, Smallbore","Accurized Rounds, Tactical Mag","Tap the Trigger, Zen Moment","Kill Clip, Demolitionist",pvp
-,,,,,
-,,,,,
-The Wizened Rebuke,Any,"Enhanced Battery, Projection Fuse, Particle Repeater","Auto-Loading Holster, Threat Detector","Backup Plan, Demolitionist, High-Impact Reserves",pve
-The Wizened Rebuke,"Red Dot Micro, Red Dot 2 MOA","Liquid Coils, Projection Fuse","Under Pressure, Auto-Loading Holster, Moving Target","Tap the Trigger, High-Impact Reserves, Rangefinder, Backup Plan, Demolitionist",pvp
-,,,,,
-Orewing's Maul,"Linear Compensator, Quick Launch, Smart Drift Control","Spike Grenades, High-Velocity Rounds","Field Prep, Grave Robber, Pulse Monitor","Demolitionist, Auto-Loading Holster",pve
-Orewing's Maul,"Volatile Launch, Hard Launch, Countermass","Spike Grenades, Proximity Grenades",Quickdraw,"Demolitionist, Auto-Loading Holster",pvp
-,,,,,
-Last Man Standing,"Rifled Barrel, Smallbore, Corkscrew Rifling","Assault Mag, Tactical Mag, Appended Mag","Grave Robber, Field Prep","Rampage, One-Two Punch, Demolitionist",pve
-Last Man Standing,"Full Choke, Rifled Barrel","Accurized Rounds, Light Mag",Opening Shot,"Rampage, Swashbuckler, Demolitionist",pvp
-,,,,,
-Sole Survivor,"Chambered Compensator, Polygonal Rifling, Arrowhead Brake","Extended Mag, Appended Mag, Flared Magwell","Fourth Times the Charm, Triple Tap, Rapid Hit","Firing Line, Demolitionist, Opening Shot",pve
-Sole Survivor,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Appended Mag, Ricochet Rounds, Flared Magwell",Snapshot,"Opening Shot, Slideshot, Demolitionist",pvp
-,,,,,
-,,,,,
-Doomsday,"Countermass, Linear Compensator, Quick Launch","Spike Grenades, Augmented Drum, High-Explosive Ordinance","Field Prep, Auto-Loading Holster","Demolitionist, Ambitious Assassin",pve
-Doomsday,"Volatile Launch, Smart Drift Control, Confined Launch","Proximity Grenades, Spike Grenades","Threat Detector, Rangefinder, Auto-Loading Holster","Quickdraw, Demolitionist, Full Court",pvp
-,,,,,
-Just in Case,"Hungry Edge, Tempered Edge","Heavy Guard, Balanced Guard","Relentless Strikes, Tireless Blade","Whirlwind Blade, Shattering Blade, En Garde",pve
-Just in Case,"Honed Edge, Jagged Edge","Heavy Guard, Enduring Guard",Tireless Blade,"Assassin's Blade, En Garde, Shattering Blade",pvp
+Oxygen SR3,Polygonal Rifling,Accurized Rounds,Dragonfly,Meganeura,pve,Range
+Oxygen SR3,Polygonal Rifling,Accurized Rounds,Dragonfly,Meganeura,pvp,Range
+,,,,,,
+The Recluse,Polygonal Rifling,Ricochet Rounds,Feeding Frenzy,Master of Arms,pve,Range
+The Recluse,Polygonal Rifling,Ricochet Rounds,Feeding Frenzy,Master of Arms,pvp,Range
+,,,,,,
+21% Delirium,Polygonal Rifling,Extended Mag,Overflow,Killing Tally,pve,Stability
+21% Delirium,Polygonal Rifling,Extended Mag,Overflow,Killing Tally,pvp,Stability
+,,,,,,
+Lonesome,"Fluted Barrel, Corkscrew Rifling, Polygonal Rifling","Appended Mag, Extended Mag, Light Mag","Rapid Hit, Outlaw","Kill Clip, Multikill Clip, Demolitionist, Swashbuckler",pve,Reload
+Lonesome,"Hammer-Forged Rifling, Extended Barrel, Chambered Compensator","Ricochet Rounds, High-Caliber Rounds, Light Mag","Rapid Hit, Full Auto Trigger System, Zen Moment","Kill Clip, Swashbuckler, Demolitionist",pvp,Range
+,,,,,,
+Night Watch,"Arrowhead Brake, Fluted Barrel, Corkscrew Rifling","Tactical Mag, Appended Mag, Extended Mag","Rapid Hit, Outlaw, Subsistence","Rampage, Demolitionist, Multikill Clip",pve,Reload
+Night Watch,"Arrowhead Brake, Extended Barrel, Chambered Compensator","Tactical Mag, Steady Rounds, Accurized Rounds","Rapid Hit, Outlaw","Explosive Rounds, Moving Target, Demolitionist",pvp,Handling
+,,,,,,
+Spare Rations,"Fluted Barrel, Corkscrew Rifling","Appended Mag, Extended Mag","Rapid Hit, Subsistence","Rampage, Multikill Clip, Swashbuckler, Kill Clip",pve,Reload
+Spare Rations,"Fluted Barrel, Polygonal Rifling, Smallbore","Ricochet Rounds, High-Caliber Rounds",Rapid Hit,"Rangefinder, Moving Target, Kill Clip",pvp,Handling
+,,,,,,
+Bug-Out Bag,"Fluted Barrel, Chambered Compensator, Extended Barrel","Tactical Mag, Appended Mag, Extended Mag","Zen Moment, Grave Robber, Subsistence","Demolitionist, Multikill Clip, Swashbuckler, High-Impact Reserves",pve,Reload
+Bug-Out Bag,"Chambered Compensator, Extended Barrel, Smallbore","Accurized Rounds, Tactical Mag, Steady Rounds",Zen Moment,"Demolitionist, Moving Target, Slideways",pvp,Stability
+,,,,,,
+Gnawing Hunger,"Arrowhead Brake, Fluted Barrel, Corkscrew Rifling","Tactical Mag, Appended Mag, Extended Mag","Field Prep, Subsistence, Auto-Loading Holster","Rampage, Demolitonist, Multikill Clip, Kill Clip, Swashbucker",pve,Reload
+Gnawing Hunger,"Arrowhead Brake, Chambered Compensator, Extended Barrel","Accurized Rounds, Steady Rounds","Tap the Trigger, Zen Moment","Kill Clip, Demolitionist",pvp,Range
+,,,,,,
+Last Man Standing,"Barrel Shroud, Corkscrew Rifling, Smallbore","Assault Mag, Tactical Mag, Appended Mag","Grave Robber, Field Prep","Rampage, One-Two Punch, Demolitionist, Swashbuckler",pve,Reload
+Last Man Standing,"Full Choke, Rifled Barrel","Assault Mag, Light Mag, Accurized Rounds",Opening Shot,"Demolitionist, One-Two Punch, Swashbuckler",pvp,Handling
+,,,,,,
+Outlast,"Arrowhead Brake, Chambered Compensator, Extended Barrel","Tactical Mag, Appended Mag, Extended Mag","Feeding Frenzy, Outlaw, Full Auto Trigger System","Rampage, Kill Clip, Demolitionist",pve,Reload
+Outlast,"Arrowhead Brake, Extended Barrel, Chambered Compensator","Accurized Rounds, Steady Rounds, Tactical Mag","Feeding Frenzy, Rangefinder, Full Auto Trigger System","Kill Clip, Demolitonist",pvp,Stability or Range
+,,,,,,
+Sole Survivor,"Chambered Compensator, Polygonal Rifling, Smallbore","Extended Mag, Appended Mag, Tactical Mag","Fourth Times the Charm, Triple Tap, Rapid Hit","Firing Line, Demolitionist, Auto-Loading Holster",pve,Reload
+Sole Survivor,"Fluted Barrel, Corkscrew Rifling","Ricochet Rounds, Flared Magwell, Light Mag",Snapshot Sights,"Opening Shot, Slideshot, Demolitionist",pvp,Handling
+,,,,,,
+Doomsday,"Quick Launch, Smart Drift Control, Hard Launch","Spike Grenades, Alloy Casing","Field Prep, Auto-Loading Holster","Full Court, Demolitionist",pve,Reload
+Doomsday,"Volatile Launch, Confined Launch, Linear Compensator",Proximity Grenades,"Threat Detector, Snapshot Sights","Quickdraw, Demolitionist",pvp,Blast Radius
+,,,,,,
+Just In Case,"Jagged Edge, Honed Edge, Tempered Blade","Burst Guard, Swordmaster's Guard, Balanced Guard","Relentless Strikes, Tireless Blade","Whirlwind Blade, Shattering Blade, En Garde",pve,Impact
+Just In Case,"Jagged Edge, Honed Edge, Tempered Blade","Burst Guard, Swordmaster's Guard, Balanced Guard",Tireless Blade,"Assassin's Blade, En Garde, Shattering Blade",pvp,Impact
+,,,,,,
+,,,,,,
+,,,,,,
+Service Revolver,"Fastdraw HCS, Steadyhand HCS, Truesight HCS","Appended Mag, Extended Mag","Rapid Hit, Outlaw, Triple Tap","Rampage, Kill Clip",pve,Reload
+Service Revolver,"Fastdraw HCS, Steadyhand HCS, Truesight HCS","Accurized Rounds, Ricochet Rounds, High-Caliber Rounds","Rapid Hit, Rangefinder, Moving Target","Kill Clip, Zen Moment, Snapshot Sights, Opening Shot",pvp,Handling
+,,,,,,
+,,,,,,
+,,,,,,
+Last Perdition,"SPO-57 Front, SPO-28 Front, SLO-21 Post","Tactical Mag, Appended Mag, Extended Mag",Outlaw,"Rampage, Kill Clip, High-Impact Reserves, Full Auto Trigger System",pve,Reload
+Last Perdition,"SPO-57 Front, SPO-28 Front, SLO-21 Post","Steady Rounds, Accurized Rounds, Tactical Mag","Rangefinder, Moving Target, Outlaw, Firmly Planted","Kill Clip, Zen Moment, Snapshot",pvp,Range
+,,,,,,
+,,,,,,
+,,,,,,
+Orewing's Maul,"Quick Launch, Smart Drift Control, Hard Launch",Spike Grenades,"Field Prep, Grave Robber, Pulse Monitor","Demolitionist, Auto-Loading Holster",pve,Reload
+Orewing's Maul,"Volatile Launch, Confined Launch, Linear Compensator",Spike Grenades,Quickdraw,"Auto-Loading Holster, Demolitionist",pvp,Velocity
+,,,,,,
+The Wizened Rebuke,"Red Dot Micro, Cleanshot IS, Hitmark IS","Enhanced Battery, Liquid Coils, Ionized Battery","Auto-Loading Holster, Threat Detector","Demolitionist, High-Impact Reserves, Backup Plan",pve,Reload
+The Wizened Rebuke,"Red Dot Micro, Red Dot 2 MOA","Particle Repeater, Projection Fuse, Liquid Coils",Firmly Planted,"Tap the Trigger, Rangefinder, Demolitionist",pvp,Range

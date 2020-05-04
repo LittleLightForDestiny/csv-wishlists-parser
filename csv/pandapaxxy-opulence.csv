@@ -1,54 +1,68 @@
-Revoker,Extended Barrel,Accurized Rounds,Snapshot Sights,Reversal of Fortune,"curated,pve,pvp"
-,,,,,
-Hush,Natural String,Straight Fletching,Opening Shot,Archer's Gambit,"curated,pve,pvp"
-,,,,,
-Wendigo GL3,Smart Drift Control,Blinding Grenades,Auto-Loading Holster,Explosive Light,"curated,pve,pvp"
-,,,,,
-,,,,,
-Gahlran's Right Hand,"Fluted Barrel, Corkscrew Rifling, Polygonal Rifling","High-Caliber Rounds, Armor-Piercing Rounds, Extended Mag","Outlaw, Zen Moment, Tap the Trigger","Multikill Clip, Demolitionist, High-Impact Reserves",pve
-Gahlran's Right Hand,"Extended Barrel, Chambered Compensator, Arrowhead Brake","Ricochet Rounds, High-Caliber Rounds","Tap the Trigger, Zen Moment, Eye of the Storm","Demolitionist, Underdog, Rangefinder",pvp
-,,,,,
-Austringer,"Hammer-Forged Rifling, Smallbore, Full Bore","Tactical Mag, Appended Mag, Accurized Rounds","Outlaw, Subsistence, Triple Tap","Rampage, Demolitionist",pve
-Austringer,"Full Bore, Hammer-Forged Rifling, Extended Barrel","Accurized Rounds, Tactical Mag","Outlaw, Eye of the Storm","Rangefinder, Opening Shot, Demolitionist",pvp
-,,,,,
-Calusea Noblesse,"Fluted Barrel, Polygonal Rifling, Corkscrew Rifling","Tactical Mag, Appended Mag, Steady Rounds","Outlaw, Subsistence","Multikill Clip, Rampage, Dragonfly",pve
-Calusea Noblesse,"Fluted Barrel, Chambered Compensator, Arrowhead Brake","Steady Rounds, Tactical Mag","Zen Moment, Moving Target, Outlaw","Rampage, Dragonfly",pvp
-,,,,,
-Drang (Baroque),"Chambered Compensator, Extended Barrel, Hammer-Forged Rifling","Appended Mag, High-Caliber Rounds, Alloy Mag","Full Auto Trigger System, Disruption Break, Quickdraw","Rampage, Swashbuckler, Underdog",pve
-Drang (Baroque),"Full Bore, Extended Barrel, Hammer-Forged Rifling","Ricochet Rounds, High-Caliber Rounds, Light Mag","Quickdraw, Moving Target, Eye of the Storm","Swashbuckler, Rampage, Zen Moment",pvp
-,,,,,
-Calus Mini-Tool,"Chambered Compensator, Extended Barrel, Fluted Barrel","High-Caliber Rounds, Appended Mag, Flared Magwell","Grave Robber, Dynamic Sway Reduction","Surrounded, Disruption Break, Feeding Frenzy",pve
-Calus Mini-Tool,"Hammer-Forged Rifling, Extended Barrel, Smallbore",Ricochet Rounds,"Moving Target, Slideways","Tap the Trigger, Feeding Frenzy, Disruption Break",pvp
-,,,,,
-The Epicurean,"Fluted Barrel, Corkscrew Rifling, Polygonal Rifling","Liquid Coils, Enhanced Battery, Projection Fuse","Feeding Frenzy, Quickdraw","Swashbuckler, Demolitionist, Backup Plan",pve
-The Epicurean,"Full Bore, Hammer Forged Rifling, Smallbore","Projection Fuse, Liquid Coils","Tap the Trigger, Quickdraw, Feeding Frenzy, Under Pressure","Rangefinder, Backup Plan, Demolitionist, Swashbuckler",pvp
-,,,,,
-Imperial Decree,"Smallbore, Rifled Barrel, Corkscrew Rifling","Tactical Mag, Appended Mag, Assault Mag, Extended Mag","Feeding Frenzy, Grave Robber, Full Auto Trigger System","Trench Barrel, Swashbucker, Rampage",pve
-Imperial Decree,"Full Choke, Rifled Barrel",Accurized Rounds,"Slideshot, Feeding Frenzy","Swashbucker, Snapshot Sights, Rampage",pvp
-,,,,,
-Emperor's Courtesy,"Smallbore, Rifled Barrel, Corkscrew Rifling","Tactical Mag, Appended Mag, Assault Mag, Extended Mag","Grave Robber, Quickdraw","Swashbuckler, Rampage, Surrounded",pve
-Emperor's Courtesy,"Full Choke, Rifled Barrel",Accurized Rounds,"Quickdraw, Snapshot Sights","Opening Shot, Swashbuckler, Slideshot, Rampage, Surrounded",pvp
-,,,,,
-Gunnora's Axe,"Fluted Barrel, Corkscrew Rifling, Arrowhead Brake","Tactical Mag, Assault Mag, Appended Mag","Outlaw, Quickdraw, Full Auto Trigger System","Swashbuckler, Demolitionist, Triple Tap, Rampage",pve
-Gunnora's Axe,"Fluted Barrel, Hammer-Forged Rifling, Smallbore, Full Bore","Accurized Rounds, Assault Mag, Light Mag","Quickdraw, Outlaw","Opening Shot, Swashbuckler, Demolitionist, Slideshot, Rampage, Moving Target, Snapshot Sights",pvp
-,,,,,
-Beloved,"Fluted Barrel, Corkscrew Rifling, Polygonal Rifling","Tactical Mag, Appended Mag, Extended Mag","Demolitionist, No Distractions, Mulligan","Fourth Times the Charm, Box Breathing, Rampage",pve
-Beloved,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","Tactical Mag, Accurized Rounds, Flared Magwell","Snapshot Sights, Demolitionist, No Distractions","Quickdraw, Moving Target",pvp
-,,,,,
-Bane of Sorrow,"Arrowhead Brake, Fluted Barrel, Corkscrew Rifling","Appended Mag, High-Caliber Rounds, Extended Mag","Feeding Frenzy, Under Pressure, Eye of the Storm","Rampage, Demolitionist",pve
-Bane of Sorrow,"Extended Barrel, Chambered Compensator, Hammer-Forged Rifling","Ricochet Rounds, High-Caliber Rounds, Appended Mag","Tap the Trigger, Eye of the Storm, Feeding Frenzy","Demolitionist, Rampage, Mulligan",pvp
-,,,,,
-Fixed Odds,"Arrowhead Brake, Fluted Barrel, Corkscrew Rifling","Appended Mag, High-Caliber Rounds, Extended Mag","Feeding Frenzy, Quickdraw","Rampage, Surrounded",pve
-Fixed Odds,"Extended Barrel, Chambered Compensator, Hammer-Forged Rifling","Ricochet Rounds, High-Caliber Rounds, Appended Mag","Quickdraw, No Distractions","Tap the Trigger, Rampage, Rangefinder",pvp
-,,,,,
-Shining Sphere,"Volatile Launch, Confined Launch, Linear Compensator","Impact Casing, Black Powder, Alloy Casing","Field Prep, Auto-Loading Holster","Tracking Module, Demolitionist",pve
-Shining Sphere,"Volatile Launch, Confined Launch, Linear Compensator","Black Powder, Alloy Casing, High-Velocity Rounds",Auto-Loading Holster,"Tracking Module, Demolitionist",pvp
-,,,,,
-Death's Razor,"Hungry Edge, Tempered Edge, Jagged Edge",Heavy Guard,"Energy Transfer, Relentless Strikes, Tireless Blade",Whirlwind Blade,pve
-Death's Razor,"Hungry Edge, Tempered Edge, Jagged Edge",Heavy Guard,"Energy Transfer, Relentless Strikes, Tireless Blade","Counterattack, Assassin's Blade",pvp
-,,,,,
-Goldtusk,"Hungry Edge, Tempered Edge, Jagged Edge",Heavy Guard,"En Garde, Relentless Strikes, Tireless Blade","Surrounded, Whirlwind Blade",pve
-Goldtusk,"Hungry Edge, Tempered Edge, Jagged Edge",Heavy Guard,"Energy Transfer, Relentless Strikes, Tireless Blade","Assassin's Blade, Surrounded",pvp
-,,,,,
-Throne Cleaver,"Hungry Edge, Tempered Edge, Jagged Edge",Heavy Guard,"Shattering Blade, Relentless Strikes, Tireless Blade","En Garde, Counterattack, Whirlwind Blade",pve
-Throne Cleaver,"Hungry Edge, Tempered Edge, Jagged Edge",Heavy Guard,"Energy Transfer, Relentless Strikes, Tireless Blade","Assassin's Blade, Counterattack",pvp
+,,,,,,
+Revoker,Extended Barrel,Accurized Rounds,Snapshot Sights,Reversal of Fortune,pve,Handling
+Revoker,Extended Barrel,Accurized Rounds,Snapshot Sights,Reversal of Fortune,pvp,Handling
+,,,,,,
+Hush,Natural String,Straight Fletching,Opening Shot,Archer's Gambit,pve,Accuracy
+Hush,Natural String,Straight Fletching,Opening Shot,Archer's Gambit,pvp,Accuracy
+,,,,,,
+Wendigo GL3,Smart Drift Control,Blinding Grenades,Auto-Loading Holster,Explosive Light,pve,Velocity
+Wendigo GL3,Smart Drift Control,Blinding Grenades,Auto-Loading Holster,Explosive Light,pvp,Velocity
+,,,,,,
+,,,,,,
+,,,,,,
+Austringer,"Fluted Barrel, Corkscrew Rifling, Smallbore","Tactical Mag, Appended Mag, Extended Mag","Outlaw, Subsistence, Triple Tap","Rampage, Demolitionist",pve,Reload
+Austringer,"Fluted Barrel, Polygonal Rifling, Smallbore","Steady Rounds, Tactical Mag","Outlaw, Eye of the Storm","Rangefinder, Opening Shot, Demolitionist",pvp,Handling or Sability
+,,,,,,
+Imperial Decree,"Barrel Shroud, Corkscrew Rifling, Smallbore","Assault Mag, Tactical Mag, Appended Mag","Feeding Frenzy, Grave Robber, Full Auto Trigger System","Trench Barrel, Swashbucker, Rampage",pve,Reload
+Imperial Decree,"Full Choke, Rifled Barrel","Assault Mag, Light Mag, Accurized Rounds","Slideshot, Feeding Frenzy","Snapshot Sights, Moving Target, Swashbuckler",pvp,Handling
+,,,,,,
+Beloved,"Fluted Barrel, Corkscrew Rifling, Polygonal Rifling","Tactical Mag, Appended Mag, Extended Mag","Demolitionist, No Distractions, Mulligan","Fourth Times the Charm, Box Breathing, Rampage",pve,Reload
+Beloved,"Fluted Barrel, Hammer-Forged Rifling, Full Bore","Tactical Mag, Accurized Rounds","Snapshot Sights, Demolitionist, No Distractions","Quickdraw, Moving Target",pvp,Range or Handling
+,,,,,,
+Drang (Baroque),"Fluted Barrel, Smallbore","Appended Mag, Extended Mag","Full Auto Trigger System, Disruption Break, Quickdraw","Rampage, Swashbuckler, Underdog",pve,Reload
+Drang (Baroque),"Full Bore, Extended Barrel, Hammer-Forged Rifling","Ricochet Rounds, High-Caliber Rounds, Light Mag","Quickdraw, Full Auto Trigger System, Moving Target, Eye of the Storm","Swashbuckler, Rampage, Zen Moment",pvp,Range
+,,,,,,
+CALUS Mini-Tool,"Fluted Barrel, Smallbore, Corkscrew Rifling","Appended Mag, Extended Mag, Light Mag","Grave Robber, Dynamic Sway Reduction","Surrounded, Disruption Break, Feeding Frenzy",pve,Reload
+CALUS Mini-Tool,"Hammer-Forged Rifling, Extended Barrel, Smallbore","Ricochet Rounds, High-Caliber Rounds","Moving Target, Dynamic Sway Reduction, Slideways","Tap the Trigger, Feeding Frenzy, Disruption Break",pvp,Range
+,,,,,,
+The Epicurean,"Fluted Barrel, Corkscrew Rifling, Polygonal Rifling","Enhanced Battery, Liquid Coils, Ionized Battery","Feeding Frenzy, Quickdraw","Swashbuckler, Demolitionist, Backup Plan",pve,Reload
+The Epicurean,"Full Bore, Hammer-Forged Rifling, Smallbore","Particle Repeater, Projection Fuse, Liquid Coils","Tap the Trigger, Quickdraw, Under Pressure","Rangefinder, Demolitionist, Kill Clip",pvp,Stability
+,,,,,,
+Fixed Odds,"Arrowhead Brake, Fluted Barrel, Corkscrew Rifling","Appended Mag, Extended Mag","Feeding Frenzy, Field Prep, Quickdraw","Rampage, Surrounded",pve,Reload
+Fixed Odds,"Extended Barrel, Chambered Compensator, Smallbore","Ricochet Rounds, High-Caliber Rounds","Quickdraw, No Distractions","Tap the Trigger, Firmly Planted, Rangefinder",pvp,Handling
+,,,,,,
+Death's Razor,"Jagged Edge, Honed Edge, Tempered Blade",Infinite Guard,"Energy Transfer, Relentless Strikes, Tireless Blade",Whirlwind Blade,pve,Impact
+Death's Razor,"Jagged Edge, Honed Edge, Tempered Blade",Infinite Guard,"Energy Transfer, Tireless Blade","Counterattack, Assassin's Blade",pvp,Impact
+,,,,,,
+Goldtusk,"Jagged Edge, Honed Edge, Tempered Blade",Swordmaster's Guard,"En Garde, Relentless Strikes, Tireless Blade","Surrounded, Whirlwind Blade",pve,Impact
+Goldtusk,"Jagged Edge, Honed Edge, Tempered Blade",Swordmaster's Guard,"Energy Transfer, Tireless Blade",Assassin's Blade,pvp,Impact
+,,,,,,
+Throne Cleaver,"Jagged Edge, Honed Edge, Tempered Blade",Heavy Guard,"Shattering Blade, Relentless Strikes, Tireless Blade","Counterattack, Whirlwind Blade",pve,Impact
+Throne Cleaver,"Jagged Edge, Honed Edge, Tempered Blade",Heavy Guard,"Energy Transfer, Tireless Blade","Assassin's Blade, Counterattack, En Garde",pvp,Impact
+,,,,,,
+,,,,,,
+,,,,,,
+Gahlran's Right Hand,"Fluted Barrel, Corkscrew Rifling, Polygonal Rifling","High-Caliber Rounds, Extended Mag","Outlaw, Zen Moment, Tap the Trigger","Multikill Clip, Demolitionist, High-Impact Reserves",pve,Reload
+Gahlran's Right Hand,"Extended Barrel, Chambered Compensator, Arrowhead Brake","Ricochet Rounds, High-Caliber Rounds","Tap the Trigger, Dynamic Sway Reduction, Eye of the Storm","Demolitionist, Rangefinder",pvp,Handling
+,,,,,,
+Calusea Noblesse,"Fluted Barrel, Polygonal Rifling, Corkscrew Rifling","Tactical Mag, Appended Mag, Extended Mag","Outlaw, Subsistence, Disruption Break","Multikill Clip, Rampage, Dragonfly",pve,Reload
+Calusea Noblesse,"Fluted Barrel, Chambered Compensator, Arrowhead Brake","Steady Rounds, Tactical Mag, Accurized Rounds","Moving Target, Outlaw, Zen Moment","Rampage, Dragonfly",pvp,Handling
+,,,,,,
+Emperor's Courtesy,"Barrel Shroud, Corksrew Rifling, Smallbore","Assault Mag, Tactical Mag, Appended Mag, Extended Mag","Grave Robber, Field Prep","Swashbuckler, Rampage, Surrounded",pve,Reload
+Emperor's Courtesy,"Full Choke, Rifled Barrel","Assault Mag, Light Mag, Accurized Rounds","Quickdraw, Snapshot Sights","Opening Shot, Swashbuckler, Slideshot",pvp,Handling
+,,,,,,
+Bane of Sorrow,"Arrowhead Brake, Fluted Barrel, Corkscrew Rifling","Appended Mag, Extended Mag, Flared Magwell","Feeding Frenzy, Under Pressure, Genesis","Rampage, Demolitionist, High-Impact Reserves",pve,Reload
+Bane of Sorrow,"Fluted Barrel, Smallbore","Ricochet Rounds, High-Caliber Rounds","Tap the Trigger, Eye of the Storm, Feeding Frenzy","Demolitionist, High-Impact Reserves, Mulligan",pvp,Handling
+,,,,,,
+,,,,,,
+,,,,,,
+Gunnora's Axe,"Fluted Barrel, Corkscrew Rifling, Arrowhead Brake","Assault Mag, Tactical Mag, Appended Mag","Outlaw, Auto-Loading Holster, Full Auto Trigger System","Swashbuckler, Demolitionist, Triple Tap, Rampage",pve,
+Gunnora's Axe,"Fluted Barrel, Hammer-Forged Rifling","Assault Mag, Light Mag",Quickdraw,"Opening Shot, Swashbuckler, Demolitionist, Moving Target",pvp,
+,,,,,,
+Shining Sphere,"Quick Launch, Smart Drift Control, Hard Launch","Impact Casing, Alloy Casing","Field Prep, Auto-Loading Holster","Demolitionist, Tracking Module",pve,
+Shining Sphere,"Volatile Launch, Confined Launch, Linear Compensator",Black Powder,Auto-Loading Holster,"Quickdraw, Tracking Module, Demolitionist",pvp,
+,,,,,,
+,,,,,,
+,,,,,,
+Rose,Chambered Compensator,Accurized Rounds,Outlaw,Polymer Grip,pve,Range
+Rose,Chambered Compensator,Accurized Rounds,Outlaw,Polymer Grip,pvp,Range

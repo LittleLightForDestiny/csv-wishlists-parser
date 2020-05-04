@@ -183,11 +183,10 @@ async function decideWeaponHash(weaponName: string): Promise<number[]> {
     });
     return askForWeaponHash(weaponName, items);
 }
-async function askForMultiple(options: number[], message: string): Promise<number[] | null> {
-    var counts = _.countBy(options, (o) => o);
-    let _options = _.map(counts, (v, k) => ({
-        title: `${k} (${v})`,
-        value: parseInt(k),
+async function askForMultiple(options: { hash: number, label: string }[], message: string): Promise<number[] | null> {
+    let _options = _.map(options, (v) => ({
+        title: `${v.hash} (${v.label})`,
+        value: v.hash,
     }));
     _options.push({
         title: "Other",
@@ -221,7 +220,7 @@ async function askOpenly(message: string): Promise<number[]> {
     if (result.hashes.length == 0) {
         return [];
     }
-    var hashes = result.hashes.split(",").map((h:any)=>parseInt(h));
+    var hashes = result.hashes.split(",").map((h: any) => parseInt(h));
     return hashes;
 }
 
@@ -241,14 +240,26 @@ async function addToMemory(object: { [id: string]: number[] }, key: string, item
 async function askForWeaponHash(weaponName: string, items: DestinyInventoryItemDefinition[]) {
     weaponName = weaponName.trim();
     if (memory.weaponHashes[weaponName]) {
-        let result = await askForMultiple(memory.weaponHashes[weaponName], `Use previously saved values for ${weaponName} ?`);
+        let _counts = _(memory.weaponHashes[weaponName])
+            .countBy((o) => o)
+            .map((v, k) => {
+                return ({ hash: parseInt(k), label: `${v}` });
+            }).value();
+        let result = await askForMultiple(_counts, `Use previously saved values for ${weaponName} ?`);
         if (result) {
             await addToMemory(memory.weaponHashes, weaponName, result);
             return result;
         }
     }
     if (items.length > 0) {
-        let result = await askForMultiple(items.map((i) => i.hash), `What's the weapon hash for ${weaponName} ?`);
+        let result = await askForMultiple(items.map((i) => {
+            let hasRandomRolls = i.sockets && _(i.sockets.socketEntries).some((s)=>!!s.randomizedPlugSetHash);
+            let label = `${i.itemTypeDisplayName}${hasRandomRolls ? " - has random rolls" : ""}`;
+            return { 
+                hash: i.hash, 
+                label: label
+            }
+        }), `What's the weapon hash for ${weaponName} ?`);
         if (result) {
             await addToMemory(memory.weaponHashes, weaponName, result);
             return result;
@@ -311,14 +322,23 @@ async function askForPlugHash(weaponName: string, perkName: string, plugHashes: 
     perkName = perkName.trim();
     if (memory.perkHashes[perkName]) {
         var onMemory = memory.perkHashes[perkName];
-        let result = await askForMultiple(onMemory, `Use previously saved values for ${perkName} on ${weaponName} ?`)
+        let _counts = _(onMemory)
+            .countBy((o) => o)
+            .map((v, k) => {
+                return ({ hash: parseInt(k), label: `${v}` });
+            }).value();
+        let result = await askForMultiple(_counts, `Use previously saved values for ${perkName} on ${weaponName} ?`)
         if (result) {
             addToMemory(memory.perkHashes, perkName, result);
             return result;
         }
     }
     if (plugHashes.length > 0) {
-        let result = await askForMultiple(plugHashes, `What's the plug hash for ${perkName} on ${weaponName} ?`);
+        let result = await askForMultiple(plugHashes.map((p)=>{
+            let def = itemDefinitions[p];
+            let label = `${def.itemTypeDisplayName}`;
+            return {label:label, hash:p};
+        }), `What's the plug hash for ${perkName} on ${weaponName} ?`);
         if (result) {
             addToMemory(memory.perkHashes, perkName, result);
             return result;

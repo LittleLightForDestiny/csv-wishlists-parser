@@ -10,3 +10,8 @@ What's the plug hash for Any on The Hero's Burden ?
 What's the weapon hash for Baligant XU773 ?
 What's the plug hash for ATA Raptor on Show of Force XF4865 ?
 What's the plug hash for Accurized Rounds Tactical Mag on Persuader ?
+What's the plug hash for Auto Rifle on Breakneck ?
+What's the plug hash for Tempered Blade on Stryker's Sure-Hand ?
+What's the plug hash for High-Caliber Rounds Ricochet Rounds on Atalanta-D XG1992 ?
+What's the plug hash for SLO21-Post on Galliard-42 XN7568 ?
+What's the weapon hash for Nighshade ?

@@ -1,68 +1,75 @@
-Buzzard,Extended Barrel,Alloy Mag,"Overflow, Outlaw","Swashbuckler, Osmosis","curated,pve,pvp,controller",Stability
 ,,,,,,
-Python,Smallbore,Extended Mag,"Overflow, Feeding Frenzy","One-Two Punch, Shield Disorient","curated,pve,controller",Reload
-,Smallbore,Extended Mag,"Feeding Frenzy, Overflow","One-Two Punch, Shield Disorient","curated,pvp,controller",Reload
+Buzzard,Extended Barrel,Alloy Mag,"Overflow, Outlaw","Swashbuckler, Osmosis",pve,Stability
+Buzzard,Extended Barrel,Alloy Mag,"Overflow, Outlaw","Swashbuckler, Osmosis",pvp,Stability
 ,,,,,,
-Komodo-4FR,Polygonal Rifling,Accelerated Coils,"No Distractions, Moving Target","Box Breathing, Eye of the Storm","curated,pve,controller",Charge Time | Impact
-,Polygonal Rifling,Accelerated Coils,"Moving Target, No Distractions","Eye of the Storm, Box Breathing","curated,pvp,controller",Charge Time | Impact
+Python,Smallbore,Extended Mag,"Overflow, Feeding Frenzy","One-Two Punch, Shield Disorient",pve,Reload
+Python,Smallbore,Extended Mag,"Feeding Frenzy, Overflow","One-Two Punch, Shield Disorient",pvp,Reload
 ,,,,,,
-Old Fashioned,"Fastdraw HCS, Truesight HCS, Hitmark HCS","Tactical Mag, Steady Rounds, Flared Magwell","Feeding Frenzy, Demolitionist","Kill Clip, Surrounded, Explosive Payload","pve,controller",Reload or Handling
-,"SureShot HCS, Crossfire HCS, Hitmark HCS","Accurized Rounds, Steady Rounds","Firmly Planted, Quickdraw, Feeding Frenzy, Demolitionist","Kill Clip, Explosive Payload, Moving Target, Snapshot Sights","pvp,controller",Range or Stability
-,,,,,,
-Hawthorn's Field Forged Shotgun,"Barrel Shroud, Corkscrew Rifling, Smallbore","Tactical Mag, Assault Mag, Light Mag","Field Prep, Full Auto Trigger System, Grave Robber","One-Two Punch, Demolitionist, Surrounded","pve,controller",Reload
-,"Full Choke, Rifled Barrel","Accurized Rounds, Assault Mag","Full Auto Trigger System, Grave Robber","Opening Shot, Demolitionist, One-Two Punch","pvp,controller",Range
-,,,,,,
-Perfect Paradox,"Barrel Shroud, Corkscrew Rifling, Smallbore","Tactical Mag, Appended Mag, Light Mag","Demolitionist, Field Prep, Slideshot","One-Two Punch, Swashbuckler, Trench Barrel","pve,controller",Reload
-,"Full Choke, Rifled Barrel",Accurized Rounds,"Demolitionist, Slideshot","Opening Shot, Swashbuckler, One-Two Punch","pvp,controller",Range
-,,,,,,
-Uriel's Gift,"Torch HS3, Candle PS, Spark PS","High-Caliber Rounds, Ricochet Rounds, Armor Piercing Rounds","Firmly Planted, Quickdraw, Field Prep","Kill Clip, Disruption Break","pve,controller",Reload
-,Torch HS3,"Ricochet Rounds, High-Caliber Rounds, Flared Magwell","Firmly Planted, Quickdraw","Tap the Trigger, Moving Target, Kill Clip","pvp,controller",Range or Stability
-,,,,,,
-Elatha FR4,"Torch HS3, Candle PS, Spark PS","Liquid Coils, Enhanced Battery","Firmly Planted, Quickdraw, Field Prep","Demolitionist, Backup Plan, Surrounded","pve,controller",Reload
-,Torch HS3,"Projection Fuse, Particle Repeater","Firmly Planted, Quickdraw","Backup Plan, Demolitionist, Snapshot","pvp,controller",Range or Stability
-,,,,,,
-Jack Queen King 3,"Fastdraw HCS, Truesight HCS, Hitmark HCS","High-Caliber Rounds, Ricochet Rounds, Flared Magwell","Demolitionist, Subsistence","Dragonfly, Swashbuckler, Rampage, Surrounded","pve,controller",Reload
-,"Hitmark HCS, Crossfire HCS, SureShot HCS","Ricochet Rounds, High-Caliber Rounds",Demolitionist,"Swashbuckler, Snapshot Sights","pvp,controller",Range or Stability
-,,,,,,
-Infinite Paths 8,"Arrowhead Brake, Corkscrew Rifling, Smallbore","Tactical Mag, Steady Rounds, Appended Mag",Demolitionist,"Swashbuckler, Dragonfly","pve,controller",Reload
-,"Arrowhead Brake, Corkscrew Rifling, Smallbore","Steady Rounds, Accurized Rounds, Tactical Mag","Demolitionist, Moving Target","Eye of the Storm, Zen Moment, Swashbuckler","pvp,controller",Stability
-,,,,,,
-Last Hope,"Quickdot SAS, Control SAS, Shortspec SAS","High-Caliber Rounds, Armor Piercing Rounds, Ricochet Rounds","Feeding Frenzy, Quickdraw, Grave Robber","Multikill Clip, Dragonfly","pve,controller",Reload
-,"Farpoint SAS, Target SAS, Tactic SAS","Ricochet Rounds, High-Caliber Rounds, Flared Magwell","Quickdraw, Feeding Frenzy, Rangefinder","Tap the Trigger, Zen Moment, Multikill Clip","pvp,controller",Range or Stability
-,,,,,,
-Traveler's Judgement 5,"Quickdot SAS, Control SAS, Shortspec SAS","High-Caliber Rounds, Armor Piercing Rounds, Ricochet Rounds","Rapid Hit, Feeding Frenzy","Disruption Break, Surrounded, Dragonfly","pve,controller",Reload
-,"Farpoint SAS, Target SAS, Tactic SAS","Ricochet Rounds, High-Caliber Rounds, Flared Magwell","Rapid Hit, Feeding Frenzy, Firmly Planted","Tap the Trigger, Headseeker","pvp,controller",Range or Stability
-,,,,,,
-Mos Epoch III,"Hard Launch, Quick Launch, Smart Drift Control","Impact Casing, Implosion Rounds, Alloy Casing","Auto-Loading Holster, Tracking Module","Cluster Bombs, Disruption Break, Quickdraw","pve,controller",Reload or Velocity
-,"Volatile Launch, Confined Launch, Quick Launch","Black Powder, Alloy Casing","Tracking Module, Auto-Loading Holster","Quickdraw, Cluster Bombs","pvp,controller",Blast Radius
+Komodo-4FR,Polygonal Rifling,Accelerated Coils,"No Distractions, Moving Target","Box Breathing, Eye of the Storm",pve,Charge Time | Impact
+Komodo-4FR,Polygonal Rifling,Accelerated Coils,"Moving Target, No Distractions","Eye of the Storm, Box Breathing",pvp,Charge Time | Impact
 ,,,,,,
 ,,,,,,
-Steelfeather Repeater,"Extended Barrel, Hammer-Forged Rifling, Smallbore","High-Caliber Rounds, Armor-Piercing Rounds, Appended Mag","Feeding Frenzy, Firmly Planted, Subsistence","Multikill Clip, Swashbuckler, Vorpal Weapon","pve,controller",Range or Reload
-,"Hammer-Forged Rifling, Smallbore, Polygonal Rifling","High-Caliber Rounds, Ricochet Rounds","Feeding Frenzy, Firmly Planted","Swashbuckler, Vorpal Weapon, Elemental Capacitor","pvp,controller",Range or Stability
 ,,,,,,
-Patron of Lost Causes,"Hammer-Forged Rifling, Smallbore, Corkscrew Rifling","Tactical Mag, Appended Mag","Rapid Hit, Full Auto Trigger System","Vorpal Weapon, Explosive Payload, Osmosis","pve,controller",Reload
-,"Smallbore, Hammer-Forged Rifling, Fluted Barrel","Accurized Rounds, Steady Rounds, Tactical Mag",Rapid Hit,"Opening Shot, Explosive Payload, Vorpal Weapon","pvp,controller",Range
+Hawthorn's Field Forged Shotgun,"Barrel Shroud, Corkscrew Rifling, Smallbore","Tactical Mag, Assault Mag, Light Mag","Field Prep, Full Auto Trigger System, Grave Robber","One-Two Punch, Demolitionist, Surrounded",pve,Reload
+Hawthorn's Field Forged Shotgun,"Full Choke, Rifled Barrel","Assault Mag, Accurized Rounds","Full Auto Trigger System, Grave Robber","Opening Shot, Demolitionist, One-Two Punch",pvp,Range
 ,,,,,,
-Breechlight,"Fluted Barrel, Smallbore, Hammer-Forged Rifling","Tactical Mag, Appended Mag","Demolitionist, Outlaw","Multikill Clip, Osmosis, Quickdraw, Vorpal Weapon","pve,controller",Reload
-,"Hammer-Forged Rifling, Smallbore, Polygonal Rifling","Accurized Rounds, Steady Rounds, Appended Mag","Demolitionist, Outlaw","Vorpal Weapon, Quickdraw, Multikill Clip","pvp,controller",Range
+Old Fashioned,"Fastdraw HCS, Truesight HCS, Hitmark HCS","Tactical Mag, Steady Rounds, Flared Magwell","Feeding Frenzy, Demolitionist","Kill Clip, Surrounded, Explosive Payload",pve,Reload or Handling
+Old Fashioned,"Fastdraw HCS, Steadyhand HCS","Accurized Rounds, Steady Rounds","Firmly Planted, Quickdraw, Feeding Frenzy, Demolitionist","Explosive Payload, Moving Target, Snapshot Sights",pvp,Range or Stability
 ,,,,,,
-Gallant Chargw,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","Liquid Coils, Enhanced Battery","Demolitionist, Auto-Loading Holster","Swashbuckler, Multikill Clip, Lead from Gold","pve,controller",Reload
-,"Hammer-Forged Rifling, Smallbore, Polygonal Rifling","Projection Fuse, Particle Repeater","Demolitionist, Auto-Loading Holster","Tap the Trigger, Rangefinder, Swashbuckler","pvp,controller",Range or Stability
+Perfect Paradox,"Barrel Shroud, Corkscrew Rifling, Smallbore","Tactical Mag, Appended Mag, Light Mag","Demolitionist, Field Prep, Slideshot","One-Two Punch, Swashbuckler, Trench Barrel",pve,Reload
+Perfect Paradox,"Full Choke, Rifled Barrel","Light Mag, Tactical Mag, Accurized Rounds","Demolitionist, Slideshot","Opening Shot, Swashbuckler, One-Two Punch",pvp,Range
 ,,,,,,
-Martyr's Retribution,"Quick Launch, Smart Drift Control, Countermass","High-Velocity Rounds, Implosion Rounds","Field Prep, Auto-Loading Holster","Demolitionist, Lead from Gold","pve,controller",Reload
-,"Confined Launch, Linear Compensator, Volatile Launch","High-Velocity Rounds, Implosion Rounds","Auto-Loading Holster, Grave Robber, Field Prep","Demolitionist, Rangefinder","pvp,controller",Velocity
+Elatha FR4,"Torch HS3, Candle PS, Spark PS","Liquid Coils, Enhanced Battery","Firmly Planted, Quickdraw, Field Prep","Demolitionist, Backup Plan, Surrounded",pve,Reload
+Elatha FR4,Torch HS3,"Particle Repeater, Projection Fuse, Liquid Coils","Firmly Planted, Quickdraw","Demolitionist, Snapshot",pvp,Stability
 ,,,,,,
-Line in the Sand,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Liquid Coils, Enhanced Battery","Rapid Hit, Genesis","Firing Line, Clown Cartridge, Backup Plan, Dragonfly","pve,controller",Reload
-,"Hammer-Forged Rifling, Smallbore, Fluted Barrel","Accelerated Coils, Projection Fuse","Moving Target, Rangefinder, Rapid Hit","Backup Plan, Rampage, Auto-Loading Holster","pvp,controller",Charge Time | Impact
+Infinite Paths 8,"Arrowhead Brake, Corkscrew Rifling, Smallbore","Tactical Mag, Steady Rounds, Appended Mag",Demolitionist,"Swashbuckler, Dragonfly",pve,Reload
+Infinite Paths 8,"Arrowhead Brake, Corkscrew Rifling, Smallbore","Steady Rounds, Accurized Rounds, Tactical Mag","Demolitionist, Moving Target","Eye of the Storm, Zen Moment, Swashbuckler",pvp,Stability
 ,,,,,,
-Cold Front,"Fluted Barrel, Polygonal Rifling, Smallbore","Tactical Mag, Steady Rounds, Extended Mag, Appended Mag","Feeding Frenzy, Zen Moment, Auto-Loading Holster","Kill Clip, Vorpal Weapon, Osmosis","pve,controller",Reload
-,"Smallbore, Polygonal Rifling, Chambered Compensator","Steady Rounds, Flared Magwell, Accurized Rounds","Zen Moment, Feeding Frenzy, Underdog","Kill Clip, Rangefinder, Vorpal Weapon","pvp,controller",Stability
+Jack Queen King 3,"Fastdraw HCS, Truesight HCS, Hitmark HCS","High-Caliber Rounds, Ricochet Rounds, Flared Magwell","Demolitionist, Subsistence","Dragonfly, Swashbuckler, Rampage, Surrounded",pve,Reload
+Jack Queen King 3,"Fastdraw HCS, Truesight HCS, Hitmark HCS","Ricochet Rounds, High-Caliber Rounds",Demolitionist,"Swashbuckler, Snapshot Sights",pvp,Range or Stability
 ,,,,,,
-Trophy Hunter,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Tactical Mag, Extended Mag, Appended Mag","Triple Tap, Lead from Gold","Vorpal Weapon, Dragonfly, Disruption Break","pve,controller",Reload
-,Fluted Barrel,"Accurized Rounds, Tactical Mag","Pulse Monitor, Lead from Gold",Snapshot Sights,"pvp,controller",Handling
+Last Hope,"Quickdot SAS, Control SAS, Shortspec SAS","High-Caliber Rounds, Armor Piercing Rounds, Ricochet Rounds","Feeding Frenzy, Quickdraw, Grave Robber","Multikill Clip, Dragonfly",pve,Reload
+Last Hope,"Quickdot SAS, Control SAS, Shortspec SAS","Ricochet Rounds, High-Caliber Rounds, Flared Magwell","Quickdraw, Feeding Frenzy, Rangefinder","Tap the Trigger, Zen Moment, Multikill Clip",pvp,Range or Stability
 ,,,,,,
-Pyrochrastic Flow,"Quick Launch, Hard Launch, Linear Compensator","Impact Casing, Alloy Casing","Quickdraw, Ambitious Assassin","Cluster Bombs, Auto-Loading Holster","pve,controller",Reload
-,"Volatile Launch, Countermass, Linear Compensator","Black Powder, High-Velocity Rounds",Quickdraw,Cluster Bombs,"pvp,controller",Blast Radius
+Traveler's Judgement 5,"Quickdot SAS, Control SAS, Shortspec SAS","High-Caliber Rounds, Armor Piercing Rounds, Ricochet Rounds","Rapid Hit, Feeding Frenzy","Disruption Break, Surrounded, Dragonfly",pve,Reload
+Traveler's Judgement 5,"Quickdot SAS, Control SAS, Shortspec SAS","Ricochet Rounds, High-Caliber Rounds, Flared Magwell","Rapid Hit, Feeding Frenzy, Firmly Planted","Tap the Trigger, Headseeker",pvp,Range or Stability
 ,,,,,,
-Point of the Stag,Elastic String,Natural Fletching,"Archer’s Tempo, No Distractions","Vorpal Weapon, Eye of the Storm","pve,controller",Draw Time
-,Elastic String,Natural Fletching,"Archer’s Tempo, No Distractions","Eye of the Storm, Vorpal Weapon","pvp,controller",Draw Time
+Uriel's Gift,"Torch HS3, Candle PS, Spark PS","High-Caliber Rounds, Ricochet Rounds, Armor Piercing Rounds","Firmly Planted, Quickdraw, Field Prep","Kill Clip, Disruption Break",pve,Reload
+Uriel's Gift,"Torch HS3, Candle PS, Spark PS","Ricochet Rounds, High-Caliber Rounds, Flared Magwell","Firmly Planted, Quickdraw","Tap the Trigger, Moving Target, Kill Clip",pvp,Range or Stability
+,,,,,,
+Mos Epoch III,"Quick Launch, Smart Drift Control, Hard Launch","Impact Casing, Alloy Casing","Auto-Loading Holster, Tracking Module","Cluster Bombs, Disruption Break, Quickdraw",pve,Reload or Velocity
+,"Volatile Launch, Confined Launch, Linear Compensator",Black Powder,"Tracking Module, Auto-Loading Holster","Quickdraw, Cluster Bombs",pvp,Blast Radius
+,,,,,,
+,,,,,,
+Sundial Weapons,,,,,,
+Breechlight,"Fluted Barrel, Smallbore, Hammer-Forged Rifling","Tactical Mag, Appended Mag","Demolitionist, Outlaw","Multikill Clip, Osmosis, Quickdraw, Vorpal Weapon",pve,Reload
+,"Hammer-Forged Rifling, Smallbore, Polygonal Rifling","Accurized Rounds, Steady Rounds, Appended Mag","Demolitionist, Outlaw","Vorpal Weapon, Quickdraw, Multikill Clip",pvp,Range
+,,,,,,
+Patron of Lost Causes,"Hammer-Forged Rifling, Smallbore, Corkscrew Rifling","Tactical Mag, Appended Mag","Rapid Hit, Full Auto Trigger System","Vorpal Weapon, Explosive Payload, Osmosis",pve,Reload
+,"Smallbore, Hammer-Forged Rifling, Fluted Barrel","Accurized Rounds, Steady Rounds, Tactical Mag",Rapid Hit,"Opening Shot, Explosive Payload, Vorpal Weapon",pvp,Range
+,,,,,,
+Steelfeather Repeater,"Extended Barrel, Hammer-Forged Rifling, Smallbore","High-Caliber Rounds, Armor-Piercing Rounds, Appended Mag","Feeding Frenzy, Firmly Planted, Subsistence","Multikill Clip, Swashbuckler, Vorpal Weapon",pve,Range or Reload
+,"Hammer-Forged Rifling, Smallbore, Polygonal Rifling","High-Caliber Rounds, Ricochet Rounds","Feeding Frenzy, Firmly Planted","Swashbuckler, Vorpal Weapon, Elemental Capacitor",pvp,Range or Stability
+,,,,,,
+Gallant Charge,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","Liquid Coils, Enhanced Battery","Demolitionist, Auto-Loading Holster","Swashbuckler, Multikill Clip, Lead from Gold",pve,Reload
+,"Hammer-Forged Rifling, Smallbore, Polygonal Rifling","Projection Fuse, Particle Repeater","Demolitionist, Auto-Loading Holster","Tap the Trigger, Rangefinder, Swashbuckler",pvp,Range or Stability
+,,,,,,
+Martyr's Retribution,"Quick Launch, Smart Drift Control, Countermass","High-Velocity Rounds, Implosion Rounds","Field Prep, Auto-Loading Holster","Demolitionist, Lead from Gold",pve,Reload
+,"Confined Launch, Linear Compensator, Volatile Launch","High-Velocity Rounds, Implosion Rounds","Auto-Loading Holster, Grave Robber, Field Prep","Demolitionist, Rangefinder",pvp,Velocity
+,,,,,,
+Line in the Sand,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Liquid Coils, Enhanced Battery","Rapid Hit, Genesis","Firing Line, Clown Cartridge, Backup Plan, Dragonfly",pve,Reload
+,"Hammer-Forged Rifling, Smallbore, Fluted Barrel","Accelerated Coils, Projection Fuse","Moving Target, Rangefinder, Rapid Hit","Backup Plan, Rampage, Auto-Loading Holster",pvp,Charge Time | Impact
+,,,,,,
+,,,,,,
+Season Pass / Event,,,,,,
+Cold Front,"Fluted Barrel, Polygonal Rifling, Smallbore","Tactical Mag, Steady Rounds, Extended Mag, Appended Mag","Feeding Frenzy, Zen Moment, Auto-Loading Holster","Kill Clip, Vorpal Weapon, Osmosis",pve,Reload
+,"Smallbore, Polygonal Rifling, Chambered Compensator","Steady Rounds, Flared Magwell, Accurized Rounds","Zen Moment, Feeding Frenzy, Underdog","Kill Clip, Rangefinder, Vorpal Weapon",pvp,Stability
+,,,,,,
+Trophy Hunter,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Tactical Mag, Extended Mag, Appended Mag","Triple Tap, Lead from Gold","Vorpal Weapon, Dragonfly, Disruption Break",pve,Reload
+,Fluted Barrel,"Accurized Rounds, Tactical Mag",Pulse Monitor,Snapshot Sights,pvp,Handling
+,,,,,,
+Point of the Stag,Elastic String,Natural Fletching,"Archer’s Tempo, No Distractions","Vorpal Weapon, Eye of the Storm",pve,Draw Time
+,Elastic String,Natural Fletching,"Archer’s Tempo, No Distractions","Eye of the Storm, Vorpal Weapon",pvp,Draw Time
+,,,,,,
+Pyrochrastic Flow,"Quick Launch, Smart Drift Control, Hard Launch","Impact Casing, Alloy Casing","Quickdraw, Ambitious Assassin","Cluster Bombs, Auto-Loading Holster",pve,Reload
+,"Volatile Launch, Confined Launch, Linear Compensator",Black Powder,Quickdraw,Cluster Bombs,pvp,Blast Radius

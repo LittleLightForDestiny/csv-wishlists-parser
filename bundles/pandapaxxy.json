@@ -1,14 +1,12 @@
 [
-    "pandapaxxy-forsaken-pve",
-    "pandapaxxy-forsaken-pvp",
+    "pandapaxxy-forsaken",
+    "pandapaxxy-outlaw",
     "pandapaxxy-forge",
     "pandapaxxy-drifter",
     "pandapaxxy-opulence",
-    "pandapaxxy-altar_poh",
-    "pandapaxxy-gos",
     "pandapaxxy-undying",
+    "pandapaxxy-dawn-mnk",
     "pandapaxxy-dawn-controller",
-    "pandapaxxy-dawn-mkb",
-    "pandapaxxy-worthy-controller",
-    "pandapaxxy-worthy-mkb"
+    "pandapaxxy-worthy-mnk",
+    "pandapaxxy-worthy-controller"
 ]

@@ -1,21 +1,21 @@
 ,,,,,,
 Dire Promise,"Fastdraw HCS, Steadyhand HCS, Truesight HCS","Appended Mag, Armor-Piercing Rounds, High-Caliber Rounds","Overflow, Triple Tap, Auto-Loading Holster","Swashbuckler, Osmosis, Elemental Capacitor",pve,Reload
-Dire Promise,"Steadyhand HCS, Fastdraw HCS, Truesight HCS","Ricochet Rounds, Flared Magwell, High-Caliber Rounds","Opening Shot, Snapshot Sights, Overflow","Rangefinder, Elemental Capacitor, Swashbuckler",pvp,Stability
+Dire Promise,"Fastdraw HCS, Steadyhand HCS, Hitmark HCS","High-Caliber Rounds, Ricochet Rounds, Flared Magwell","Opening Shot, Snapshot Sights, Overflow","Rangefinder, Elemental Capacitor, Swashbuckler",pvp,Handling
 ,,,,,,
 Enigma's Draw,"Quickdot SAS, Control SAS, Shortspec SAS","Appended Mag, High-Caliber Rounds, Armor-Piercing Rounds","Full Auto Trigger System, Grave Robber, Triple Tap","Rapid Hit, Swashbuckler, Demolitionist",pve,Reload
-Enigma's Draw,"Quickdot SAS, Control SAS, Tactic SAS","Ricochet Rounds, High-Caliber Rounds, Appended Mag","Zen Moment, Opening Shot, Full Auto Trigger System","Rangefinder, Rapid Hit, Demolitionist",pvp,Stability
+Enigma's Draw,"Quickdot SAS, Control SAS, Tactic SAS","High-Caliber Rounds, Ricochet Rounds, Appended Mag","Opening Shot, Full Auto Trigger System, Zen Moment","Rangefinder, Rapid Hit, Demolitionist",pvp,Handling
 ,,,,,,
 Escape Velocity,"IS 5 Circle, IS 2 Classic, Model 6 Loop","Tactical Mag, Appended Mag, Flared Magwell","Overflow, Grave Robber, Threat Detector","Quickdraw, Surrounded, Osmosis",pve,Reload
-Escape Velocity,"Model 8 Red, IS 5 Circle, Model 6 Loop","Steady Rounds, Tactical Mag, Accurized Rounds","Overflow, Zen Moment, Threat Detector","Quickdraw, Vorpal Weapon, Elemental Capacitor",pvp,Stability or Handling
+Escape Velocity,"Model 8 Red, IS 5 Circle, Model 6 Loop","Accurized Rounds, Tactical Mag, Steady Rounds","Overflow, Zen Moment, Threat Detector","Quickdraw, Vorpal Weapon, Elemental Capacitor",pvp,Range or Handling
 ,,,,,,
 True Prophecy,"Fastdraw HCS, Steadyhand HCS, Truesight HCS","Tactical Mag, Appended Mag, Drop Mag","Overflow, Grave Robber","Rampage, Demolitionist, Elemental Capacitor",pve,Reload or Handling
-True Prophecy,"Fastdraw HCS, Truesight HCS, Hitmark HCS","Steady Rounds, Accurized Rounds, Tactical Mag","Rangefinder, Opening Shot, Overflow","Timed Payload, Explosive Payload, Elemental Capacitor, Demolitionist",pvp,Handling or Stability
+True Prophecy,"Fastdraw HCS, Truesight HCS, Hitmark HCS","Tactical Mag, Steady Rounds, Accurized Rounds","Rangefinder, Opening Shot, Overflow","Timed Payload, Explosive Payload, Elemental Capacitor, Demolitionist",pvp,Handling
 ,,,,,,
 Distant Tumulus,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Appended Mag, Extended Mag, Tactical Mag","Clown Cartridge, Lead from Gold, Dragonfly","Firing Line, Outlaw",pve,Reload
 Distant Tumulus,"Fluted Barrel, Hammer Forged Rifling, Smallbore","Accurized Rounds, Tactical Mag, Flared Magwell","Dragonfly, Pulse Monitor","Snapshot Sights, Quickdraw",pvp,Handling or Range
 ,,,,,,
 Jian 7 Rifle,"SPO-57 Front, SPO-28 Front, SLO-21 Post","High-Caliber Rounds, Armor-Piercing Rounds, Appended Mag","Disruption Break, Full Auto Trigger System, Grave Robber","Outlaw, Dragonfly, Rampage, Swashbuckler",pve,Reload
-Jian 7 Rifle,"SPO-57 Front, SPO-28 Front, SLO-21 Post","Ricochet Rounds, Flared Magwell, High-Caliber Rounds","Firmly Planted, Full Auto Trigger System, Zen Moment","Rangefinder, Outlaw, Rampage",pvp,Stability or Handling
+Jian 7 Rifle,"SPO-57 Front, SPO-28 Front, SLO-21 Post","High-Caliber Rounds, Ricochet Rounds, Light Mag","Firmly Planted, Full Auto Trigger System, Zen Moment","Rangefinder, Outlaw, Rampage",pvp,Range or Handling
 ,,,,,,
 Timeline's Vertex,"Torch HS3, Candle PS, Spark PS","Enhanced Battery, Liquid Coils, Ionized Battery","Auto-Loading Holster, Lead from Gold, Field Prep","Disruption Break, Demolitionist, Elemental Capacitor",pve,Reload
 Timeline's Vertex,"Torch HS3, Flash HS5","Particle Repeater, Liquid Coils",Firmly Planted,"Snapshot Sights, Demolitionist, Elemental Capacitor",pvp,Stability or Handling
@@ -29,19 +29,19 @@ Interference VI,"Volatile Launch, Confined Launch, Linear Compensator",Proximity
 ,,,,,,
 ,,,,,,
 Seventh Seraph Carbine,"Fluted Barrel, Arrowhead Brake, Extended Barrel","High-Caliber Rounds, Appended Mag, Armor-Piercing Rounds","Fourth Time’s the Charm, Auto-Loading Holster","Rampage, Swashbuckler, Vorpal Weapon",pve,Reload
-Seventh Seraph Carbine,"Smallbore, Polygonal Rifling, Chambered Compensator","Ricochet Rounds, Flared Magwell, High-Caliber Rounds","Slideshot, Threat Detector","Rangefinder, Moving Target, Elemental Capacitor, Vorpal Weapon",pvp,Stability or Handling
+Seventh Seraph Carbine,"Hammer-Forged Rifling, Smallbore, Extended Barrel","High-Caliber Rounds, Ricochet Rounds, Light Mag","Slideshot, Threat Detector","Rangefinder, Moving Target, Elemental Capacitor, Vorpal Weapon",pvp,Range or Handling
 ,,,,,,
 Seventh Seraph Officer Revolver,"Fluted Barrel, Corkscrew Rifling, Smallbore","Tactical Mag, Appended Mag, Extended Mag","Ambitious Assassin, Fourth Time’s the Charm, Threat Detector","Feeding Frenzy, Multikill Clip, High-Impact Reserves",pve,Reload or Handling
-Seventh Seraph Officer Revolver,"Polygonal Rifling, Chambered Compensator, Smallbore","Steady Rounds, Tactical Mag, Flared Magwell","Firmly Planted, Threat Detector","Timed Payload, Feeding Frenzy, Vorpal Weapon",pvp,Handling or Stability
+Seventh Seraph Officer Revolver,"Smallbore, Fluted Barrel, Corkscrew Rifling","Appended Mag, Tactical Mag, Steady Rounds","Firmly Planted, Threat Detector","Timed Payload, Feeding Frenzy, Vorpal Weapon",pvp,Handling
 ,,,,,,
-Seventh Seraph CQC-12,"Barrel Shroud, Corkscrew Rifling, Smallbore","Assault Mag, Tactical Mag, Appended Mag","Auto Loading Holster, Lead from Gold, Slideshot","Trench Barrel, Vorpal Weapon",pve,Reload
-Seventh Seraph CQC-12,"Full Choke, Smallbore, Rifled Barrel","Assault Mag, Tactical Mag, Accurized Rounds","Quickdraw, Slideshot","Snapshot Sights, Vorpal Weapon",pvp,Handling or Reload
+Seventh Seraph CQC-12,"Barrel Shroud, Corkscrew Rifling, Smallbore","Assault Mag, Tactical Mag, Appended Mag","Auto-Loading Holster, Lead from Gold, Slideshot","Trench Barrel, Vorpal Weapon",pve,Reload
+Seventh Seraph CQC-12,"Full Choke, Rifled Barrel","Assault Mag, Tactical Mag, Accurized Rounds","Quickdraw, Slideshot","Snapshot Sights, Vorpal Weapon",pvp,Handling or Reload
 ,,,,,,
 Seventh Seraph SI-2,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Appended Mag, Extended Mag, Tactical Mag","Demolitionist, Full Auto Trigger System","Dragonfly, Vorpal Weapon, Surrounded",pve,Reload
-Seventh Seraph SI-2,"Fluted Barrel, Chambered Compensator, Polygonal Rifling","Accurized Rounds, Tactical Mag, Steady Rounds","Demolitionist, Full Auto Trigger System, Threat Detector","Snapshot Sights, Elemental Capacitor, Vorpal Weapon",pvp,Stability or Handling
+Seventh Seraph SI-2,"Fluted Barrel, Extended Barrel, Chambered Compensator","Accurized Rounds, Tactical Mag, Steady Rounds","Demolitionist, Full Auto Trigger System, Threat Detector","Snapshot Sights, Elemental Capacitor, Vorpal Weapon",pvp,Range
 ,,,,,,
 Seventh Seraph VY-7,"Fluted Barrel, Arrowhead Brake, Smallbore","Appended Mag, Extended Mag, Tactical Mag","Ambitious Assassin, Fourth Time’s the Charm, Firmly Planted","Feeding Frenzy, Vorpal Weapon, Dragonfly",pve,Reload
-Seventh Seraph VY-7,"Fluted Barrel, Smallbore, Polygonal Rifling","Steady Rounds, Accurized Rounds, Tactical Mag","Firmly Planted, Pulse Monitor","Elemental Capacitor, Vorpal Weapon, Feeding Frenzy",pvp,Stability or Handling
+Seventh Seraph VY-7,"Fluted Barrel, Smallbore, Hammer-Forged Rifling","Accurized Rounds, Appended Mag, Tactical Mag","Firmly Planted, Pulse Monitor","Elemental Capacitor, Vorpal Weapon, Feeding Frenzy",pvp,Range or Handling
 ,,,,,,
 Seventh Seraph Saw,"Fluted Barrel, Arrowhead Brake, Polygonal Rifling","Appended Mag, Armor-Piercing Rounds, Flared Magwell","Clown Cartridge, Field Prep, Auto-Loading Holster","Firing Line, Vorpal Weapon, Elemental Capacitor",pve,Reload
 Seventh Seraph Saw,"Fluted Barrel, Arrowhead Brake, Smallbore","Ricochet Rounds, High-Caliber Rounds","Zen Moment, Auto-Loading Holster","Mulligan, Elemental Capacitor, Opening Shot",pvp,Handling
@@ -55,13 +55,13 @@ Eye of Sol,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Appended Mag, Ta
 Eye of Sol,"Fluted Barrel, Arrowhead Brake, Smallbore","Tactical Mag, Accurized Rounds, Flared Magwell","Snapshot Sights, Firmly Planted","Opening Shot, Box Breathing, Vorpal Weapon, Celerity",pvp,Handling or Range
 ,,,,,,
 The Scholar,"Fluted Barrel, Smallbore, Corkscrew Rifling","High-Caliber Rounds, Appended Mag, Ricochet Rounds","Full Auto Trigger System, Quickdraw","Vorpal Weapon, Elemental Capacitor",pve,Reload
-The Scholar,"Polygonal Rifling, Smallbore, Corkscrew Rifling","Ricochet Rounds, High-Caliber Rounds","Quickdraw, Opening Shot","Vorpal Weapon, Celerity, No Distractions, Elemental Capacitor",pvp,Stability or Handling
+The Scholar,"Smallbore, Hammer-Forged Rifling, Corkscrew Rifling","High-Caliber Rounds, Ricochet Rounds","Quickdraw, Opening Shot","Vorpal Weapon, Celerity, No Distractions, Elemental Capacitor",pvp,Range or Handling
 ,,,,,,
 Exile's Curse,"Fluted Barrel, Arrowhead Brake, Smallbore","Liquid Coils, Enhanced Battery, Ionized Battery","Field Prep, Grave Robber","Multikill Clip, Disruption Break, Feeding Frenzy, Elemental Capacitor",pve,Reload
 Exile's Curse,"Fluted Barrel, Polygonal Rifling, Smallbore","Particle Repeater, Liquid Coils","Firmly Planted, No Distractions","Elemental Capacitor, Celerity, Feeding Frenzy",pvp,Stability or Handling
 ,,,,,,
 The Summoner,"Fluted Barrel, Arrowhead Brake, Extended Barrel","High-Caliber Rounds, Appended Mag, Light Mag","Overflow, Moving Target","Rampage, Dragonfly, Elemental Capacitor",pve,Reload
-The Summoner,"Chambered Compensator, Polygonal Rifling, Smallbore","Ricochet Rounds, High-Caliber Rounds, Flared Magwell","Zen Moment, Moving Target, Overflow","Elemental Capacitor, Rangefinder, Celerity",pvp,Stability or Handling
+The Summoner,"Extended Barrel, Smallbore, Arrowhead Brake","High-Caliber Rounds, Ricochet Rounds, Light Mag","Moving Target, Overflow, Zen Moment","Rangefinder, Celerity, Elemental Capacitor",pvp,Range or Handling
 ,,,,,,
 Tomorrow's Answer,"Quick Launch, Smart Drift Control, Hard Launch","Impact Casing, Black Powder, High-Velocity Rounds","Field Prep, Tracking Module","Cluster Bomb, Clown Cartridge, Disruption Break",pve,Reload
 Tomorrow's Answer,"Volatile Launch, Confined Launch, Linear Compensator",Impact Casing,"Tracking Module, Moving Target","Cluster Bomb, Snapshot Sights",pvp,Blast Radius

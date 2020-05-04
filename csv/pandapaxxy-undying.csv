@@ -1,57 +1,98 @@
-Exit Strategy,Arrowhead Brake,Ricochet Rounds,"Underdog, Threat Detector","Swashbuckler, Surrounded","pvp,pve,curated",Stability
-,,,,,,
-Imperative,"Fluted Barrel, Corkscrew Rifling, Polygonal Rifling","Tactical Mag, Appended Mag, Flared Magwell","Outlaw, Triple Tap, Eye of the Storm","Multikill Clip, Rampage, Explosive Rounds",pve,Handling or Reload
-,"Hammer-Forged Rifling, Fluted Barrel, Corkscrew Rifling","Accurized Rounds (PC), Steady Rounds (Console), Tactical Mag","No Distractions, Eye of the Storm, Outlaw","Opening Shot, Explosive Rounds, Rampage",pvp,Handling
-,,,,,,
-Loud Lullaby,"Hammer-Forged Rifling, Smallbore, Corkscrew Rifling","Tactical Mag, Extended Mag","Outlaw, Grave Robber","Multikill Clip, Rampage, Demolitionist",pve,Reload
-,"Full Bore, Hammer-Forged Rifling, Extended Barrel","Accurized Rounds, Tactical Mag",Outlaw,"Opening Shot, Explosive Rounds, Demolitionist",pvp,Range
-,,,,,,
-One Small Step,"Smallbore, Barrel Shroud, Corkscrew Rifling","Tactical Mag, Extended Mag, Appended Mag","Grave Robber, Quickdraw, Auto-Loading Holster","One-Two Punch, Rampage",pve,Reload
-,"Full Choke, Rifled Barrel","Accurized Rounds, Light Mag","Quickdraw, Slideshot","Opening Shot, Snapshot Sights, One-Two Punch",pvp,Range
-,,,,,,
-Pluperfect,"Fluted Barrel, Corkscrew Rifling, Smallbore","High-Caliber Rounds, Appended Mag, Ricochet Rounds","Outlaw, Underdog, Zen Moment","Rampage, Kill Clip, High-Impact Reserves",pve,Reload or Handling
-,"Extended Barrel, Hammer-Forged Rifling, Smallbore","High-Caliber Rounds, Ricochet Rounds, Light Mag","Underdog, Zen Moment, Outlaw","Rampage, Dynamic Sway Reduction, Mulligan",pvp,Range or Handling
+Exit Strategy,Arrowhead Brake,Ricochet Rounds,"Underdog, Threat Detector","Swashbuckler, Surrounded",pve,Stability
+Exit Strategy,Arrowhead Brake,Ricochet Rounds,"Underdog, Threat Detector","Swashbuckler, Surrounded",pvp,Stability
 ,,,,,,
 Randy's Throwing Knife,Fluted Barrel,Extended Mag,"Rapid Hit, Snapshot Sights","Kill Clip, Zen Moment",pve,Range
-,Fluted Barrel,Extended Mag,"Rapid Hit, Snapshot Sights","Kill Clip, Zen Moment",pvp,Range
+Randy's Throwing Knife,Fluted Barrel,Extended Mag,"Rapid Hit, Snapshot Sights","Kill Clip, Zen Moment",pvp,Range
+,,,,,,
+Edgewise,Polygonal Rifling,Light Mag,"Field Prep, Feeding Frenzy","Demolitionist, Rampage",pve,Stability
+Edgewise,Polygonal Rifling,Light Mag,"Feeding Frenzy, Field Prep","Demolitionist, Rampage",pvp,Stability
+,,,,,,
+,,,,,,
+Loud Lullaby,"Fluted Barrel, Smallbore, Corkscrew Rifling","Tactical Mag, Appended Mag, Extended Mag","Outlaw, Subsistence","Multikill Clip, Rampage, Demolitionist",pve,Reload
+Loud Lullaby,"Fluted Barrel, Polygonal Rifling, Smallbore","Tactical Mag, Steady Rounds, Flared Magwell",Outlaw,"Opening Shot, Explosive Rounds, Demolitionist",pvp,Handling
+,,,,,,
+One Small Step,"Barrel Shroud, Corkscrew Rifling, Smallbore","Tactical Mag, Appended Mag, Extended Mag","Grave Robber, Auto-Loading Holster","One-Two Punch, Rampage",pve,Reload
+One Small Step,"Full Choke, Rifled Barrel","Light Mag, Tactical Mag, Accurized Rounds","Quickdraw, Slideshot","Opening Shot, Snapshot Sights, One-Two Punch",pvp,Handling
 ,,,,,,
 Tranquility,"Fluted Barrel, Corkscrew Rifling","Appended Mag, Extended Mag, Tactical Mag","Outlaw, Field Prep, Auto-Loading Holster","Firing Line, Fourth Time’s the Charm, Box Breathing",pve,Reload
-,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Tactical Mag, Accurized Rounds","No Distractions, Outlaw","Snapshot Sights, Opening Shot",pvp,Range or Reload
+Tranquility,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Tactical Mag, Accurized Rounds","No Distractions, Outlaw","Snapshot Sights, Opening Shot",pvp,Handling
+,,,,,,
+Arc Logic,"Fluted Barrel, Smallbore, Corkscrew Rifling","Tactical Mag, Extended Mag, Appended Mag","Overflow, Outlaw, Field Prep","Rampage, Demolitionist, Triple Tap",pve,Reload
+Arc Logic,"Arrowhead Brake, Smallbore, Extended Barrel","Accurized Rounds, Steady Rounds, Tactical Mag","Moving Target, Overflow, Outlaw","Tap the Trigger, Rangefinder",pvp,Range or Stability
+,,,,,,
+Dream Breaker,"Fluted Barrel, Corkscrew Rifling","Enhanced Battery, Liquid Coils, Ionized Battery",Auto-Loading Holster,"Rampage, Disruption Break, Backup Plan",pve,Reload
+Dream Breaker,"Arrowhead Brake, Fluted Barrel, Hammer-Forged Rifling","Particle Repeater, Liquid Coils, Particle Repeater","Firmly Planted, Rangefinder, Moving Target","Tap the Trigger, Quickdraw",pvp,Range or Stability
+,,,,,,
+Every Waking Moment,"Fluted Barrel, Smallbore","Appended Mag, Extended Mag, Light Mag","Outlaw, Slideways","Swashbuckler, Kill Clip, Demolitionist",pve,Reload
+Every Waking Moment,"Hammer-Forged Rifling, Smallbore, Polygonal Rifling","Ricochet Rounds, High-Caliber Rounds","Outlaw, Slideways, Zen Moment","Swashbuckler, Demolitionist, Eye of the Storm, Kill Clip",pvp,Range or Stability
+,,,,,,
+A Fine Memorial,"Fluted Barrel, Corkscrew Rifling","Appended Mag, Extended Mag, Light Mag","Quickdraw, Threat Detector","Surrounded, Demolitionist",pve,Reload
+A Fine Memorial,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","High-Caliber Rounds, Ricochet Rounds","Quickdraw, Moving Target","Tap the Trigger, Demolitionist",pvp,Stability or Range
+,,,,,,
+Love and Death,"Quick Launch, Smart Drift Control, Hard Launch","Spike Grenades, Alloy Casing",Field Prep,"Full Court, Quickdraw",pve,Reload
+Love and Death,"Volatile Launch, Confined Launch, Linear Compensator",Proximity Grenades,Moving Target,Quickdraw,pvp,Blast Radius
+,,,,,,
+Night Terror,"Jagged Edge, Honed Edge, Tempered Blade","Burst Guard, Swordmaster's Guard, Balanced Guard","Relentless Strikes, Tireless Blade",Whirlwind Blade,pve,Impact
+Night Terror,"Jagged Edge, Honed Edge, Tempered Blade","Burst Guard, Swordmaster's Guard, Balanced Guard",Tireless Blade,"Assassin’s Blade, En Garde",pvp,Impact
 ,,,,,,
 ,,,,,,
-Adhortative,"Arrowhead Brake, Extended Barrel, Chambered Compensator","High-Caliber Rounds, Appended Mag, Extended Mag","Feeding Frenzy, Underdog, Field Prep","Multikill Clip, Rampage, Dragonfly",pve,Handling
-,"Arrowhead Brake, Extended Barrel","High-Caliber Rounds, Ricochet Rounds, Light Mag","Feeding Frenzy, Firmly Planted, Underdog","Rangefinder, Dragonfly",pvp,Range
 ,,,,,,
-Arc Logic,"Fluted Barrel, Smallbore, Corkscrew Rifling","Tactical Mag, Extended Mag, Appended Mag","Overflow, Outlaw, Field Prep","Rampage, Demolitionist, Triple Tap",pve,Reload or Handling
-,"Arrowhead Brake, Smallbore, Extended Barrel",Accurized Rounds,"Outlaw, Moving Target","Tap the Trigger, Rangefinder",pvp,Range or Handling
+Imperative,"Fluted Barrel, Corkscrew Rifling, Polygonal Rifling","Tactical Mag, Appended Mag, Extended Mag","Outlaw, Triple Tap, Eye of the Storm","Multikill Clip, Rampage, Explosive Rounds",pve,Reload
+Imperative,"Hammer-Forged Rifling, Fluted Barrel, Corkscrew Rifling","Accurized Rounds, Steady Rounds,Tactical Mag","No Distractions, Eye of the Storm, Outlaw","Opening Shot, Explosive Rounds, Rampage",pvp,Handling
 ,,,,,,
-Dream Breaker,"Fluted Barrel, Corkscrew Rifling","Liquid Coils, Enhanced Battery, Accelerated Coils","Auto-Loading Holster, Underdog, Threat Detector","Backup Plan, Rampage, Disruption Break",pve,Handling
-,"Arrowhead Brake, Fluted Barrel, Hammer-Forged Rifling","Projection Fuse, Particle Repeater, Liquid Coils","Rangefinder, Moving Target, Firmly Planted","Backup Plan, Tap the Trigger, Rampage",pvp,Range or Stability
-,,,,,,
-Every Waking Moment,"Fluted Barrel, Arrowhead Brake, Chambered Compensator","Extended mag, High-Caliber Rounds","Outlaw, Slideways, Zen Moment","Swashbuckler, Kill Clip, Demolitionist",pve,Reload
-,"Hammer-Forged Rifling, Smallbore, Polygonal Rifling","Ricochet Rounds, High-Caliber Rounds, Light Mag","Outlaw, Slideways, Zen Moment","Swashbuckler, Demolitionist, Eye of the Storm, Kill Clip",pvp,Range or Handling
+Adhortative,"Arrowhead Brake, Extended Barrel, Chambered Compensator","Appended Mag, Extended Mag","Feeding Frenzy, Underdog, Field Prep","Multikill Clip, Rampage, Dragonfly",pve,Handling
+Adhortative,"Arrowhead Brake, Extended Barrel, Chambered Compensator","High-Caliber Rounds, Ricochet Rounds, Light Mag","Firmly Planted, Feeding Frenzy","Rangefinder, Dragonfly",pvp,Range
 ,,,,,,
 Optative,"Fluted Barrel, Corkscrew Rifling, Hammer-Forged Rifling","Tactical Mag, Extended Mag, Appended Mag","Rapid Hit, Outlaw, Fourth Time’s the Charm","Demolitionist, Kill Clip",pve,Reload
-,"Full Bore, Extended Barrel, Hammer-Forged Rifling",Accurized Rounds,"Rapid Hit, Outlaw","Kill Clip, Opening Shot",pvp,Range
+Optative,"Fluted Barrel, Smallbore, Hammer-Forged Rifling","Steady Rounds, Tactical Mag","Rapid Hit, Outlaw","Kill Clip, Zen Moment Opening Shot",pvp,Handling
 ,,,,,,
-Premonition,"Arrowhead Brake, Fluted Barrel","High-Caliber Rounds, Appended Mag","Outlaw, Firmly Planted","Demolitionist, Kill Clip",pve,Handling or Reload
-,"Arrowhead Brake, Smallbore, Corkscrew Rifling","High-Caliber Rounds, Ricochet Rounds","Outlaw, Firmly Planted","Kill Clip, Demolitionist",pvp,"Range (PC), Stability (Console) or Handling"
-,,,,,,
-Subjunctive,"Fluted Barrel, Corkscrew Rifling, Smallbore","Ricochet Rounds, Appended Mag","Outlaw, Quickdraw","Surrounded, Swashbuckler, Rampage, Multikill Clip",pve,Reload
-,"Full Bore (PC), Polygonal Rifling (Console), Smallbore","High-Caliber Rounds, Ricochet Rounds","Quickdraw, Outlaw, Pulse Monitor","Swashbuckler, Rampage",pvp,"Range (PC), Stability (Console)"
+Subjunctive,"Fluted Barrel, Corkscrew Rifling, Smallbore","Appended Mag, Extended Mag, Light Mag","Outlaw, Quickdraw","Surrounded, Swashbuckler, Rampage Multikill Clip",pve,Reload
+Subjunctive,"Fluted Barrel, Polygonal Rifling, Smallbore","High-Caliber Rounds, Ricochet Rounds","Quickdraw, Outlaw, Pulse Monitor","Swashbuckler, Rampage",pvp,Stability
 ,,,,,,
 ,,,,,,
-A Fine Memorial,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","High-Caliber Rounds, Appended Mag, Flared Magwell","Quickdraw, Pulse Monitor","Surrounded, Demolitionist",pve,Reload
-,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","High-Caliber Rounds, Ricochet Rounds, Light Mag","Quickdraw, Moving Target","Tap the Trigger, Demolitionist",pvp,Range
 ,,,,,,
-Edgewise,Polygonal Rifling,Light Mag,"Feeding Frenzy, Field Prep","Rampage, Demolitionist",pve,Stability
-,Polygonal Rifling,Light Mag,"Feeding Frenzy, Field Prep","Rampage, Demolitionist",pvp,Stability
+Accrued Redemption,"Agile Bowstring, Polymer String, Natural String","Compact Arrow Shaft, Straight Fletching, Helical Fletching",Archer’s Tempo,"Rampage, Explosive Head, Rapid Hit",pve,Reload
+Accrued Redemption,"Elastic String, Flexible String, Polymer String","Fiberglass Arrow Shaft, Straight Fletching, Helical Fletching","Archer’s Tempo, Quickdraw","Explosive Head, Moving Target, Rapid Hit",pvp,Draw Time or Accuracy
 ,,,,,,
-Love and Death,"Volatile Launch, Hard Launch","Spike Grenades, Augmented Drum, Mini Frags","Field Prep, Threat Detector","Quickdraw, Full Court",pve,Reload
-,"Confined Launch, Linear Compensator","Proximity Grenades, High-Explosive Ordinance",Rangefinder,Quickdraw,pvp,Blast Radius
+Sacred Provenance,"Fluted Barrel, Smallbore, Corkscrew Rifling","Extended Mag, Light Mag","Rapid Hit, Outlaw, Full Auto Trigger System","Kill Clip, Quickdraw",pve,Reload
+Sacred Provenance,"Smallbore, Hammer-Forged Rifling, Polygonal","High-Caliber Rounds, Ricochet Rounds","Rapid Hit, Outlaw","Quickdraw, Snapshot Sights, Kill Clip",pvp,Stability or Range
 ,,,,,,
-Night Terror,"Jagged Edge, Honed Edge, Tempered Edge",Heavy Guard,"Relentless Strikes, Tireless Blade",Whirlwind Blade,pve,Impact
-,"Hungry Edge, Enduring Blade, Honed Edge",Heavy Guard,Tireless Blade,"Assassin’s Blade, En Garde",pvp,Impact
+Ancient Gospel,"Fluted Barrel, Smallbore, Corkscrew Rifling","Tactical Mag, Extended Mag","Rapid Hit, Outlaw, Slideshot","Dragonfly, Swashbuckler, Kill Clip",pve,Reload
+Ancient Gospel,"Fluted Barrel, Polygonal Rifling, Smallbore","Steady Rounds, Tactical Mag","Rapid Hit, Eye of the Storm, Outlaw","Rangefinder, Swashbuckler, Kill Clip",pvp,Handling
 ,,,,,,
-Temporal Clause,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","High-Caliber Rounds, Appended Mag, Flared Magwell","Quickdraw, Autoloading Holster","Surrounded, Rampage",pve,Reload
-,"Fluted Barrel, Arrowhead Brake","High-Caliber Rounds, Ricochet Rounds, Light Mag","Quickdraw, Firmly Planted","Rangefinder, Eye of the Storm, Rampage",pvp,Range
+Omniscient Eye,"Fluted Barrel, Arrowhead Break, Smallbore","Tactical Mag, Appended Mag, Extended Mag",Outlaw,"Dragonfly, Multikill Clip, Rampage",pve,Reload
+Omniscient Eye,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","Accurized Rounds, Tactical Mag","Mulligan, No Distractions, Outlaw",Snapshot Sights,pvp,Handling
+,,,,,,
+Prophet of Doom,"Barrel Shroud, Corkscrew Rifling, Smallbore","Assault Mag, Tactical Mag, Appended Mag","Feeding Frenzy, Full Auto Trigger System","One-Two Punch, Rampage",pve,Reload
+Prophet of Doom,"Full Choke, Rifled Barrel","Assault Mag, Light Mag, Accurized Rounds","Feeding Frenzy, Slideways","Opening Shot, One-Two Punch, Rampage",pvp,Handling
+,,,,,,
+Reckless Oracle,"Arrowhead Brake, Fluted Barrel, Polygonal Rifling","Extended Mag, Light Mag","Outlaw, Auto-Loading Holster","Swashbuckler, Demolitionist, Kill Clip",pve,Reload
+Reckless Oracle,"Extended Barrel, Arrowhead Brake, Chambered Compensator","High-Caliber Rounds, Ricochet Rounds","Outlaw, Mulligan","Demolitionist, Swashbuckler, Kill Clip",pvp,Stability
+,,,,,,
+Zealot's Reward,"Fluted Barrel, Corkscrew Rifling, Smallbore","Enhanced Battery, Liquid Coils, Ionized Battery","Feeding Frenzy, Auto-Loading Holster","Disruption Break, Rampage, Backup Plan",pve,Reload
+Zealot's Reward,"Arrowhead Brake, Chambered Compensator, Extended Barrel","Particle Repeater, Liquid Coils, Projection Fuse","Feeding Frenzy, Auto-Loading Holster","Disruption Break, High-Impact Reserves",pvp,Range or Stability
+,,,,,,
+,,,,,,
+,,,,,,
+Blasphemer,"Fluted Barrel, Chambered Compensator, Smallbore","Assault Mag, Tactical Mag, Appended Mag","Outlaw, Auto-Loading Holster","Swashbuckler, Triple Tap, Rampage",pve,Reload
+Blasphemer,"Smallbore, Hammer-Forged Rifling","Assault Mag, Light Mag",Quickdraw,"Opening Shot, Swashbuckler",pvp,Reload
+,,,,,,
+Apostate,"Fluted Barrel, Arrowhead Brake, Smallbore","Tactical Mag, Appended Mag, Extended Mag",Outlaw,"Box Breathing, Rapid Hit, Multikill Clip",pve,Reload
+Apostate,"Fluted Barrel, Hammer-Forged Rifling","Accurized Rounds, Tactical Mag","Outlaw, Moving Target, Firmly Planted","Quickdraw, Snapshot Sights, Box Breathing",pvp,Range or Handling
+,,,,,,
+Premonition,"Arrowhead Brake, Fluted Barrel, Chambered Compensator","Appended Mag, Extended Mag",Outlaw,"Demolitionist, Kill Clip, Dragonfly",pve,Reload
+Premonition,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","High-Caliber Rounds, Ricochet Rounds","Firmly Planted, Rangefinder, Outlaw","Demolitionist, Kill Clip",pvp,Range or Stability
+,,,,,,
+Heretic,"Quick Launch, Smart Drift Control, Hard Launch","Impact Casing, Alloy Casing",Demolitionist,"Cluster Bomb, Kill Clip, Quickdraw",pve,Reload
+Heretic,"Volatile Launch, Confined Launch, Linear Compensator",Black Powder,Demolitionist,"Cluster Bomb, Quickdraw",pvp,Blast Radius
+,,,,,,
+,,,,,,
+,,,,,,
+Braytech Warewolf,"Fluted Barrel, Chambered Compensator, Extended Barrel","Appended Mag, Extended Mag","Triple Tap, Outlaw, High-Impact Reserves","Kill Clip, Quickdraw",pve,Reload
+Braytech Warewolf,"Chambered Compensator, Extended Barrel, Smallbore","Ricochet Rounds, High-Caliber Rounds","Tap the Trigger, Dynamic Sway Reduction, Outlaw","Quickdraw, Kill Clip",pvp,Stability or Range
+,,,,,,
+Pluperfect,"Fluted Barrel, Corkscrew Rifling, Smallbore","Appended Mag, Extended Mag","Outlaw, Underdog, Zen Moment","Rampage, Kill Clip, High-Impact Reserves",pve,Reload
+Pluperfect,"Extended Barrel, Chambered Compensator, Smallbore","High-Caliber Rounds, Ricochet Rounds","Zen Moment, Rangefinder, Outlaw","Dynamic Sway Reduction, Kill Clip, Mulligan",pvp,Handling
+,,,,,,
+Temporal Clause,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Appended Mag, Extended Mag, Flared Magwell","Quickdraw, Autoloading Holster","Surrounded, Rampage",pve,Reload
+Temporal Clause,"Arrowhead Brake, Chambered Compensator","High-Caliber Rounds, Ricochet Rounds, Light Mag","Quickdraw, Firmly Planted","Rangefinder, Eye of the Storm",pvp,Stability or Range
