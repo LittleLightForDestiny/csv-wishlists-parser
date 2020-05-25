@@ -1,5 +1,2 @@
-What's the plug hash for Magnificient Howl on Not Forgotten ?
-What's the weapon hash for Last Dance ?
-What's the plug hash for Rangerfinder on Halfdan-D ?
-What's the weapon hash for Valakydyn ?
-What's the weapon hash for Aresnic Bite-4b ?
+What's the line number for the header
+What's the plug hash for Wolf Dot K2 on Bad Reputation ?
