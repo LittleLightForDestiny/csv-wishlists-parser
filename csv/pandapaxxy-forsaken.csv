@@ -53,21 +53,21 @@ Main Ingredient,Fusion Rifle,Precision,Arc,"Cleanshot IS, Hitmark IS","Enhanced 
 Outrageous Fortune,Grenade Launcher,Rapid-Fire,Solar,"Volatile Launch, Linear Compensator, Confined Launch","Spike Grenades, High-Explosive Ordinance, Black Powder","Field Prep, Auto-Loading Holster","Quickdraw, Rampage, Genesis",Reload,PvE
 ,,,,"Linear Compensator, Quick Launch, Countermass","Proximity Grenades, Sticky Grenades, Remote Detonation","Threat Detector, Snapshot Sights","Quickdraw, Rampage",Blast Radius,PvP
 ,,,,,,,,,
-Nightfall,,,,,,,,,PvE
-The Militia's Birthright,Grenade Launcher,Lightweight,Kinetic,"Smart Drift Control, Quick Launch, Linear Compensator","Spike Grenades, Proximity Grenades","Ambitious Assassin, Quickdraw",Auto-Loading Holster,Reload,PvP
-,Lake of Shadoes,,,"Smart Drift Control, Quick Launch, Linear Compensator",Spike Grenades,"Quickdraw, Ambitious Assassin",Auto-Loading Holster,Velocity,
-,,,,,,,,,PvE
-Warden's Law,Hand Cannon,Double Fire,Kinetic,"Fastdraw HCS, Steadyhand HCS, Truesight HCS","Tactical Mag, Flared Magwell, Steady Rounds","Rampage, Kill Clip","Feeding Frenzy, Outlaw",Reload,PvP
-,Warden of Nothing,,,"Steadyhand HCS, Fastdraw HCS, Hitmark HCS","Steady Rounds, Accurized Rounds, Flared Magwell","Opening Shot, Rampage, Zen Moment","Feeding Frenzy, Rangefinder, Moving Target",Stability,
-,,,,,,,,,PvE
-Horror's Least,Pulse Rifle,Rapid-Fire,Arc,"Arrowhead Brake, Fluted Barrel, Smallbore","High-Caliber Rounds, Appended Mag, Extended Mag","Full Auto Trigger System, Zen Moment","Kill Clip, Dragonfly, Ambitious Assassin",Reload,PvP
-,The Corrupted,,,"Arrowhead Brake, Smallbore, Polygonal Rifling","Ricochet Rounds, High-Caliber Rounds, Flared Magwell","Full Auto Trigger System, Rangefinder, Zen Moment","Kill Clip, Moving Target, Dragonfly",Stability,
-,,,,,,,,,PvE
-The Long Goodbye,Sniper Rifle,Adaptive,Arc,"Fluted Barrel, Arrowhead Brake, Smallbore","Extended Mag, Light Mag","High-Impact Reserves, Outlaw","Fourth Times the Charm, Rapid Hit, Dragonfly",Reload,PvP
-,Insight Terminus,,,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","High-Caliber Rounds, Ricochet Rounds","Snapshot Sights, Firmly Planted","Rapid Hit, Dragonfly",Handling,
-,,,,,,,,,PvE
-Mindbender's Ambition,Shotgun,Aggressive,Solar,"Barrel Shroud, Corkscrew Rifling, Smallbore","Assault Mag, Tactical Mag, Appended Mag,","Slideshot, Threat Detector, Pulse Monitor","Quickdraw, Auto-Loading Holster, Rampage",Reload,PvP
-,Hollowed Lair,,,"Full Choke, Rifled Barrel, Smallbore","Assault Mag, Accurized Rounds","Snapshot Sights, Slideshot","Quickdraw, Moving Target, Rampage",Reload,
+Nightfall,,,,,,,,,
+The Militia's Birthright,Grenade Launcher,Lightweight,Kinetic,"Smart Drift Control, Quick Launch, Linear Compensator","Spike Grenades, Proximity Grenades","Ambitious Assassin, Quickdraw",Auto-Loading Holster,Reload,PvE
+,Lake of Shadoes,,,"Smart Drift Control, Quick Launch, Linear Compensator",Spike Grenades,"Quickdraw, Ambitious Assassin",Auto-Loading Holster,Velocity,PvP
+,,,,,,,,,
+Warden's Law,Hand Cannon,Double Fire,Kinetic,"Fastdraw HCS, Steadyhand HCS, Truesight HCS","Tactical Mag, Flared Magwell, Steady Rounds","Rampage, Kill Clip","Feeding Frenzy, Outlaw",Reload,PvE
+,Warden of Nothing,,,"Steadyhand HCS, Fastdraw HCS, Hitmark HCS","Steady Rounds, Accurized Rounds, Flared Magwell","Opening Shot, Rampage, Zen Moment","Feeding Frenzy, Rangefinder, Moving Target",Stability,PvP
+,,,,,,,,,
+Horror's Least,Pulse Rifle,Rapid-Fire,Arc,"Arrowhead Brake, Fluted Barrel, Smallbore","High-Caliber Rounds, Appended Mag, Extended Mag","Full Auto Trigger System, Zen Moment","Kill Clip, Dragonfly, Ambitious Assassin",Reload,PvE
+,The Corrupted,,,"Arrowhead Brake, Smallbore, Polygonal Rifling","Ricochet Rounds, High-Caliber Rounds, Flared Magwell","Full Auto Trigger System, Rangefinder, Zen Moment","Kill Clip, Moving Target, Dragonfly",Stability,PvP
+,,,,,,,,,
+The Long Goodbye,Sniper Rifle,Adaptive,Arc,"Fluted Barrel, Arrowhead Brake, Smallbore","Extended Mag, Light Mag","High-Impact Reserves, Outlaw","Fourth Times the Charm, Rapid Hit, Dragonfly",Reload,PvE
+,Insight Terminus,,,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","High-Caliber Rounds, Ricochet Rounds","Snapshot Sights, Firmly Planted","Rapid Hit, Dragonfly",Handling,PvP
+,,,,,,,,,
+Mindbender's Ambition,Shotgun,Aggressive,Solar,"Barrel Shroud, Corkscrew Rifling, Smallbore","Assault Mag, Tactical Mag, Appended Mag,","Slideshot, Threat Detector, Pulse Monitor","Quickdraw, Auto-Loading Holster, Rampage",Reload,PvE
+,Hollowed Lair,,,"Full Choke, Rifled Barrel, Smallbore","Assault Mag, Accurized Rounds","Snapshot Sights, Slideshot","Quickdraw, Moving Target, Rampage",Reload,PvP
 ,,,,,,,,,
 ,,,,,,,,,
 Gunsmith,,,,,,,,,
@@ -125,7 +125,7 @@ Aresnic Bite-4b,Combat Bow,Lightweight,Arc,"Agile Bowstring, Polymer String, Nat
 ,,,,"Elastic String, Flexible String, Polymer String","Fiberglass Arrow Shaft, Straight Fletching, Helical Fletching","Quickdraw, Moving Target, Snapshot Sights","Archer's Tempo, Explosive Head",Draw Time or Accuracy,PvP
 ,,,,,,,,,
 Bad Reputation,Submachine Gun,Precision,Solar,"King Sight K1, Wolf Sight W1, Dusk Sight D1","Appended Mag, Extended Mag, Light Mag","Slideways, Tap the Trigger, Zen Moment","Outlaw, Kill Clip, High-Impact Reserves",Reload,PvE
-,,,,"Wolf Dot K2, King Dot K2","High-Caliber Rounds, Ricochet Rounds","Tap the Trigger, Zen Moment","Kill Clip, Outlaw, Dynamic Sway Reduction",Range,PvP
+,,,,"Wolf Dot W2, King Dot K2","High-Caliber Rounds, Ricochet Rounds","Tap the Trigger, Zen Moment","Kill Clip, Outlaw, Dynamic Sway Reduction",Range,PvP
 ,,,,,,,,,
 Badlander,Shotgun,Rapid-Fire,Arc,"Barrel Shroud, Corkscrew Rifling, Smallbore","Tactical Mag, Appended Mag, Light Mag","Slideshot, Field Prep","Rampage, Auto-Loading Holster",Reload,PvE
 ,,,,"Full Choke, Rifled Barrel","Light Mag, Accurized Rounds, Tactical Mag","Slideshot, Moving Target","Quickdraw, Snapshot Sights",Handling,PvP
@@ -154,4 +154,4 @@ Through Fire and Flood,Grenade Launcher,Adaptive,Arc,"Hard Launch, Smart Drift C
 ,,,,,,,,,
 Event,,,,,,,,,
 Horror Story,Auto Rifle,Precision,Kinetic,Red Dot Micro,Flared Magwell,Zen Moment,Rampage,Reload,PvE
-,,,,Red Dot Micro,Flared Magwell,Zen Moment,Rampage,Reload,PvP
+,Festival of the Lost,,,Red Dot Micro,Flared Magwell,Zen Moment,Rampage,Reload,PvP
