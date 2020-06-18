@@ -52,9 +52,9 @@ async function run(): Promise<void> {
                     return parseInt(p2);
                 });
             });
-            if(element.tags.length == 0) console.log(element.name + "has no tags");
+            if(element.tags.length == 0) console.log(element.name + " has no tags");
             delete element.name;
-            element.description = element.description.replace("File auto generated from csv", "") + " tags:" + element.tags.join(",");
+            element.description = element.description.replace("File auto generated from csv", "");
         });
         resultWishlist.data = resultWishlist.data.concat(wishlist.data);
     }

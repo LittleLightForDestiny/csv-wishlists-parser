@@ -1,0 +1,75 @@
+"Note: Perks are displayed in order of importance. Rows are PvE on top, PvP below",,,,,,,,,
+,,,,,,,,,
+Has no fill - primary ammo,,,,,,,,,
+Has green fill - special ammo,,,,,,,,,
+Has purple fill - heavy ammo,,,,,,,,,
+,,,,,,,,,
+Name,Type,Archetype,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Activity
+Contact Public Event,,,,,,,,,
+False Promises,Auto Rifle,High-Impact,Kinetic,"Fluted Barrel, Smallbore, Hammer-Forged Rifling","Appended Mag, Light Mag, Extended Mag","Feeding Frenzy, Overflow, Subsistence","Rampage, Swashbuckler, Unrelenting",Reload,"PvE,MnK"
+,,,,"Fluted Barrel, Smallbore, Hammer-Forged Rifling","High-Caliber Rounds, Ricochet Rounds, Light Mag","Dynamic Sway Reduction, Killing Wind, Feeding Frenzy","Unrelenting, Swashbuckler, Sympathetic Arsenal",Range,"PvP,MnK"
+,,,,,,,,,
+Whispering Slab,Combat Bow,Lightweight,Kinetic,"Polymer String, Natural String, Agile Bowstring","Compact Arrow Shaft, Straight Fletching, Fiberglass Arrow Shaft","Archer's Tempo, Quickdraw, Killing Wind","Swashbuckler, Demolitionist, Vorpal Weapon",Handling,"PvE,MnK"
+,,,,"Elastic String, Flexible String, Polymer String","Fiberglass Arrow Shaft, Straight Fletching, Helical Fletching","Archer's Tempo, Firmly Planted, Killing Wind","Opening Shot, Unrelenting, Vorpal Weapon",Draw Time,"PvP,MnK"
+,,,,,,,,,
+"First In, Last Out",Shotgun,Precision - Slug,Arc,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","Assault Mag, Tactical Mag, Appended Mag","Outlaw, Auto-Loading Holster","Vorpal Weapon, Demolitionist",Reload,"PvE,MnK"
+,,,,"Fluted Barrel, Smallbore, Full Bore","Assault Mag, Accurized Rounds","Slideshot, Outlaw, Hip-Fire Grip","Opening Shot, Vorpal Weapon",Handling,"PvP,MnK"
+,,,,,,,,,
+Hollow Words,Fusion Rifle,Precision,Arc,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","Ionized Battery, Enhanced Battery, Liquid Coils","Feeding Frenzy, Lead from Gold","Vorpal Weapon, Disruption Break, Unrelenting",Reload,"PvE,MnK"
+,,,,"Fluted Barrel, Arrowhead Brake, Smallbore","Particle Repeater, Projection Fuse","Quickdraw, Killing Wind","Disruption Break, Vorpal Weapon, Unrelenting",Handling,"PvP,MnK"
+,,,,,,,,,
+IKELOS_SMG_V1.0.2,Submachine Gun,Aggressive,Arc,"Fluted Barrel, Smallbore, Corkscrew Rifling","Appended Mag, Tactical Mag, Extended Mag","Threat Detector, Subsistence, Grave Robber","Demolitionist, Vorpal Weapon, Disruption Break",Reload,"PvE,MnK"
+,,,,"Hammer-Forged Rifling, Smallbore, Corkscrew Rifling","Seraph Rounds, Accurized Rounds, Tactical Mag",Dynamic Sway Reduction,"Tap the Trigger, Demolitionist, Vorpal Weapon",Range,"PvP,MnK"
+,,,,,,,,,
+IKELOS_SR_v1.0.2,Sniper Rifle,Rapid-Fire,Solar,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Appended Mag, Extended Mag, Tactical Mag","Fourth Time's the Charm, Triple Tap, Feeding Frenzy","High-Impact Reserves, Box Breathing",Reload,"PvE,MnK"
+,,,,"Hammer-Forged Rifling, Fluted Barrel, Full Bore","Seraph Rounds, Accurized Rounds, Tactical Mag","Moving Target, No Distractions","Quickdraw, Box Breathing",Range,"PvP,MnK"
+,,,,,,,,,
+Berenger's Memory,Grenade Launcher,Rapid-Fire,Void,"Hard Launch, Quick Launch, Smart Drift Control",Spike Grenades,"Field Prep, Clown Cartridge, Quickdraw","Demolitionist, Auto-Loading Holster, Disruption Break",Reload,"PvE,MnK"
+,,,,"Volatile Launch, Confined Launch, Linear Compensator",Proximity Grenades,Quickdraw,"Disruption Break, Demolitionist",Blast Radius,"PvP,MnK"
+,,,,,,,,,
+Temptation's Hook,Sword,Caster Frame,Arc,"Jagged Edge, Honed Edge, Tempered Edge","Heavy Guard, Burst Guard, Enduring Guard","Relentless Strikes, Tireless Blade","Vorpal Weapon, Surrounded, Whirlwind Blade",Impact,"PvE,MnK"
+,,,,"Jagged Edge, Honed Edge, Tempered Edge","Heavy Guard, Burst Guard, Enduring Guard","Tireless Blade, Relentless Strikes","Vorpal Weapon, En Garde",Impact,"PvP,MnK"
+,,,,,,,,,
+,,,,,,,,,
+Prophecy Dungeon,,,,,,,,,
+Death Adder,Submachine Gun,Lightweight,Solar,"Fluted Barrel, Corkscrew Rifling, Hammer-Forged Rifling","Tactical Mag, Appended Mag, Extended Mag","Feeding Frenzy, Auto-Loading Holster, Subsistence","Dragonfly, Disruption Break, Quickdraw",Reload,"PvE,MnK"
+,,,,"Hammer-Forged Rifling, Smallbore, Full Bore","Accurized Rounds, Tactical Mag, Alloy Magazine",Dynamic Sway Reduction,"Rangefinder, Moving Target, Quickdraw, Eye of the Storm",Range,"PvP,MnK"
+,,,,,,,,,
+IKELOS_HC_v1.0.2,Hand Cannon,Precision,Void,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Appended Mag, Tactical Mag, Extended Mag","Triple Tap, Subsistence","Rampage, Disruption Break, Vorpal Weapon",Reload,"PvE,MnK"
+,,,,"Fluted Barrel, Corkscrew Rifling, Hammer-Forged Rifling","Seraph Rounds, Accurized Rounds, Alloy Magazine","Slideways, Threat Detector","Eye of the Storm, Disruption Break",Handling,"PvP,MnK"
+,,,,,,,,,
+IKELOS_SG_v1.0.2,Shotgun,Rapid-Fire,Solar,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Tactical Mag, Appended Mag, Light Mag","Feeding Frenzy, Lead From Gold, Threat Detector",Any,Reload,"PvE,MnK"
+,,,,"Hammer-Forged Rifling, Fluted Barrel, Full Bore","Accurized Rounds, Light Mag","Moving Target, Firmly Planted","Disruption Break, Elemental Capacitor",Handling,"PvP,MnK"
+,,,,,,,,,
+Widow's Bite,Sniper Rifle,Rapid-Fire,Solar,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Appended Mag, Extended Mag, Tactical Mag","Lead from Gold, Feeding Frenzy, Firmly Planted","Demolitionist, Quickdraw",Reload,"PvE,MnK"
+,,,,"Hammer-Forged Rifling, Fluted Barrel, Full Bore","Accurized Rounds, Tactical Mag","Firmly Planted, Feeding Frenzy, Slideshot","Quickdraw, Opening Shot",Range,"PvP,MnK"
+,,,,,,,,,
+Hoosegow,Rocket Launcher,Adaptive,Arc,"Hard Launch, Quick Launch, Smart Drift Control","Impact Casing, Alloy Casing","Field Prep, Auto-Loading Holster","Cluster Bomb, Demolitionist",Reload,"PvE,MnK"
+,,,,"Volatile Launch, Confined Launch, Linear Compensator","Impact Casing, Black Powder",Tracking Module,"Cluster Bomb, Demolitionist",Blast Radius,"PvP,MnK"
+,,,,,,,,,
+Negative Space,Sword,Adaptive,Solar,"Jagged Edge, Honed Edge, Tempered Edge","Heavy Guard, Burst Guard, Enduring Guard","Relentless Strikes, Tireless Blade","Whirlwind Blade, Surrounded, Disruption Break",Impact,"PvE,MnK"
+,,,,"Jagged Edge, Honed Edge, Tempered Edge","Heavy Guard, Burst Guard, Enduring Guard","Tireless Blade, Relentless Strikes","Counterattack, Surrounded",Impact,"PvP,MnK"
+,,,,,,,,,
+,,,,,,,,,
+Iron Banner,,,,,,,,,
+The Forward Path,Auto Rifle,Adaptive,Kinetic,"Hitmark IS, Cleanshot IS, Red Dot Micro","Tactical Mag, Appended Mag, Alloy Magazine","Feeding Frenzy, Fourth Time's the Charm","Multikill Clip, Swashbuckler",Reload,"PvE,MnK"
+,,,,"Red Dot Micro, Red Dot 2 MOA, Rifle Scope ST","Accurized Rounds, Tactical Mag","Dynamic Sway Reduction, Feeding Frenzy","Tap the Trigger, Eye of the Storm",Range,"PvP,MnK"
+,,,,,,,,,
+The Fool's Remedy,Sidearm,SUROS Rapid-Fire,Solar,"Quickdot SAS, Control SAS, Shortspec SAS","Appended Mag, Extended Mag, Light Mag","Feeding Frenzy, Fourth Time's the Charm","Kill Clip, Quickdraw",Reload,"PvE,MnK"
+,,,,"Control SAS, Tactic SAS, Quickdot SAS","High-Caliber Rounds, Ricochet Rounds, Light Mag","Moving Target, Hip-Fire Grip, Feeding Frenzy","Rangefinder, Kill Clip, Quickdraw",Range,"PvP,MnK"
+,,,,,,,,,
+,,,,,,,,,
+Engram Weapons,,,,,,,,,
+Nature of the Beast,Hand Cannon,Precision,Arc,"Fastdraw HCS, Steadyhand HCS, Truesight HCS","Appended Mag, Tactical Mag, Extended Mag","Quickdraw, Subsistence","Dragonfly, Demolitionist, Vorpal Weapon",Reload,"PvE,MnK"
+,,,,"Steadyhand HCS, Hitmark HCS, Fastdraw HCS","Accurized Rounds, Tactical Mag","Quickdraw, Snapshot Sights","Rangefinder, Demolitionist, Vorpal Weapon",Range,"PvP,MnK"
+,,,,,,,,,
+Truthteller,Grenade Launcher,Lightweight,Void,"Quick Launch, Linear Compensator, Smart Drift Control",Spike Grenades,"Field Prep, Auto-Loading Holster, Feeding Frenzy","Demolitionist, Swashbuckler, Multikill Clip",Reload,"PvE,MnK"
+,,,,"Quick Launch, Smart Drift Control, Linear Compensator","Spike Grenades, Proximity Grenades","Auto-Loading Holster, Feeding Frenzy","Disruption Break, Quickdraw, Demolitionist",Handling,"PvP,MnK"
+,,,,,,,,,
+,,,,,,,,,
+Season Pass,,,,,,,,,
+Cold Denial,Pulse Rifle,High-Impact,Kinetic,"Fluted Barrel, Corkscrew Rifling, Extended Barrel","Appended Mag, Extended Mag, Light Mag","Feeding Frenzy, Killing Wind","Swashbuckler, Multikill Clip, Unrelenting",Reload,"PvE,MnK"
+,,,,"Extended Barrel, Full Bore, Fluted Barrel","High-Caliber Rounds, Ricochet Rounds, Light Mag","Killing Wind, Feeding Frenzy","Unrelenting, Eye of the Storm, Multikill Clip",Range,"PvP,MnK"
+,,,,,,,,,
+Falling Guillotine,Sword,Vortex Frame,Void,"Jagged Edge, Honed Edge, Tempered Edge","Heavy Guard, Burst Guard, Enduring Guard","Relentless Strikes, Tireless Blade","Surrounded, Whirlwind Blade",Impact,"PvE,MnK"
+,,,,"Jagged Edge, Honed Edge, Tempered Edge","Heavy Guard, Burst Guard, Enduring Guard","Tireless Blade, Relentless Strikes","En Garde, Counterattack",Impact,"PvP,MnK"
