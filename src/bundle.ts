@@ -53,6 +53,20 @@ async function run(): Promise<void> {
                 });
             });
             if(element.tags.length == 0) console.log(element.name + " has no tags");
+            element.tags = element.tags.map((t)=>{
+                let tag = t.toLowerCase();
+                switch (tag) {
+                    case "pve":
+                        return "PvE";
+                    case "pvp":
+                        return "PvP";
+                    case "godpve":
+                        return "GodPvE";
+                    case "godpvp":
+                        return "GodPvP";
+                }
+                return tag;
+            })
             delete element.name;
             element.description = element.description.replace("File auto generated from csv", "");
         });

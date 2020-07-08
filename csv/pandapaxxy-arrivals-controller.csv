@@ -6,70 +6,70 @@ Has purple fill - heavy ammo,,,,,,,,,
 ,,,,,,,,,
 Name,Type,Archetype,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Activity
 Contact Public Event,,,,,,,,,
-False Promises,Auto Rifle,High-Impact,Kinetic,"Fluted Barrel, Corkscrew Rifling, Polygonal Rifling","Ricochet Rounds, Appended Mag, Extended Mag","Feeding Frenzy, Overflow, Killing Wind","Swashbuckler, Rampage, Surrounded",Reload,"PvE,Controller"
-,,,,"Smallbore, Polygonal Rifling, Fluted Barrel","Ricochet Rounds, High-Caliber Rounds, Flared Magwell","Dynamic Sway Reduction, Killing Wind, Overflow","Unrelenting, Zen Moment, Eye of the Storm",Stability,"PvP,Controller"
+False Promises,Auto Rifle,High-Impact,Kinetic,"Fluted Barrel, Corkscrew Rifling, Polygonal Rifling","Ricochet Rounds, Appended Mag, Extended Mag","Feeding Frenzy, Overflow, Killing Wind","Swashbuckler, Rampage, Surrounded",Reload,PvE
+,,,,"Smallbore, Polygonal Rifling, Fluted Barrel","Ricochet Rounds, High-Caliber Rounds, Flared Magwell","Dynamic Sway Reduction, Killing Wind, Overflow","Unrelenting, Zen Moment, Eye of the Storm",Stability,PvP
 ,,,,,,,,,
-Whispering Slab,Combat Bow,Lightweight,Kinetic,"Polymer String, Natural String, Agile Bowstring","Compact Arrow Shaft, Straight Fletching, Fiberglass Arrow Shaft","Archer's Tempo, Quickdraw, Killing Wind","Swashbuckler, Demolitionist, Vorpal Weapon",Handling,"PvE,Controller"
-,,,,"Elastic String, Flexible String, Polymer String","Fiberglass Arrow Shaft, Straight Fletching, Helical Fletching","Archer's Tempo, Firmly Planted, Killing Wind","Opening Shot, Unrelenting, Vorpal Weapon",Draw Time,"PvP,Controller"
+Whispering Slab,Combat Bow,Lightweight,Kinetic,"Polymer String, Natural String, Agile Bowstring","Compact Arrow Shaft, Straight Fletching, Fiberglass Arrow Shaft","Archer's Tempo, Quickdraw, Killing Wind","Swashbuckler, Demolitionist, Vorpal Weapon",Handling,PvE
+,,,,"Elastic String, Flexible String, Polymer String","Fiberglass Arrow Shaft, Straight Fletching, Helical Fletching","Archer's Tempo, Firmly Planted, Killing Wind","Opening Shot, Unrelenting, Vorpal Weapon",Draw Time,PvP
 ,,,,,,,,,
-"First In, Last Out",Shotgun,Precision - Slug,Arc,"Fluted Barrel, Arrowhead Brake, Hammer-Forged Rifling","Assault Mag, Appended Mag, Tactical Mag","Outlaw, Auto-Loading Holster","Demolitionist, Vorpal Weapon, Surrounded",Reload,"PvE,Controller"
-,,,,"Corkscrew Rifling, Fluted Barrel, Smallbore","Assault Mag, Accurized Rounds","Slideshot, Outlaw, Hip-Fire Grip","Opening Shot, Vorpal Weapon, Demolitionist",Handling,"PvP,Controller"
+"First In, Last Out",Shotgun,Precision - Slug,Arc,"Fluted Barrel, Arrowhead Brake, Hammer-Forged Rifling","Assault Mag, Appended Mag, Tactical Mag","Outlaw, Auto-Loading Holster","Demolitionist, Vorpal Weapon, Surrounded",Reload,PvE
+,,,,"Corkscrew Rifling, Fluted Barrel, Smallbore","Assault Mag, Accurized Rounds","Slideshot, Outlaw, Hip-Fire Grip","Opening Shot, Vorpal Weapon, Demolitionist",Handling,PvP
 ,,,,,,,,,
-Hollow Words,Fusion Rifle,Precision,Arc,"Fluted Barrel, Polygonal Rifling, Chambered Compensator","Ionized Battery, Enhanced Battery, Liquid Coils","Feeding Frenzy, Lead from Gold, Killing Wind","Vorpal Weapon, Disruption Break, Surrounded",Reload,"PvE,Controller"
-,,,,"Chambered Compensator, Smallbore, Polygonal Rifling","Particle Repeater, Projection Fuse","Slideways, Quickdraw, Killing Wind","Vorpal Weapon, Disruption Break, Unrelenting",Stability,"PvP,Controller"
+Hollow Words,Fusion Rifle,Precision,Arc,"Fluted Barrel, Polygonal Rifling, Chambered Compensator","Ionized Battery, Enhanced Battery, Liquid Coils","Feeding Frenzy, Lead from Gold, Killing Wind","Vorpal Weapon, Disruption Break, Surrounded",Reload,PvE
+,,,,"Chambered Compensator, Smallbore, Polygonal Rifling","Particle Repeater, Projection Fuse","Slideways, Quickdraw, Killing Wind","Vorpal Weapon, Disruption Break, Unrelenting",Stability,PvP
 ,,,,,,,,,
-IKELOS_SMG_V1.0.2,Submachine Gun,Aggressive,Arc,"Fluted Barrel, Polygonal Rifling, Smallbore","Appended Mag, Tactical Mag, Flared Magwell","Subsistence, Grave Robber","Demolitionist, Vorpal Weapon, Surrounded",Reload,"PvE,Controller"
-,,,,"Chambered Compensator, Smallbore, Polygonal Rifling","Seraph Rounds, Accurized Rounds, Steady Rounds",Dynamic Sway Reduction,"Tap the Trigger, Vorpal Weapon, Demolitionist",Stability,"PvP,Controller"
+IKELOS_SMG_V1.0.2,Submachine Gun,Aggressive,Arc,"Fluted Barrel, Polygonal Rifling, Smallbore","Appended Mag, Tactical Mag, Flared Magwell","Subsistence, Grave Robber","Demolitionist, Vorpal Weapon, Surrounded",Reload,PvE
+,,,,"Chambered Compensator, Smallbore, Polygonal Rifling","Seraph Rounds, Accurized Rounds, Steady Rounds",Dynamic Sway Reduction,"Tap the Trigger, Vorpal Weapon, Demolitionist",Stability,PvP
 ,,,,,,,,,
-IKELOS_SR_v1.0.2,Sniper Rifle,Rapid-Fire,Solar,"Fluted Barrel, Corkscrew Rifling, Polygonal Rifling","Appended Mag, Extended Mag, Tactical Mag","Fourth Time's the Charm, Triple Tap, Feeding Frenzy","High-Impact Reserves, Box Breathing, Disruption Break",Reload,"PvE,Controller"
-,,,,"Hammer-Forged Rifling, Full Bore, Smallbore","Seraph Rounds, Accurized Rounds, Tactical Mag","Moving Target, No Distractions","Quickdraw, Box Breathing",Range,"PvP,Controller"
+IKELOS_SR_v1.0.2,Sniper Rifle,Rapid-Fire,Solar,"Fluted Barrel, Corkscrew Rifling, Polygonal Rifling","Appended Mag, Extended Mag, Tactical Mag","Fourth Time's the Charm, Triple Tap, Feeding Frenzy","High-Impact Reserves, Box Breathing, Disruption Break",Reload,PvE
+,,,,"Hammer-Forged Rifling, Full Bore, Smallbore","Seraph Rounds, Accurized Rounds, Tactical Mag","Moving Target, No Distractions","Quickdraw, Box Breathing",Range,PvP
 ,,,,,,,,,
-Berenger's Memory,Grenade Launcher,Rapid-Fire,Void,"Hard Launch, Smart Drift Control, Quick Launch","Spike Grenades, Alloy Casing","Field Prep, Clown Cartridge, Quickdraw","Demolitionist, Disruption Break, Auto-Loading Holster",Reload,"PvE,Controller"
-,,,,"Volatile Launch, Confined Launch, Linear Compensator","Proximity Grenades, Sticky Grenades","Quickdraw, Threat Detector","Demolitionist, Elemental Capacitor, Disruption Break",Blast Radius,"PvP,Controller"
+Berenger's Memory,Grenade Launcher,Rapid-Fire,Void,"Hard Launch, Smart Drift Control, Quick Launch","Spike Grenades, Alloy Casing","Field Prep, Clown Cartridge, Quickdraw","Demolitionist, Disruption Break, Auto-Loading Holster",Reload,PvE
+,,,,"Volatile Launch, Confined Launch, Linear Compensator","Proximity Grenades, Sticky Grenades","Quickdraw, Threat Detector","Demolitionist, Elemental Capacitor, Disruption Break",Blast Radius,PvP
 ,,,,,,,,,
-Temptation's Hook,Sword,Caster Frame,Arc,"Jagged Edge, Honed Edge, Tempered Edge","Heavy Guard, Burst Guard, Enduring Guard","Relentless Strikes, Tireless Blade","Vorpal Weapon, Surrounded, Whirlwind Blade",Impact,"PvE,Controller"
-,,,,"Jagged Edge, Honed Edge, Tempered Edge","Heavy Guard, Burst Guard, Enduring Guard","Tireless Blade, Relentless Strikes","Vorpal Weapon, En Garde",Impact,"PvP,Controller"
+Temptation's Hook,Sword,Caster Frame,Arc,"Jagged Edge, Honed Edge, Tempered Edge","Swordmaster's Guard, Heavy Guard, Burst Guard","Relentless Strikes, Tireless Blade","Vorpal Weapon, Surrounded, Whirlwind Blade",Impact,PvE
+,,,,"Jagged Edge, Honed Edge, Tempered Edge","Swordmaster's Guard, Heavy Guard, Burst Guard","Tireless Blade, Relentless Strikes","Vorpal Weapon, En Garde",Impact,PvP
 ,,,,,,,,,
 ,,,,,,,,,
 Prophecy Dungeon,,,,,,,,,
-Death Adder,Submachine Gun,Lightweight,Solar,"Fluted Barrel, Polygonal Rifling, Smallbore","Appended Mag, Tactical Mag, Flared Magwell","Feeding Frenzy, Subsistence","Dragonfly, Disruption Break, Quickdraw",Reload,"PvE,Controller"
-,,,,"Smallbore, Polygonal Rifling, Corkscrew Rifling","Accurized Rounds, Tactical Mag, Steady Rounds","Dynamic Sway Reduction, Hip-Fire Grip, Feeding Frenzy","Rangefinder, Moving Target, Eye of the Storm",Stability,"PvP,Controller"
+Death Adder,Submachine Gun,Lightweight,Solar,"Fluted Barrel, Polygonal Rifling, Smallbore","Appended Mag, Tactical Mag, Flared Magwell","Feeding Frenzy, Subsistence","Dragonfly, Disruption Break, Quickdraw",Reload,PvE
+,,,,"Smallbore, Polygonal Rifling, Corkscrew Rifling","Accurized Rounds, Tactical Mag, Steady Rounds","Dynamic Sway Reduction, Hip-Fire Grip, Feeding Frenzy","Rangefinder, Moving Target, Eye of the Storm",Stability,PvP
 ,,,,,,,,,
-IKELOS_HC_v1.0.2,Hand Cannon,Precision,Void,"Fluted Barrel, Corkscrew Rifling, Smallbore","Appended Mag, Tactical Mag, Extended Mag","Subsistence, Triple Tap","Vorpal Weapon, Rampage",Reload,"PvE,Controller"
-,,,,"Fluted Barrel, Smallbore, Polygonal Rifling","Seraph Rounds, Accurized Rounds, Tactical Mag","Threat Detector, Slideways","Vorpal Weapon, Eye of the Storm, Disruption Break",Handling,"PvP,Controller"
+IKELOS_HC_v1.0.2,Hand Cannon,Precision,Void,"Fluted Barrel, Corkscrew Rifling, Smallbore","Appended Mag, Tactical Mag, Extended Mag","Subsistence, Triple Tap","Vorpal Weapon, Rampage",Reload,PvE
+,,,,"Fluted Barrel, Smallbore, Polygonal Rifling","Seraph Rounds, Accurized Rounds, Tactical Mag","Threat Detector, Slideways","Vorpal Weapon, Eye of the Storm, Disruption Break",Handling,PvP
 ,,,,,,,,,
-IKELOS_SG_v1.0.2,Shotgun,Rapid-Fire,Solar,"Fluted Barrel, Smallbore, Hammer-Forged Rifling","Tactical Mag, Appended Mag, Light Mag","Feeding Frenzy, Lead from Gold, Threat Detector",Any,Reload,"PvE,Controller"
-,,,,"Full Bore, Hammer-Forged Rifling, Smallbore","Accurized Rounds, Light Mag","Firmly Planted, Moving Target, Feeding Frenzy","Elemental Capacitor, Vorpal Weapon",Handling,"PvP,Controller"
+IKELOS_SG_v1.0.2,Shotgun,Rapid-Fire,Solar,"Fluted Barrel, Smallbore, Hammer-Forged Rifling","Tactical Mag, Appended Mag, Light Mag","Feeding Frenzy, Lead from Gold, Threat Detector","Trench Barrel,Vorpal Weapon,Disruption Break,Surrounded,Rampage,Elemental Capacitor",Reload,PvE
+,,,,"Full Bore, Hammer-Forged Rifling, Smallbore","Accurized Rounds, Light Mag","Firmly Planted, Moving Target, Feeding Frenzy","Elemental Capacitor, Vorpal Weapon",Handling,PvP
 ,,,,,,,,,
-Widow's Bite,Sniper Rifle,Rapid-Fire,Solar,"Fluted Barrel, Arrowhead Brake, Smallbore","Appended Mag, Extended Mag, Alloy Magazine","Lead from Gold, Feeding Frenzy","Demolitionist, Disruption Break, Quickdraw",Reload,"PvE,Controller"
-,,,,"Hammer-Forged Rifling, Full Bore, Smallbore","Accurized Rounds, Alloy Magazine, Tactical Mag","Slideshot, Firmly Planted","Quickdraw, Opening Shot, Demolitionist",Range,"PvP,Controller"
+Widow's Bite,Sniper Rifle,Rapid-Fire,Solar,"Fluted Barrel, Arrowhead Brake, Smallbore","Appended Mag, Extended Mag, Alloy Magazine","Lead from Gold, Feeding Frenzy","Demolitionist, Disruption Break, Quickdraw",Reload,PvE
+,,,,"Hammer-Forged Rifling, Full Bore, Smallbore","Accurized Rounds, Alloy Magazine, Tactical Mag","Slideshot, Firmly Planted","Quickdraw, Opening Shot, Demolitionist",Range,PvP
 ,,,,,,,,,
-Hoosegow,Rocket Launcher,Adaptive,Arc,"Linear Compensator, Smart Drift Control, Quick Launch","Impact Casing, Alloy Casing","Field Prep, Auto-Loading Holster","Demolitionist, Cluster Bomb",Reload,"PvE,Controller"
-,,,,"Volatile Launch, Confined Launch, Linear Compensator","Impact Casing, Black Powder",Tracking Module,"Cluster Bomb, Demolitionist",Blast Radius,"PvP,Controller"
+Hoosegow,Rocket Launcher,Adaptive,Arc,"Linear Compensator, Smart Drift Control, Quick Launch","Impact Casing, Alloy Casing","Field Prep, Auto-Loading Holster","Demolitionist, Cluster Bomb",Reload,PvE
+,,,,"Volatile Launch, Confined Launch, Linear Compensator","Impact Casing, Black Powder",Tracking Module,"Cluster Bomb, Demolitionist",Blast Radius,PvP
 ,,,,,,,,,
-Negative Space,Sword,Adaptive,Solar,"Jagged Edge, Honed Edge, Tempered Edge","Heavy Guard, Burst Guard, Enduring Guard","Relentless Strikes, Tireless Blade","Whirlwind Blade, Surrounded, Disruption Break",Impact,"PvE,Controller"
-,,,,"Jagged Edge, Honed Edge, Tempered Edge","Heavy Guard, Burst Guard, Enduring Guard","Tireless Blade, Relentless Strikes","Counterattack, Surrounded",Impact,"PvP,Controller"
+Negative Space,Sword,Adaptive,Solar,"Jagged Edge, Honed Edge, Tempered Edge","Heavy Guard, Burst Guard, Enduring Guard","Relentless Strikes, Tireless Blade","Whirlwind Blade, Surrounded, Disruption Break",Impact,PvE
+,,,,"Jagged Edge, Honed Edge, Tempered Edge","Heavy Guard, Burst Guard, Enduring Guard","Tireless Blade, Relentless Strikes","Counterattack, Surrounded",Impact,PvP
 ,,,,,,,,,
 ,,,,,,,,,
 Iron Banner,,,,,,,,,
-The Forward Path,Auto Rifle,Adaptive,Kinetic,"Cleanshot IS, Hitmark IS, Red Dot Micro","Tactical Mag, Appended Mag, Flared Magwell","Feeding Frenzy, Fourth Time's the Charm","Swashbuckler, Multikill Clip, Iron Grip",Reload,"PvE,Controller"
-,,,,"Red Dot Micro, Red Dot 2 MOA","Accurized Rounds, Steady Rounds, Tactical Mag","Dynamic Sway Reduction, Feeding Frenzy","Tap the Trigger, Eye of the Storm, Iron Grip",Handling or Stability,"PvP,Controller"
+The Forward Path,Auto Rifle,Adaptive,Kinetic,"Cleanshot IS, Hitmark IS, Red Dot Micro","Tactical Mag, Appended Mag, Flared Magwell","Feeding Frenzy, Fourth Time's the Charm","Swashbuckler, Multikill Clip, Iron Grip",Reload,PvE
+,,,,"Red Dot Micro, Red Dot 2 MOA","Accurized Rounds, Steady Rounds, Tactical Mag","Dynamic Sway Reduction, Feeding Frenzy","Tap the Trigger, Eye of the Storm, Iron Grip",Handling or Stability,PvP
 ,,,,,,,,,
-The Fool's Remedy,Sidearm,SUROS Rapid-Fire,Solar,"Quickdot SAS, Control SAS, Shortspec SAS","Ricochet Rounds, Appended Mag, Flared Magwell","Feeding Frenzy, Subsistence, Fourth Time's the Charm","Kill Clip, Quickdraw",Reload,"PvE,Controller"
-,,,,"Control SAS, Quickdot SAS, Tactic SAS","Ricochet Rounds, High-Caliber Rounds, Flared Magwell","Moving Target, Hip-Fire Grip, Pulse Monitor","Rangefinder, Quickdraw, Eye of the Storm",Stability,"PvP,Controller"
+The Fool's Remedy,Sidearm,SUROS Rapid-Fire,Solar,"Quickdot SAS, Control SAS, Shortspec SAS","Ricochet Rounds, Appended Mag, Flared Magwell","Feeding Frenzy, Subsistence, Fourth Time's the Charm","Kill Clip, Quickdraw",Reload,PvE
+,,,,"Control SAS, Quickdot SAS, Tactic SAS","Ricochet Rounds, High-Caliber Rounds, Flared Magwell","Moving Target, Hip-Fire Grip, Pulse Monitor","Rangefinder, Quickdraw, Eye of the Storm",Stability,PvP
 ,,,,,,,,,
 ,,,,,,,,,
 Engram Weapons,,,,,,,,,
-Nature of the Beast,Hand Cannon,Precision,Arc,"Fastdraw HCS, Steadyhand HCS, Truesight HCS","Appended Mag, Alloy Magazine, Extended Mag","Quickdraw, Subsistence","Demolitionist, Dragonfly, Vorpal Weapon",Reload,"PvE,Controller"
-,,,,"Steadyhand HCS, Fastdraw HCS, Hitmark HCS","Accurized Rounds, Flared Magwell, Steady Rounds","Quickdraw, Snapshot Sights","Rangefinder, Vorpal Weapon, Demolitionist",Range,"PvP,Controller"
+Nature of the Beast,Hand Cannon,Precision,Arc,"Fastdraw HCS, Steadyhand HCS, Truesight HCS","Appended Mag, Alloy Magazine, Extended Mag","Quickdraw, Subsistence","Demolitionist, Dragonfly, Vorpal Weapon",Reload,PvE
+,,,,"Steadyhand HCS, Fastdraw HCS, Hitmark HCS","Accurized Rounds, Flared Magwell, Steady Rounds","Quickdraw, Snapshot Sights","Rangefinder, Vorpal Weapon, Demolitionist",Range,PvP
 ,,,,,,,,,
-Truthteller,Grenade Launcher,Lightweight,Void,"Quick Launch, Smart Drift Control, Linear Compensator",Spike Grenades,"Field Prep, Feeding Frenzy, Auto-Loading Holster","Swashbuckler, Demolitionist, Disruption Break",Reload,"PvE,Controller"
-,,,,"Quick Launch, Smart Drift Control, Linear Compensator","Spike Grenades, Proximity Grenades, High-Velocity Rounds","Auto-Loading Holster, Field Prep","Disruption Break, Demolitionist, Quickdraw",Handling,"PvP,Controller"
+Truthteller,Grenade Launcher,Lightweight,Void,"Quick Launch, Smart Drift Control, Linear Compensator",Spike Grenades,"Field Prep, Feeding Frenzy, Auto-Loading Holster","Swashbuckler, Demolitionist, Disruption Break",Reload,PvE
+,,,,"Quick Launch, Smart Drift Control, Linear Compensator","Spike Grenades, Proximity Grenades, High-Velocity Rounds","Auto-Loading Holster, Field Prep","Disruption Break, Demolitionist, Quickdraw",Handling,PvP
 ,,,,,,,,,
 ,,,,,,,,,
 Season Pass,,,,,,,,,
-Cold Denial,Pulse Rifle,High-Impact,Kinetic,"Fluted Barrel, Polygonal Rifling, Smallbore","Appended Mag, Flared Magwell, Ricochet Rounds","Feeding Frenzy, Killing Wind","Swashbuckler, Multikill Clip, Sympathetic Arsenal",Reload,"PvE,Controller"
-,,,,"Arrowhead Brake, Chambered Compensator, Smallbore","Ricochet Rounds, High-Caliber Rounds, Flared Magwell","Killing Wind, Zen Moment, Feeding Frenzy","Unrelenting, Eye of the Storm, Swashbuckler",Stability,"PvP,Controller"
+Cold Denial,Pulse Rifle,High-Impact,Kinetic,"Fluted Barrel, Polygonal Rifling, Smallbore","Appended Mag, Flared Magwell, Ricochet Rounds","Feeding Frenzy, Killing Wind","Swashbuckler, Multikill Clip, Sympathetic Arsenal",Reload,PvE
+,,,,"Arrowhead Brake, Chambered Compensator, Smallbore","Ricochet Rounds, High-Caliber Rounds, Flared Magwell","Killing Wind, Zen Moment, Feeding Frenzy","Unrelenting, Eye of the Storm, Swashbuckler",Stability,PvP
 ,,,,,,,,,
-Falling Guillotine,Sword,Vortex Frame,Void,"Jagged Edge, Honed Edge, Tempered Edge","Heavy Guard, Burst Guard, Enduring Guard","Relentless Strikes, Tireless Blade","Surrounded, Whirlwind Blade",Impact,"PvE,Controller"
-,,,,"Jagged Edge, Honed Edge, Tempered Edge","Heavy Guard, Burst Guard, Enduring Guard","Tireless Blade, Relentless Strikes","En Garde, Counterattack",Impact,"PvP,Controller"
+Falling Guillotine,Sword,Vortex Frame,Void,"Jagged Edge, Honed Edge, Tempered Edge","Swordmaster's Guard, Heavy Guard, Burst Guard","Relentless Strikes, Tireless Blade","Surrounded, Whirlwind Blade",Impact,PvE
+,,,,"Jagged Edge, Honed Edge, Tempered Edge","Swordmaster's Guard, Heavy Guard, Burst Guard","Tireless Blade, Relentless Strikes","En Garde, Counterattack",Impact,PvP

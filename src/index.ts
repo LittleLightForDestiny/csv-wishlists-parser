@@ -25,7 +25,7 @@ var wishlist: JsonWishlist = {
     data: []
 };
 
-let persistentWeaponName:string = "";
+let persistentWeaponName: string = "";
 
 setOptions({ filename: process.argv[2] || "forsaken-pve" });
 
@@ -44,17 +44,28 @@ async function getCSV(path: string): Promise<string[][]> {
     return parsed;
 }
 
-function parseTags(tags:string):string[]{
-    return tags.split(',').map((t)=>{
-        return t.toLowerCase();
+function parseTags(tags: string): string[] {
+    return tags.split(',').map((t) => {
+        let tag = t.toLowerCase();
+        switch (tag) {
+            case "pve":
+                return "PvE";
+            case "pvp":
+                return "PvP";
+            case "godpve":
+                return "GodPvE";
+            case "godpvp":
+                return "GodPvP";
+        }
+        return tag;
     });
 }
 
 async function parseLine(line: string[]): Promise<JsonWishlistItem[]> {
     let options = getOptions();
     var weaponName: string = line[options.nameColumn || 0].trim() || persistentWeaponName.trim();
-    let perkColumns = options.perkColumns || [1,2,3,4];
-    var containsPerks:boolean = perkColumns.some((c)=>{
+    let perkColumns = options.perkColumns || [1, 2, 3, 4];
+    var containsPerks: boolean = perkColumns.some((c) => {
         return line[c].trim().length > 0;
     });
     if (!containsPerks) return [];
@@ -65,7 +76,7 @@ async function parseLine(line: string[]): Promise<JsonWishlistItem[]> {
     for (var w in weaponHashes) {
         var weaponHash: number = weaponHashes[w];
         var item: JsonWishlistItem = { name: weaponName, description: "", plugs: [], hash: weaponHash, tags: [] };
-        
+
         for (let ci in perkColumns) {
             let c = perkColumns[ci];
             let perks = await getPerks(weaponHash, line[c]);
@@ -99,7 +110,7 @@ async function parseLine(line: string[]): Promise<JsonWishlistItem[]> {
 
 async function getPerks(weaponHash: number, perksString: string): Promise<number[]> {
     var perks: number[] = [];
-    var perkNames = perksString.split(',').map((p)=>p.trim()).filter(Boolean);
+    var perkNames = perksString.split(',').map((p) => p.trim()).filter(Boolean);
     for (var i in perkNames) {
         var perk = await resolvePerkHash(weaponHash, perkNames[i]);
         perks = perks.concat(perk);
@@ -116,9 +127,9 @@ async function run(): Promise<void> {
     let perkColumns = await askForPerkColumns(header);
     let tagsColumn = await askForTagsColumn(header);
     setOptions({
-        nameColumn:nameColumn,
-        perkColumns:perkColumns,
-        tagsColumn:tagsColumn
+        nameColumn: nameColumn,
+        perkColumns: perkColumns,
+        tagsColumn: tagsColumn
     });
     for (var i = headerLine + 1; i < csv.length; i++) {
         var items = await parseLine(csv[i]);
