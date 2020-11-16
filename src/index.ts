@@ -47,16 +47,16 @@ async function getCSV(path: string): Promise<string[][]> {
 function parseTags(tags: string): string[] {
     return tags.split(',').map((t) => {
         let tag = t.toLowerCase();
-        switch (tag) {
-            case "pve":
-                return "PvE";
-            case "pvp":
-                return "PvP";
-            case "godpve":
-                return "GodPvE";
-            case "godpvp":
-                return "GodPvP";
-        }
+        // switch (tag) {
+            // case "pve":
+            //     return "pve";
+            // case "pvp":
+            //     return "pvp";
+            // case "godpve":
+            //     return "godpve";
+            // case "godpvp":
+            //     return "godpvp";
+        // }
         return tag;
     });
 }
@@ -96,6 +96,7 @@ async function parseLine(line: string[]): Promise<JsonWishlistItem[]> {
         if (generateGodRoll) {
             var godrollPlugs = item.plugs.map((p) => [p[0]]);
             var godrollTags = item.tags.map((v) => {
+                v = v.toLocaleLowerCase();
                 if (v == "pve") return "godpve";
                 if (v == "pvp") return "godpvp";
                 return v;

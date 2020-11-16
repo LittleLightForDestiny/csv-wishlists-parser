@@ -9,7 +9,7 @@ Contact Public Event,,,,,,,,,
 False Promises,Auto Rifle,High-Impact,Kinetic,"Fluted Barrel, Smallbore, Hammer-Forged Rifling","Appended Mag, Light Mag, Extended Mag","Feeding Frenzy, Overflow, Subsistence","Rampage, Swashbuckler, Unrelenting",Reload,PvE
 ,,,,"Fluted Barrel, Smallbore, Hammer-Forged Rifling","High-Caliber Rounds, Ricochet Rounds, Light Mag","Dynamic Sway Reduction, Killing Wind, Feeding Frenzy","Unrelenting, Swashbuckler, Sympathetic Arsenal",Range,PvP
 ,,,,,,,,,
-Whispering Slab,Combat Bow,Lightweight,Kinetic,"Polymer String, Natural String, Agile Bowstring","Compact Arrow Shaft, Straight Fletching, Fiberglass Arrow Shaft","Archer's Tempo, Quickdraw, Killing Wind","Swashbuckler, Demolitionist, Vorpal Weapon",Handling,PvE
+Whispering Slab,Combat Bow,Lightweight,Kinetic,"Polymer String, Natural String, Agile Bowstring","Compact Arrow Shaft, Straight Fletching, Fiberglass Arrow Shaft","Archer's Tempo, Quickdraw, Killing Wind","Sympathetic Arsenal, Swashbuckler, Demolitionist, Vorpal Weapon",Handling,PvE
 ,,,,"Elastic String, Flexible String, Polymer String","Fiberglass Arrow Shaft, Straight Fletching, Helical Fletching","Archer's Tempo, Firmly Planted, Killing Wind","Opening Shot, Unrelenting, Vorpal Weapon",Draw Time,PvP
 ,,,,,,,,,
 "First In, Last Out",Shotgun,Precision - Slug,Arc,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","Assault Mag, Tactical Mag, Appended Mag","Outlaw, Auto-Loading Holster","Vorpal Weapon, Demolitionist",Reload,PvE
@@ -38,7 +38,7 @@ Death Adder,Submachine Gun,Lightweight,Solar,"Fluted Barrel, Corkscrew Rifling, 
 IKELOS_HC_v1.0.2,Hand Cannon,Precision,Void,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Appended Mag, Tactical Mag, Extended Mag","Triple Tap, Subsistence","Rampage, Disruption Break, Vorpal Weapon",Reload,PvE
 ,,,,"Fluted Barrel, Corkscrew Rifling, Hammer-Forged Rifling","Seraph Rounds, Accurized Rounds, Alloy Magazine","Slideways, Threat Detector","Eye of the Storm, Disruption Break",Handling,PvP
 ,,,,,,,,,
-IKELOS_SG_v1.0.2,Shotgun,Rapid-Fire,Solar,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Tactical Mag, Appended Mag, Light Mag","Feeding Frenzy, Lead From Gold, Threat Detector","Trench Barrel,Vorpal Weapon,Disruption Break,Surrounded,Rampage,Elemental Capacitor",Reload,PvE
+IKELOS_SG_v1.0.2,Shotgun,Rapid-Fire,Solar,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Tactical Mag, Appended Mag, Light Mag","Feeding Frenzy, Lead From Gold, Threat Detector","Any - Trench Barrel, Vorpal Weapon, Disruption Break, Surrounded, Rampage, Elemental Capacitor",Reload,PvE
 ,,,,"Hammer-Forged Rifling, Fluted Barrel, Full Bore","Accurized Rounds, Light Mag","Moving Target, Firmly Planted","Disruption Break, Elemental Capacitor",Handling,PvP
 ,,,,,,,,,
 Widow's Bite,Sniper Rifle,Rapid-Fire,Solar,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Appended Mag, Extended Mag, Tactical Mag","Lead from Gold, Feeding Frenzy, Firmly Planted","Demolitionist, Quickdraw",Reload,PvE
@@ -71,5 +71,13 @@ Season Pass,,,,,,,,,
 Cold Denial,Pulse Rifle,High-Impact,Kinetic,"Fluted Barrel, Corkscrew Rifling, Extended Barrel","Appended Mag, Extended Mag, Light Mag","Feeding Frenzy, Killing Wind","Swashbuckler, Multikill Clip, Unrelenting",Reload,PvE
 ,,,,"Extended Barrel, Full Bore, Fluted Barrel","High-Caliber Rounds, Ricochet Rounds, Light Mag","Killing Wind, Feeding Frenzy","Unrelenting, Eye of the Storm, Multikill Clip",Range,PvP
 ,,,,,,,,,
-Falling Guillotine,Sword,Vortex Frame,Void,"Jagged Edge, Honed Edge, Tempered Edge","Swordmaster's Guard, Heavy Guard, Burst Guard","Relentless Strikes, Tireless Blade","Surrounded, Whirlwind Blade",Impact,PvE
+Falling Guillotine,Sword,Vortex Frame,Void,"Jagged Edge, Honed Edge, Tempered Edge","Swordmaster's Guard, Heavy Guard, Burst Guard","Relentless Strikes, Tireless Blade","Whirlwind Blade, Surrounded",Impact,PvE
 ,,,,"Jagged Edge, Honed Edge, Tempered Edge","Swordmaster's Guard, Heavy Guard, Burst Guard","Tireless Blade, Relentless Strikes","En Garde, Counterattack",Impact,PvP
+,,,,,,,,,
+,,,,,,,,,
+Festival of the Lost,,,,,,,,,
+Braytech Werewolf,Auto Rifle,Adaptive,Kinetic,"Fluted Barrel, Smallbore, Hammer-Forged Rifling","High-Caliber Rounds, Appended Mag, Armor-Piercing Rounds","Fourth Time's the Charm, Mulligan","Swashbuckler, Vorpal Weapon, Unrelenting",Reload,PvE
+,,,,"Hammer-Forged Rifling, Smallbore, Fluted Barrel","High-Caliber Rounds, Ricochet Rounds, Light Mag","Dynamic Sway Reduction, Slideshot","Tap the Trigger, Elemental Capacitor, Eye of the Storm",Range,PvP
+,,,,,,,,,
+Horror Story,Auto Rifle,Adaptive,Kinetic,"Hitmark IS, Cleanshot IS, Red Dot Micro","Tactical Mag, Appended Mag, Extended Mag","Outlaw, Subsistence, Killing Wind","Demolitionist, Sympathetic Arsenal",Reload,PvE
+,,,,"Rifle Scope ST, Rifle Scope SSF, Red Dot Micro","Tactical Mag, Accurized Rounds","Killing Wind, Firmly Planted, Outlaw","Moving Target, Snapshot Sights, Demolitionist",Range,PvP

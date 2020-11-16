@@ -1,0 +1,94 @@
+"Note: Perks are displayed in order of importance. Rows are PvE on top, PvP below",,,,,,,,,
+,,,,,,,,,
+Has no fill - primary ammo,,,,,,,,,
+Has green fill - special ammo,,,,,,,,,
+Has purple fill - heavy ammo,,,,,,,,,
+,,,,,,,,,
+Name,Type,Archetype,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Activity
+Europa,,,,,,,,,
+Hailing Confusion,Pulse Rifle,Adaptive,Kinetic,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Appended Mag, High-Caliber Rounds, Armor-Piercing Rounds","Outlaw, Slideways, Surplus","Demolitionist, Wellspring, Full Auto Trigger System",Reload,PvE
+,,,,"Arrowhead Brake, Chambered Compensator, Smallbore","Ricochet Rounds, High-Caliber Rounds","Firmly Planted, Zen Moment, Surplus","Quickdraw, Elemental Capacitor, Demolitionist",Range,PvP
+,,,,,,,,,
+High Albedo,Sidearm,Adaptive,Kinetic,"Fluted Barrel, Smallbore, Hammer-Forged Rifling","Tactical Mag, Appended Mag, Extended Mag","Threat Detector, Full Auto Trigger System","Demolitionist, Wellspring, High-Impact Reserves",Reload,PvE
+,,,,"Hammer-Forged Rifling, Smallbore, Fluted Barrel","Accurized Rounds, Steady Rounds, Tactical Mag","Full Auto Trigger System, Killing Wind","Demolitionist, Snapshot Sights, Headseeker",Handling,PvP
+,,,,,,,,,
+Arctic Haze,Auto Rifle,Rapid-Fire,Solar,"Arrowhead Brake, Fluted Barrel, Polygonal Rifling","Tactical Mag, Flared Magwell, Appended Mag","Outlaw, Subsistence, Triple Tap","Vorpal Weapon, Dragonfly, Thresh",Reload,PvE
+,,,,"Arrowhead Brake, Smallbore, Polygonal Rifling","Steady Rounds, Tactical Mag, Flared Magwell","Outlaw, Killing Wind","Eye of the Storm, Elemental Capacitor, Vorpal Weapon",Stability,PvP
+,,,,,,,,,
+Bonechiller,Shotgun,Precision(Slug),Void,"Fluted Barrel, Smallbore, Corkscrew Rifling","Assault Mag, Tactical Mag, Appended Mag","Auto-Loading Holster, Triple Tap, Lead from Gold","Demolitionist, Dragonfly",Reload,PvE
+,,,,"Corkscrew Rifling, Smallbore, Fluted Barrel","Assault Mag, Light Mag, Accurized Rounds","Firmly Planted, Surplus","Opening Shot, Demolitionist, Slideways",Handling,PvP
+,,,,,,,,,
+Subzero Salvo,Rocket Launcher,Precision,Arc,"Linear Compensator, Smart Drift Control, Quick Launch","Impact Casing, Alloy Casing","Killing Wind, Quickdraw","Cluster Bomb, Chain Reaction, Demolitionist",Reload,PvE
+,,,,"Volatile Launch, Confined Launch, Hard Launch","Impact Casing, Black Powder","Quickdraw, Killing Wind","Cluster Bomb, Demolitionist, Thresh",Blast Radius,PvP
+,,,,,,,,,
+,,,,,,,,,
+Fallen Empire,,,,,,,,,
+Biting Winds,Combat Bow,Precision,Kinetic,"Elastic String, Flexible String, Polymer String","Compact Arrow Shaft, Fiberglass Arrow Shaft, Straight Fletching","Rapid Hit, Quickdraw, Killing Wind","Explosive Head, Swashbuckler, Sympathetic Arsenal",Draw Time,PvE
+,,,,"Elastic String, Flexible String","Fiberglass Arrow Shaft, Straight Fletching","Rapid Hit, Moving Target, Quickdraw, Killing Wind","Swashbuckler, Explosive Head",Draw Time,PvP
+,,,,,,,,,
+Coriolis Force,Fusion Rifle,Aggressive,Void,"Fluted Barrel, Corkscrew Rifling, Smallbore","Ionized Battery, Liquid Coils, Enhanced Battery","Feeding Frenzy, Killing Wind","Thresh, Slideways",Reload,PvE
+,,,,"Fluted Barrel, Smallbore","Projection Fuse, Liquid Coils","Moving Target, Killing Wind, Feeding Frenzy","Rangefinder, Eye of the Storm, Thresh",Stability,PvP
+,,,,,,,,,
+Thermal Erosion,Machine Gun,Rapid-Fire,Solar,"Arrowhead Brake, Fluted Barrel, Polygonal Rifling","Appended Mag, Ricochet Rounds, Flared Magwell","Field Prep, Quickdraw, Zen Moment","Demolitionist, Wellspring, Dragonfly",Stability,PvE
+,,,,"Arrowhead Brake, Polygonal Rifling, Smallbore","Ricochet Rounds, High-Caliber Rounds, Flared Magwell","Zen Moment, Quickdraw, Killing Wind","Dynamic Sway Reduction, Tap the Trigger, Demolitionist",Stability,PvP
+,,,,,,,,,
+,,,,,,,,,
+Quests,,,,,,,,,
+Friction Fire,Submachine Gun,Precision,Kinetic,"Fluted Barrel, Smallbore, Corkscrew Rifling","Tactical Mag, Appended Mag, Extended Mag","Threat Detector, Subsistence, Field Prep","Rampage, Vorpal Weapon, Sympathetic Arsenal",Reload,PvE
+,,,,"Smallbore, Polygonal Rifling, Fluted Barrel","Accurized Rounds, Steady Rounds, Tactical Mag","Zen Moment, Killing Wind","Vorpal Weapon, Rampage, Wellspring",Stability,PvP
+,,,,,,,,,
+Deafening Whisper,Grenade Launcher,Wave,Void,"Quick Launch, Smart Drift Control, Linear Compensator",High-Velocity Rounds,"Lead from Gold, Ambitious Assassin","Auto-Loading Holster, Wellspring, Rampage",Reload,PvE
+,,,,"Quick Launch, Smart Drift Control, Linear Compensator",High-Velocity Rounds,"Killing Wind, Surplus",Auto-Loading Holster,Velocity,PvP
+,,,,,,,,,
+Corsair's Wrath,Linear Fusion Rifle,Precision,Solar,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","Enhanced Battery, Liquid Coils, Ionized Battery","Outlaw, Firmly Planted","High-Impact Reserves, Demolitionist, Thresh",Reload,PvE
+,,,,"Full Bore, Hammer-Forged Rifling, Extended Barrel","Accelerated Coils, Projection Fuse","Moving Target, Killing Wind, Firmly Planted","Quickdraw, Demolitionist, Thresh",Charge Time,PvP
+,,,,,,,,,
+,,,,,,,,,
+Factions,,,,,,,,,
+Adored,Sniper Rifle,Adaptive,Arc,Hammer-Forged Rifling,Accurized Rounds,"Triple Tap, Killing Wind","Vorpal Weapon, Snapshot Sights",Stability,PvE
+,,,,Hammer-Forged Rifling,Accurized Rounds,"Killing Wind, Triple Tap","Snapshot Sights, Vorpal Weapon",Stability,PvP
+,,,,,,,,,
+Stars in Shadow,Pulse Rifle,High-Impact,Solar,"Fluted Barrel, Smallbore, Polygonal Rifling","Tactical Mag, Appended Mag, Flared Magwell","Outlaw, Feeding Frenzy, Field Prep","Kill Clip, Dragonfly, Vorpal Weapon",Reload,PvE
+,,,,"Smallbore, Polygonal Rifling","Steady Rounds, Tactical Mag, Accurized Rounds","Quickdraw, Firmly Planted, Surplus, Killing Wind","Headseeker, Kill Clip, Moving Target",Stability,PvP
+,,,,,,,,,
+Xenoclast IV,Shotgun,Lightweight,Arc,"Barrel Shroud, Smallbore, Corkscrew Rifling","Assault Mag, Tactical Mag, Appended Mag","Auto-Loading Holster, Field Prep, Grave Robber","Trench Barrel, Vorpal Weapon, One-Two Punch",Reload,PvE
+,,,,"Full Choke, Rifled Barrel","Assault Mag, Light Mag","Surplus, Slideshot, Slideways","Killing Wind, Vorpal Weapon, Demolitionist",Handling,PvP
+,,,,,,,,,
+Crowd Pleaser,Grenade Launcher,Adaptive,Void,"Quick Launch, Linear Compensator, Countermass","Spike Grenades, Alloy Casing","Clown Cartridge, Field Prep","Chain Reaction, Demolitionist",Reload,PvE
+,,,,"Volatile Launch, Confined Launch, Linear Compensator",Proximity Grenades,"Killing Wind, Threat Detector","Quickdraw, Rampage, Demolitionist",Blast Radius,PvP
+,,,,,,,,,
+,,,,,,,,,
+Season Pass,,,,,,,,,
+Royal Chase,Scout Rifle,Precision,Void,"Fluted Barrel, Smallbore, Polygonal Rifling","Tactical Mag, Appended Mag, Flared Magwell","Field Prep, Full Auto Trigger System","Multikill Clip, Dragonfly, Quickdraw",Reload,PvE
+,,,,"Smallbore, Polygonal Rifling","Steady Rounds, Tactical Mag, Accurized Rounds","No Distractions, Full Auto Trigger System","Quickdraw, Thresh, Multikill Clip",Stability,PvP
+,,,,,,,,,
+Blast Battue,Grenade Launcher,Adaptive,Arc,"Quick Launch, Linear Compensator, Countermass","Spike Grenades, Alloy Casing",Clown Cartridge,"Chain Reaction, Wellspring, Auto-Loading Holster",Reload,PvE
+,,,,"Volatile Launch, Confined Launch, Linear Compensator",Proximity Grenades,"Quickdraw, Killing Wind","Wellspring, Disruption Break, Rampage",Blast Radius,PvP
+,,,,,,,,,
+,,,,,,,,,
+Iron Banner,,,,,,,,,
+The Guiding Sight,Scout Rifle,High-Impact,Kinetic,"Cleanshot IS, Hitmark IS, Red Dot Micro","Appended Mag, Ricochet Rounds, High-Caliber Rounds","Rapid Hit, Quickdraw",Vorpal Weapon,Reload,PvE
+,,,,"Red Dot Micro, Red Dot 2 MOA, Cleanshot IS","Ricochet Rounds, High-Caliber Rounds","Quickdraw, Rapid Hit","Zen Moment, Vorpal Weapon, Iron Grip",Handling or Stability,PvP
+,,,,,,,,,
+The Steady Hand,Hand Cannon,Aggressive,Kinetic,"Fastdraw HCS, Steadyhand HCS, Truesight HCS","High-Caliber Rounds, Appended Mag, Flared Magwell","Outlaw, Slideshot, Quickdraw","Swashbuckler, Wellspring",Reload,PvE
+,,,,"Steadyhand HCS, Truesight HCS, Hitmark HCS","Ricochet Rounds, High-Caliber Rounds","Quickdraw, Zen Moment, Moving Target","Swashbuckler, Snapshot Sights, Mulligan",Stability or Range,PvP
+,,,,,,,,,
+,,,,,,,,,
+Trials (Adept),,,,,,,,,
+Astral Horizon (Adept),Shotgun,Aggressive,Kinetic,"Barrel Shroud, Corkscrew Rifling, Smallbore","Appended Mag, Assault Mag, Tactical Mag","Auto-Loading Holster, Slideshot, Field Prep","Swashbuckler, One-Two Punch, Elemental Capacitor",Reload,PvE
+,,,,"Full Choke, Rifled Barrel","Assault Mag, Accurized Rounds, Tactical Mag",Quickdraw,"Opening Shot, Celerity, Elemental Capacitor",Reload,PvP
+,,,,,,,,,
+Eye of Sol (Adept),Sniper Rifle,Adaptive,Kinetic,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Appended Mag, Tactical Mag, Extended Mag","Outlaw, Field Prep, Firmly Planted","Vorpal Weapon, Box Breathing",Reload,PvE
+,,,,"Fluted Barrel, Arrowhead Brake, Smallbore","Tactical Mag, Accurized Rounds, Flared Magwell","Snapshot Sights, Firmly Planted","Opening Shot, Vorpal Weapon, Celerity, Box Breathing",Handling or Range,PvP
+,,,,,,,,,
+The Scholar (Adept),Scout Rifle,High-Impact,Kinetic,"Fluted Barrel, Smallbore, Corkscrew Rifling","High-Caliber Rounds, Appended Mag, Ricochet Rounds","Full Auto Trigger System, Quickdraw","Vorpal Weapon, Elemental Capacitor",Reload,PvE
+,,,,"Polygonal Rifling, Smallbore, Corkscrew Rifling","Ricochet Rounds, High-Caliber Rounds","Quickdraw, Opening Shot","Vorpal Weapon, Celerity, No Distractions, Elemental Capacitor",Stability or Handling,PvP
+,,,,,,,,,
+Exile's Curse (Adept),Fusion Rifle,High-Impact,Arc,"Fluted Barrel, Arrowhead Brake, Smallbore","Liquid Coils, Enhanced Battery, Ionized Battery","Field Prep, Grave Robber","Multikill Clip, Disruption Break, Feeding Frenzy, Elemental Capacitor",Reload,PvE
+,,,,"Fluted Barrel, Polygonal Rifling, Smallbore","Particle Repeater, Liquid Coils","Firmly Planted, No Distractions","Elemental Capacitor, Celerity, Feeding Frenzy",Stability or Handling,PvP
+,,,,,,,,,
+The Summoner (Adept),Auto Rifle,Adaptive,Solar,"Fluted Barrel, Arrowhead Brake, Extended Barrel","High-Caliber Rounds, Appended Mag, Light Mag","Overflow, Moving Target","Rampage, Dragonfly, Elemental Capacitor",Reload,PvE
+,,,,"Chambered Compensator, Polygonal Rifling, Smallbore","Ricochet Rounds, High-Caliber Rounds, Flared Magwell","Zen Moment, Moving Target, Overflow","Elemental Capacitor, Rangefinder, Celerity",Stability or Handling,PvP
+,,,,,,,,,
+Tomorrow's Answer (Adept),Rocket Launcher,High-Impact,Void,"Quick Launch, Smart Drift Control, Hard Launch","Impact Casing, Black Powder, High-Velocity Rounds","Field Prep, Tracking Module","Cluster Bomb, Clown Cartridge, Disruption Break",Reload,PvE
+,,,,"Volatile Launch, Confined Launch, Linear Compensator",Impact Casing,"Tracking Module, Moving Target","Cluster Bomb, Snapshot Sights",Blast Radius,PvP

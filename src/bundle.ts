@@ -3,8 +3,9 @@ import fs from 'fs-extra';
 interface JsonWishlistItem {
     hash: number;
     plugs: number[][];
-    name: string;
+    name?: string;
     description: string;
+    originalWishlist?:string;
     tags: string[];
 }
 
@@ -55,19 +56,20 @@ async function run(): Promise<void> {
             if(element.tags.length == 0) console.log(element.name + " has no tags");
             element.tags = element.tags.map((t)=>{
                 let tag = t.toLowerCase();
-                switch (tag) {
-                    case "pve":
-                        return "PvE";
-                    case "pvp":
-                        return "PvP";
-                    case "godpve":
-                        return "GodPvE";
-                    case "godpvp":
-                        return "GodPvP";
-                }
+                // switch (tag) {
+                    // case "pve":
+                    //     return "PvE";
+                    // case "pvp":
+                    //     return "PvP";
+                    // case "godpve":
+                    //     return "GodPvE";
+                    // case "godpvp":
+                    //     return "GodPvP";
+                // }
                 return tag;
             })
             delete element.name;
+            element.originalWishlist = bundle[i];
             element.description = element.description.replace("File auto generated from csv", "");
         });
         resultWishlist.data = resultWishlist.data.concat(wishlist.data);
