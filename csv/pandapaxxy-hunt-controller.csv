@@ -88,7 +88,27 @@ Exile's Curse (Adept),Fusion Rifle,High-Impact,Arc,"Fluted Barrel, Arrowhead Bra
 ,,,,"Fluted Barrel, Polygonal Rifling, Smallbore","Particle Repeater, Liquid Coils","Firmly Planted, No Distractions","Elemental Capacitor, Celerity, Feeding Frenzy",Stability or Handling,PvP
 ,,,,,,,,,
 The Summoner (Adept),Auto Rifle,Adaptive,Solar,"Fluted Barrel, Arrowhead Brake, Extended Barrel","High-Caliber Rounds, Appended Mag, Light Mag","Overflow, Moving Target","Rampage, Dragonfly, Elemental Capacitor",Reload,PvE
-,,,,"Chambered Compensator, Polygonal Rifling, Smallbore","Ricochet Rounds, High-Caliber Rounds, Flared Magwell","Zen Moment, Moving Target, Overflow","Elemental Capacitor, Rangefinder, Celerity",Stability or Handling,PvP
+,,,,"Chambered Compensator, Polygonal Rifling, Smallbore","Ricochet Rounds, High-Caliber Rounds, Flared Magwell","Dynamic Sway Reduction, Zen Moment, Moving Target, Overflow","Elemental Capacitor, Rangefinder, Celerity",Stability or Handling,PvP
 ,,,,,,,,,
 Tomorrow's Answer (Adept),Rocket Launcher,High-Impact,Void,"Quick Launch, Smart Drift Control, Hard Launch","Impact Casing, Black Powder, High-Velocity Rounds","Field Prep, Tracking Module","Cluster Bomb, Clown Cartridge, Disruption Break",Reload,PvE
 ,,,,"Volatile Launch, Confined Launch, Linear Compensator",Impact Casing,"Tracking Module, Moving Target","Cluster Bomb, Snapshot Sights",Blast Radius,PvP
+,,,,,,,,,
+,,,,,,,,,
+Deep Stone Crypt Raid,,,,,,,,,
+Heritage,Shotgun,Precision(Slug),Kinetic,"Fluted Barrel, Corkscrew Rifling","Assault Mag, Tactical Mag, Appended Mag","Auto-Loading Holster, Reconstruction, Outlaw","Recombination, Thresh",Reload,PvE
+,,,,"Fluted Barrel, Corkscrew Rifling","Assault Mag, Tactical Mag",Slideshot,"Snapshot Sights, Moving Target, Killing Wind",Handling,PvP
+,,,,,,,,,
+Succession,Sniper Rifle,Aggressive,Kinetic,"Fluted Barrel, Arrowhead Brake","Tactical Mag, Extended Mag","Reconstruction, Lead from Gold","Vorpal Weapon, Recombination, Thresh",Reload,PvE
+,,,,Fluted Barrel,"Accurized Rounds, Tactical Mag","Slideways, Moving Target, Killing Wind","Snapshot Sights, Vorpal Weapon",Handling,PvP
+,,,,,,,,,
+Posteriety,Hand Cannon,Precision,Arc,"Fluted Barrel, Smallbore","Tactical Mag, Appended Mag, Extended Mag","Rapid Hit, Feeding Frenzy, Recombination, Fourth Time's the Charm","Rampage, Demolitionist, One for All",Reload,PvE
+,,,,"Smallbore, Fluted Barrel, Corkscrew Rifling","Accurized Rounds, Tactical Mag","Surplus, Rapid Hit, Killing Wind","Opening Shot, Demolitionist, Rampage",Stability,PvP
+,,,,,,,,,
+Trustee,Scout Rifle,Rapid-Fire,Solar,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Tactical Mag, Appended Mag, Extended Mag","Reconstruction, Surplus, Outlaw","High-Impact Reserves, Wellspring",Reload,PvE
+,,,,"Smallbore, Polygonal Rifling, Fluted Barrel","Accurized Rounds, Tactical Mag","Zen Moment, Surplus, Killing Wind","Eye of the Storm, Opening Shot",Stability,PvP
+,,,,,,,,,
+Bequest,Sword,Adaptive,Arc,"Jagged Edge, Honed Edge, Tempered Edge","Swordmaster's Guard, Burst Guard","Relentless Strikes, Thresh, Tireless Blade","En Garde, Surrounded",Impact,PvE
+,,,,"Jagged Edge, Honed Edge, Tempered Edge",Burst Guard,"Tireless Blade, Thresh",Assassin's Blade,Impact,PvP
+,,,,,,,,,
+Commemoration,Machine Gun,Adaptive,Void,"Fluted Barrel, Smallbore, Arrowhead Brake","Tactical Mag, Appended Mag, Extended Mag","Reconstruction, Feeding Frenzy, Surplus","Rampage, Dragonfly",Reload,PvE
+,,,,"Smallbore, Fluted Barrel, Polygonal Rifling","Accurized Rounds, Tactical Mag","Dynamic Sway Reduction, Zen Moment, Surplus","Eye of the Storm, Under Pressure, Rampage",Stability,PvP
