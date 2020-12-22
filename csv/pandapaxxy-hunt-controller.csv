@@ -101,7 +101,7 @@ Heritage,Shotgun,Precision(Slug),Kinetic,"Fluted Barrel, Corkscrew Rifling","Ass
 Succession,Sniper Rifle,Aggressive,Kinetic,"Fluted Barrel, Arrowhead Brake","Tactical Mag, Extended Mag","Reconstruction, Lead from Gold","Vorpal Weapon, Recombination, Thresh",Reload,PvE
 ,,,,Fluted Barrel,"Accurized Rounds, Tactical Mag","Slideways, Moving Target, Killing Wind","Snapshot Sights, Vorpal Weapon",Handling,PvP
 ,,,,,,,,,
-Posteriety,Hand Cannon,Precision,Arc,"Fluted Barrel, Smallbore","Tactical Mag, Appended Mag, Extended Mag","Rapid Hit, Feeding Frenzy, Recombination, Fourth Time's the Charm","Rampage, Demolitionist, One for All",Reload,PvE
+Posterity,Hand Cannon,Precision,Arc,"Fluted Barrel, Smallbore","Tactical Mag, Appended Mag, Extended Mag","Rapid Hit, Feeding Frenzy, Recombination, Fourth Time's the Charm","Rampage, Demolitionist, One for All",Reload,PvE
 ,,,,"Smallbore, Fluted Barrel, Corkscrew Rifling","Accurized Rounds, Tactical Mag","Surplus, Rapid Hit, Killing Wind","Opening Shot, Demolitionist, Rampage",Stability,PvP
 ,,,,,,,,,
 Trustee,Scout Rifle,Rapid-Fire,Solar,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Tactical Mag, Appended Mag, Extended Mag","Reconstruction, Surplus, Outlaw","High-Impact Reserves, Wellspring",Reload,PvE
@@ -112,3 +112,14 @@ Bequest,Sword,Adaptive,Arc,"Jagged Edge, Honed Edge, Tempered Edge","Swordmaster
 ,,,,,,,,,
 Commemoration,Machine Gun,Adaptive,Void,"Fluted Barrel, Smallbore, Arrowhead Brake","Tactical Mag, Appended Mag, Extended Mag","Reconstruction, Feeding Frenzy, Surplus","Rampage, Dragonfly",Reload,PvE
 ,,,,"Smallbore, Fluted Barrel, Polygonal Rifling","Accurized Rounds, Tactical Mag","Dynamic Sway Reduction, Zen Moment, Surplus","Eye of the Storm, Under Pressure, Rampage",Stability,PvP
+,,,,,,,,,
+,,,,,,,,,
+Dawning,,,,,,,,,
+Cold Front,Submachine Gun,Aggressive,Kinetic,"Polygonal Rifling, Smallbore, Fluted Barrel","Tactical Mag, Appended Mag, Flared Magwell","Surplus, Quickdraw","Rampage, One for All, Dragonfly",Stability,PvE
+,,,,"Polygonal Rifling, Smallbore, Chambered Compensator","Steady Rounds, Tactical Mag, Flared Magwell",Dynamic Sway Reduction,Rampage,Stability,PvP
+,,,,,,,,,
+Glacioclasm,Fusion Rifle,High-Impact,Void,"Fluted Barrel, Arrowhead Brake, Smallbore","Ionized Battery, Enhanced Battery, Liquid Coils","Surplus, Field Prep","Swashbuckler, Demolitionist, High-Impact Reserves, Auto-Loading Holster",Reload,PvE
+,,,,"Fluted Barrel, Smallbore, Polygonal Rifling","Particle Repeater, Projection Fuse","Killing Wind, Slideshot, Surplus","High-Impact Reserves, Demolitionist, Swashbuckler",Stability or Handling,PvP
+,,,,,,,,,
+Avalanche,Machine Gun,Adaptive,Solar,"SPO-57 Front, SLO-12 Post, SLO-21 Post","Appended Mag, High-Caliber Rounds, Extended Mag","Auto-Loading Holster, Outlaw, Grave Robber","Vorpal Weapon, Dragonfly, Swashbuckler",Reload,PvE
+,,,,"SPO-57 Front, SPO-28 Front","Ricochet Rounds, High-Caliber Rounds, Flared Magwell","Zen Moment, Killing Wind","Tap the Trigger, Swashbuckler",Stability,PvP
