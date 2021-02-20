@@ -12,5 +12,7 @@
     "pandapaxxy-arrivals-mnk",
     "pandapaxxy-arrivals-controller",
     "pandapaxxy-hunt-mnk",
-    "pandapaxxy-hunt-controller"
+    "pandapaxxy-hunt-controller",
+    "pandapaxxy-chosen-mnk",
+    "pandapaxxy-chosen-controller"
 ]
