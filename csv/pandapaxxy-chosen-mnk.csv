@@ -51,10 +51,19 @@ Nightfall: The Ordeal,,,,,,,,,
 The Palindrome,Hand Cannon,Adaptive,Void,"Fluted Barrel, Smallbore, Hammer-Forged Rifling","Appended Mag, Extended Mag","Overflow, Outlaw, Bottomless Grief","One for All, Rampage, Thresh",Reload,PvE
 ,,,,"Hammer-Forged Rifling, Smallbore","High-Caliber Rounds, Ricochet Rounds","Quickdraw, Killing Wind, Overflow",Rangefinder,Range,PvP
 ,,,,,,,,,
+The Palindrome (Adept),Hand Cannon,Adaptive,Void,"Fluted Barrel, Smallbore, Hammer-Forged Rifling","Appended Mag, Extended Mag","Overflow, Outlaw, Bottomless Grief","One for All, Rampage, Thresh",Reload,PvE
+,,,,"Hammer-Forged Rifling, Smallbore","High-Caliber Rounds, Ricochet Rounds","Quickdraw, Killing Wind, Overflow",Rangefinder,Range,PvP
+,,,,,,,,,
 Shadow Price,Auto Rifle,Precision,Arc,"Hammer-Forged Rifling, Smallbore, Extended Barrel","Appended Mag, Tactical Mag, Extended Mag","Overflow, Fourth Time's the Charm, Feeding Frenzy","One for All, Swashbuckler, Dragonfly",Reload,PvE
 ,,,,"Hammer-Forged Rifling, Extended Barrel, Smallbore","Accurized Rounds, Tactical Mag","Killing Wind, Surplus, Overflow","Swashbuckler, Disruption Break",Range,PvP
 ,,,,,,,,,
+Shadow Price (Adept),Auto Rifle,Precision,Arc,"Hammer-Forged Rifling, Smallbore, Extended Barrel","Appended Mag, Tactical Mag, Extended Mag","Overflow, Fourth Time's the Charm, Feeding Frenzy","One for All, Swashbuckler, Dragonfly",Reload,PvE
+,,,,"Hammer-Forged Rifling, Extended Barrel, Smallbore","Accurized Rounds, Tactical Mag","Killing Wind, Surplus, Overflow","Swashbuckler, Disruption Break",Range,PvP
+,,,,,,,,,
 THE SWARM,Machine Gun,High-Impact,Arc,"Fluted Barrel, Smallbore, Hammer-Forged Rifling","Tactical Mag, Appended Mag, Extended Mag","Outlaw, Surplus, Bottomless Grief","One for All, Vorpal Weapon, Dragonfly",Reload,PvE
+,,,,"Hammer-Forged Rifling, Smallbore, Fluted Barrel",Accurized Rounds,"Killing Wind, Surplus, Dynamic Sway Reduction",Tap the Trigger,Range,PvP
+,,,,,,,,,
+THE SWARM (Adept),Machine Gun,High-Impact,Arc,"Fluted Barrel, Smallbore, Hammer-Forged Rifling","Tactical Mag, Appended Mag, Extended Mag","Outlaw, Surplus, Bottomless Grief","One for All, Vorpal Weapon, Dragonfly",Reload,PvE
 ,,,,"Hammer-Forged Rifling, Smallbore, Fluted Barrel",Accurized Rounds,"Killing Wind, Surplus, Dynamic Sway Reduction",Tap the Trigger,Range,PvP
 ,,,,,,,,,
 ,,,,,,,,,
@@ -128,17 +137,35 @@ Trials of Osiris - Reissued,,,,,,,,,
 Astral Horizon,Shotgun,Aggressive,Kinetic,"Barrel Shroud, Corkscrew Rifling, Smallbore","Assault Mag, Tactical Mag, Appended Mag","Auto-Loading Holster, Lead from Gold, Surplus","Trench Barrel, Demolitionist",Reload,PvE
 ,,,,"Full Choke, Rifled Barrel","Assault Mag, Accurized Rounds",Surplus,"Opening Shot, Celerity, Killing Wind",Handling,PvP
 ,,,,,,,,,
+Astral Horizon (Adept),Shotgun,Aggressive,Kinetic,"Barrel Shroud, Corkscrew Rifling, Smallbore","Assault Mag, Tactical Mag, Appended Mag","Auto-Loading Holster, Lead from Gold, Surplus","Trench Barrel, Demolitionist",Reload,PvE
+,,,,"Full Choke, Rifled Barrel","Assault Mag, Accurized Rounds",Surplus,"Opening Shot, Celerity, Killing Wind",Handling,PvP
+,,,,,,,,,
 Eye of Sol,Sniper Rifle,Adaptive,Kinetic,"Fluted Barrel, Hammer-Forged Rifling, Corkscrew Rifling","Appended Mag, Tactical Mag, Extended Mag","Field Prep, Outlaw","Vorpal Weapon, Box Breathing",Reload,PvE
+,,,,"Fluted Barrel, Hammer-Forged Rifling, Extended Barrel","Accurized Rounds, Tactical Mag","Snapshot Sights, Field Prep","Opening Shot, Celerity, Vorpal Weapon",Range,PvP
+,,,,,,,,,
+Eye of Sol (Adept),Sniper Rifle,Adaptive,Kinetic,"Fluted Barrel, Hammer-Forged Rifling, Corkscrew Rifling","Appended Mag, Tactical Mag, Extended Mag","Field Prep, Outlaw","Vorpal Weapon, Box Breathing",Reload,PvE
 ,,,,"Fluted Barrel, Hammer-Forged Rifling, Extended Barrel","Accurized Rounds, Tactical Mag","Snapshot Sights, Field Prep","Opening Shot, Celerity, Vorpal Weapon",Range,PvP
 ,,,,,,,,,
 The Scholar,Scout Rifle,High-Impact,Kinetic,"Fluted Barrel, Smallbore, Corkscrew Rifling","Appended Mag, Extended Mag","Full Auto Trigger System, Quickdraw","Vorpal Weapon, Snapshot Sights",Reload,PvE
 ,,,,"Hammer-Forged Rifling, Extended Barrel, Smallbore","High-Caliber Rounds, Ricochet Rounds","Quickdraw, Opening Shot","Snapshot Sights, Celerity",Stability,PvP
 ,,,,,,,,,
+The Scholar (Adept),Scout Rifle,High-Impact,Kinetic,"Fluted Barrel, Smallbore, Corkscrew Rifling","Appended Mag, Extended Mag","Full Auto Trigger System, Quickdraw","Vorpal Weapon, Snapshot Sights",Reload,PvE
+,,,,"Hammer-Forged Rifling, Extended Barrel, Smallbore","High-Caliber Rounds, Ricochet Rounds","Quickdraw, Opening Shot","Snapshot Sights, Celerity",Stability,PvP
+,,,,,,,,,
 Exile's Curse,Fusion Rifle,High-Impact,Arc,"Fluted Barrel, Smallbore","Liquid Coils, Enhanced Battery, Ionized Battery","Quickdraw, Killing Wind","Vorpal Weapon, High-Impact Reserves",Reload,PvE
+,,,,"Arrowhead Brake, Chambered Compensator, Smallbore","Particle Repeater, Projection Fuse, Liquid Coils","Quickdraw, Killing Wind, Slideshot","High-Impact Reserves, Vorpal Weapon, Kickstart",Range,PvP
+,,,,,,,,,
+Exile's Curse (Adept),Fusion Rifle,High-Impact,Arc,"Fluted Barrel, Smallbore","Liquid Coils, Enhanced Battery, Ionized Battery","Quickdraw, Killing Wind","Vorpal Weapon, High-Impact Reserves",Reload,PvE
 ,,,,"Arrowhead Brake, Chambered Compensator, Smallbore","Particle Repeater, Projection Fuse, Liquid Coils","Quickdraw, Killing Wind, Slideshot","High-Impact Reserves, Vorpal Weapon, Kickstart",Range,PvP
 ,,,,,,,,,
 The Summoner,Auto Rifle,Adaptive,Solar,"Fluted Barrel, Arrowhead Brake, Smallbore","Appended Mag, Extended Mag","Overflow, Dynamic Sway Reduction","Rampage, Dragonfly",Reload,PvE
 ,,,,"Arrowhead Brake, Hammer-Forged Rifling, Smallbore","High-Caliber Rounds, Ricochet Rounds","Overflow, Moving Target, Dynamic Sway Reduction","Rangefinder, Celerity",Range,PvP
 ,,,,,,,,,
+The Summoner (Adept),Auto Rifle,Adaptive,Solar,"Fluted Barrel, Arrowhead Brake, Smallbore","Appended Mag, Extended Mag","Overflow, Dynamic Sway Reduction","Rampage, Dragonfly",Reload,PvE
+,,,,"Arrowhead Brake, Hammer-Forged Rifling, Smallbore","High-Caliber Rounds, Ricochet Rounds","Overflow, Moving Target, Dynamic Sway Reduction","Rangefinder, Celerity",Range,PvP
+,,,,,,,,,
 Tomorrow's Answer,Rocklet Launcher,High-Impact,Void,"Quick Launch, Countermass, Smart Drift Control","Impact Casing, Alloy Casing","Impulse Amplifier, Auto-Loading Holster","Lasting Impression, Chain Reaction, Cluster Bomb",Reload,PvE
+,,,,"Volatile Launch, Confined Launch, Linear Compensator",Impact Casing,Impulse Amplifier,Cluster Bomb,Blast Radius,PvP
+,,,,,,,,,
+Tomorrow's Answer (Adept),Rocklet Launcher,High-Impact,Void,"Quick Launch, Countermass, Smart Drift Control","Impact Casing, Alloy Casing","Impulse Amplifier, Auto-Loading Holster","Lasting Impression, Chain Reaction, Cluster Bomb",Reload,PvE
 ,,,,"Volatile Launch, Confined Launch, Linear Compensator",Impact Casing,Impulse Amplifier,Cluster Bomb,Blast Radius,PvP
