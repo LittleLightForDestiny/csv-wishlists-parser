@@ -5,7 +5,7 @@ export async function askForHeaderLine(csv: string[][]){
     let headerLine = -1;
     let initialIndex = 0;
     while (headerLine < 0) {
-        initialIndex = Math.min(Math.max(0, initialIndex), csv.length -10);
+        initialIndex = Math.max(0, Math.min(initialIndex, csv.length -10));
         let options = csv.slice(initialIndex, initialIndex + 10).map((value, index) => ({ value: index, label: value.join(" ") }));
         if(initialIndex > 0){
             options.unshift({
