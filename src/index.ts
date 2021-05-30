@@ -1,12 +1,9 @@
-import { DestinyInventoryItemDefinition, DestinyPlugSetDefinition } from 'bungie-api-ts/destiny2/interfaces';
 import csvParser from 'csv-parse/lib/sync';
 import fs from 'fs-extra';
-import { getManifest } from './data/manifest';
-import { getFilename, setOptions, getOptions } from './data/options';
-import { askForMultiple } from './prompts/ask_for_multiple';
+import { getFilename, getOptions, setOptions } from './data/options';
+import { askForHeaderLine, askForNameColumn, askForPerkColumn as askForPerkColumns, askForTagsColumn } from './prompts/ask_for_column_indexes';
 import { decidePerkHash as resolvePerkHash } from './resolvers/resolve_perk_hash';
 import { resolveWeaponHash } from './resolvers/resolve_weapon_hash';
-import { askForHeaderLine, askForNameColumn, askForPerkColumn as askForPerkColumns, askForTagsColumn } from './prompts/ask_for_column_indexes';
 
 interface JsonWishlistItem {
     hash: number;

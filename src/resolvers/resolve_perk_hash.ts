@@ -8,8 +8,8 @@ export async function decidePerkHash(weaponHash: number, perkName: string): Prom
     let plugSetDefs = await getPlugSetDefinitions();
     let weaponDef = itemDefs[weaponHash];
     let availablePerkHashes: number[] = [];
-    for (let s in weaponDef.sockets.socketEntries) {
-        let entry = weaponDef.sockets.socketEntries[s];
+    for (let s in weaponDef.sockets!.socketEntries) {
+        let entry = weaponDef.sockets!.socketEntries[s];
         let reusable: DestinyItemSocketEntryPlugItemDefinition[] = _.get(entry, `reusablePlugItems`, []);
         availablePerkHashes = availablePerkHashes.concat(reusable.map((e) => e.plugItemHash));
         if (entry.singleInitialItemHash) {

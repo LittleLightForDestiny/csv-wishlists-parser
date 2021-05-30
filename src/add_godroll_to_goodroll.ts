@@ -1,4 +1,4 @@
-import { DestinyInventoryItemDefinition, DestinyPlugSetDefinition } from 'bungie-api-ts/destiny2';
+import { DestinyInventoryItemDefinition, DestinyPlugSetDefinition } from 'bungie-api-ts/destiny2/interfaces';
 import fs from 'fs-extra';
 import { getItemDefinitions, getPlugSetDefinitions } from './data/manifest';
 
@@ -71,11 +71,11 @@ async function fixWishlistItem(hash: number, builds: JsonWishlistItem[]) {
 }
 
 function getPerkPlugsForDefinition(def: DestinyInventoryItemDefinition) {
-    let category = def.sockets.socketCategories.find((c) => c.socketCategoryHash == 4241085061);
+    let category = def.sockets!.socketCategories.find((c) => c.socketCategoryHash == 4241085061);
     let plugs: number[][] = [];
     for (let i in category?.socketIndexes) {
         let index = category?.socketIndexes[parseInt(i)];
-        let entry = def.sockets.socketEntries[index!];
+        let entry = def.sockets!.socketEntries[index!];
         if (entry.singleInitialItemHash == 2285418970) continue;
         let randomPlugSet = plugSetDefinitions[entry.randomizedPlugSetHash!]?.reusablePlugItems;
         let reusablePlugSet = plugSetDefinitions[entry.reusablePlugSetHash!]?.reusablePlugItems;
