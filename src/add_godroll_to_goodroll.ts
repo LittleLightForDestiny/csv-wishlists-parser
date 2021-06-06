@@ -1,20 +1,7 @@
 import { DestinyInventoryItemDefinition, DestinyPlugSetDefinition } from 'bungie-api-ts/destiny2/interfaces';
 import fs from 'fs-extra';
 import { getItemDefinitions, getPlugSetDefinitions } from './data/manifest';
-
-interface JsonWishlistItem {
-    hash: number;
-    plugs: number[][];
-    name?: string;
-    description: string;
-    originalWishlist?: string;
-    tags: string[];
-}
-
-interface JsonWishlist {
-    $schema: String;
-    data: JsonWishlistItem[]
-}
+import { JsonWishlist, JsonWishlistItem } from './interfaces/wishlist.interface';
 
 let filename = process.argv[2] || "pandapaxxy";
 let itemDefinitions: { [hash: string]: DestinyInventoryItemDefinition };
