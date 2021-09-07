@@ -49,24 +49,24 @@ const tagReplacements: { [id: string]: WishlistTag } = {
 async function run(): Promise<void> {
     wishlist = await loadWishlist();
     wishlist.data.forEach(element => {
-        element.plugs = element.plugs.map((p) => {
-            return p.map((p2: any) => {
-                return parseInt(p2);
-            });
-        });
-
         element.tags = element.tags.map((t) => {
             return tagReplacements[t.toLowerCase()] || t;
         });
         var tagSet = new Set(element.tags);
-        if(tagSet.has(WishlistTag.GodPvE)) tagSet.delete(WishlistTag.PvE);
-        if(tagSet.has(WishlistTag.GodPvP)) tagSet.delete(WishlistTag.PvP);
+        if (tagSet.has(WishlistTag.GodPvE)) tagSet.delete(WishlistTag.PvE);
+        if (tagSet.has(WishlistTag.GodPvP)) tagSet.delete(WishlistTag.PvP);
         element.tags = Array.from(tagSet);
-
-        if(element.description.toLowerCase().includes("file auto generated from csv")){
-            element.description = "";
-        }
     });
+    console.log(`had ${wishlist.data.length} builds`);
+    wishlist.data = wishlist.data.filter((element) => {
+        const nonEmptyPlugs = element.plugs.filter((p) => p.length > 0);
+        const shouldKeepByPlugs = nonEmptyPlugs.length == 2 || nonEmptyPlugs.length == 4;
+        const hasReduntantGoodRollTags = element.tags.includes(WishlistTag.PvE) && element.tags.includes(WishlistTag.PvP);
+        const hasReduntantGodRollTags = element.tags.includes(WishlistTag.GodPvE) && element.tags.includes(WishlistTag.GodPvP);
+        const shouldKeepByTags = !hasReduntantGodRollTags && !hasReduntantGoodRollTags;
+        return shouldKeepByPlugs && shouldKeepByTags;
+    });
+    console.log(`Now it have ${wishlist.data.length} builds.`);
     saveWishlist(filename);
 }
 
