@@ -10,6 +10,10 @@
     "add_tag_to_all_rolls": "ts-node src/add_tag_to_all_rolls",
     "add_original_wishlist_field": "ts-node src/add_original_wishlist_field",
     "extract_season": "ts-node src/extract_season",
+    "separate_seasons": "ts-node src/separate_into_seasons",
+    "duplicate_adept": "ts-node src/duplicate_adept",
+    "remove_duplicated_notes": "ts-node src/remove_duplicated_notes",
+    "remove_builds_without_tags": "ts-node src/remove_builds_without_tags",
     "bundle": "ts-node src/bundle"
   },
   "author": "",
@@ -28,7 +32,7 @@
     "fs-extra": "^8.1.0",
     "lodash": "^4.17.19",
     "prompts": "^2.3.1",
-    "ts-node": "^9.1.1",
-    "typescript": "^4.3.2"
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
   }
 }
