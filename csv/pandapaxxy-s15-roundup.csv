@@ -62,7 +62,6 @@ The Summoner,Solar,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Armor-Pi
 The Summoner (Adept),Solar,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Armor-Piercing Rounds, Appended Mag, Extended Mag","Overflow, Dynamic Sway Reduction","Rampage, Dragonfly",Reload,"mkb,controller,pve"
 ,,"Fluted Barrel, Arrowhead Brake, Smallbore","High-Caliber Rounds, Ricochet Rounds","Moving Target, Dynamic Sway Reduction, Overflow","Rangefinder, Celerity, Elemental Capacitor",Stability or Handling,"controller,pvp"
 ,,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","High-Caliber Rounds, Ricochet Rounds","Moving Target, Dynamic Sway Reduction, Overflow","Rangefinder, Celerity, Elemental Capacitor",Handling,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 Accrued Redemption,Kinetic,"Elastic String, Flexible String, Polymer String","Fiberglass Arrow Shaft, Straight Fletching",Archer's Tempo,"Explosive Head, Rampage, Rapid Hit",Draw Time,"mkb,controller,pve"
 ,,"Elastic String, Flexible String, Polymer String","Fiberglass Arrow Shaft, Straight Fletching","Archer's Tempo, Quickdraw","Explosive Head, Moving Target",Draw Time or Accuracy,"controller,pvp"
 ,,"Elastic String, Flexible String, Polymer String","Fiberglass Arrow Shaft, Straight Fletching","Archer's Tempo, Quickdraw","Explosive Head, Moving Target",Draw Time or Accuracy,"mkb,pvp"
@@ -87,7 +86,6 @@ Tyranny of Heaven,Solar,"Elastic String, Flexible String, Polymer String","Fiber
 Wolftone Draw,Arc,"Elastic String, Flexible String, Polymer String","Fiberglass Arrow Shaft, Straight Fletching","Archer's Tempo, Impulse Amplifier, Shoot to Loot","Frenzy, Dragonfly, Demolitionist",Draw Time,"mkb,controller,pve"
 ,,"Elastic String, Flexible String, Polymer String","Fiberglass Arrow Shaft, Straight Fletching",Archer's Tempo ,"Demolitionist, Harmony",Draw Time or Accuracy,"controller,pvp"
 ,,"Elastic String, Flexible String, Polymer String","Fiberglass Arrow Shaft, Straight Fletching",Archer's Tempo,"Demolitionist, Harmony",Draw Time or Accuracy,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 Cartesian Coordinate,Solar,"Hitmark IS, Cleanshot IS, Red Dot Micro","Accelerated Coils, Liquid Coils, Enhanced Battery","Feeding Frenzy, Lead from Gold, Grave Robber","Vorpal Weapon, High-Impact Reserves, Swashbuckler",Reload,"mkb,controller,pve"
 ,,"Red Dot Micro, Red Dot 2 MOA","Accelerated Coils, Particle Repeater, Projection Fuse","Under Pressure, Slideways","High-Impact Reserves, Snapshot Sights",Stability or Handling,"controller,pvp"
 ,,"Red Dot Micro, Red Dot 2 MOA","Accelerated Coils, Particle Repeater, Projection Fuse","Under Pressure, Slideways","High-Impact Reserves, Snapshot Sights",Handling or Stability,"mkb,pvp"
@@ -136,7 +134,6 @@ Trinary System,Solar,"Arrowhead Brake, Fluted Barrel, Corkscrew Rifling","Liquid
 Zealot's Reward,Void,"Arrowhead Brake, Fluted Barrel, Corkscrew Rifling","Liquid Coils, Enhanced Battery, Ionized Battery","Auto-Loading Holster, Feeding Frenzy","Rampage, High-Impact Reserves, Disruption Break",Reload,"mkb,controller,pve"
 ,,"Fluted Barrel, Arrowhead Brake, Hammer-Forged Rifling","Accelerated Coils, Projection Fuse","Under Pressure, Feeding Frenzy","High-Impact Reserves, Disruption Break",Stability or Handling,"controller,pvp"
 ,,"Fluted Barrel, Arrowhead Brake, Hammer-Forged Rifling","Accelerated Coils, Projection Fuse","Under Pressure, Feeding Frenzy","High-Impact Reserves, Disruption Break",Handling or Stability,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 Ignition Code,Kinetic,"Quick Launch, Smart Drift Control, Linear Compensator","Blinding Grenades, Spike Grenades","Slideshot, Ambitious Assassin, Field Prep","Vorpal Weapon, Demolitionist, Frenzy, One for All",Reload,"mkb,controller,pve"
 ,,"Volatile Launch, Confined Launch, Quick Launch","Proximity Grenades, Spike Grenades","Slideshot, Surplus","Demolitionist, Vorpal Weapon",Blast Radius or Velocity,"controller,pvp"
 ,,"Volatile Launch, Confined Launch, Quick Launch","Proximity Grenades, Spike Grenades","Slideshot, Surplus","Demolitionist, Vorpal Weapon",Blast Radius or Velocity,"mkb,pvp"
@@ -158,7 +155,6 @@ Salvager's Salvo,Arc,Quick Launch,Spike Grenades,"Ambitious Assassin, Demolition
 Truthteller,Void,"Quick Launch, Smart Drift Control, Linear Compensator","Blinding Grenades, Spike Grenades","Auto-Loading Holster, Field Prep, Feeding Frenzy","Disruption Break, Demolitionist, Swashbuckler",Reload,"mkb,controller,pve"
 ,,"Volatile Launch, Confined Launch, Quick Launch","Proximity Grenades, Spike Grenades",Auto-Loading Holster ,"Disruption Break, Demolitionist, Swashbuckler",Blast Radius or Velocity,"controller,pvp"
 ,,"Volatile Launch, Confined Launch, Quick Launch","Proximity Grenades, Spike Grenades",Auto-Loading Holster,"Disruption Break, Demolitionist, Swashbuckler",Blast Radius or Velocity,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 Berenger's Memory,Void,"Quick Launch, Hard Launch, Smart Drift Control","Spike Grenades, Alloy Casing","Field Prep, Clown Cartridge","Disruption Break, Demolitionist, Auto-Loading Holster",Reload,"mkb,controller,pve"
 ,,"Volatile Launch, Confined Launch, Quick Launch","Proximity Grenades, Sticky Grenades","Threat Detector, Pulse Monitor","Demolitionist, Disruption Break",Blast Radius,"controller,pvp"
 ,,"Volatile Launch, Confined Launch, Quick Launch","Proximity Grenades, Sticky Grenades","Threat Detector, Pulse Monitor","Demolitionist, Disruption Break",Blast Radius,"mkb,pvp"
@@ -186,7 +182,6 @@ Outrageous Fortune,Solar,"Quick Launch, Hard Launch, Smart Drift Control",Spike 
 Swarm of the Raven,Void,"Quick Launch, Hard Launch, Smart Drift Control","Spike Grenades, Alloy Casing","Auto-Loading Holster, Field Prep","Ambitious Assassin, Rampage",Reload,"mkb,controller,pve"
 ,,"Volatile Launch, Confined Launch, Quick Launch","Proximity Grenades, Sticky Grenades",Auto-Loading Holster,Rampage,Blast Radius,"controller,pvp"
 ,,"Volatile Launch, Confined Launch, Quick Launch","Proximity Grenades, Sticky Grenades",Auto-Loading Holster,Rampage,Blast Radius,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 Crimil's Dagger,Kinetic,"Fastdraw HCS, Steadyhand HCS, Truesight HCS","Tactical Mag, Appended Mag, Extended Mag","Outlaw, Triple Tap, Auto-Loading Holster","Explosive Payload, Timed Payload, Kill Clip",Reload,"mkb,controller,pve"
 ,,"Steadyhand HCS, Fastdraw HCS","Accurized Rounds, Tactical Mag","Rangefinder, Moving Target, Snapshot Sights","Explosive Payload, Timed Payload, Kill Clip",Handling or Stability,"controller,pvp"
 ,,"Fastdraw HCS, Truesight HCS","Accurized Rounds, Tactical Mag","Rangefinder, Moving Target, Snapshot Sights","Explosive Payload, Timed Payload, Kill Clip",Handling or Range,"mkb,pvp"
@@ -262,7 +257,6 @@ The Palindrome (Adept),Void,"Fluted Barrel, Smallbore, Corkscrew Rifling","Armor
 Waking Vigil,Arc,"Fastdraw HCS, Steadyhand HCS, Truesight HCS","Armor-Piercing Rounds, Appended Mag, Extended Mag","Rapid Hit, Outlaw, Surplus","Kill Clip, Vorpal Weapon, Dragonfly, Disruption Break",Reload,"mkb,controller,pve"
 ,,"Steadyhand HCS, Fastdraw HCS","Ricochet Rounds, High-Caliber Rounds","Rangefinder, Rapid Hit, Killing Wind","Opening Shot, Snapshot Sights, Kill Clip",Handling or Stability,"controller,pvp"
 ,,"Fastdraw HCS, Truesight HCS","High-Caliber Rounds, Ricochet Rounds","Rangefinder, Rapid Hit, Killing Wind","Opening Shot, Snapshot Sights, Kill Clip",Handling or Range,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 Corsair's Wrath,Solar,"Fluted Barrel, Smallbore, Hammer-Forged Rifling","Enhanced Battery, Ionized Battery, Accelerated Coils","Outlaw, No Distractions, Pulse Monitor","High-Impact Reserves, Demolitionist, Thresh",Reload,"mkb,controller,pve"
 ,,"Fluted Barrel, Hammer-Forged Rifling, Full Bore","Accelerated Coils, Projection Fuse","Firmly Planted, Moving Target, Killing Wind","Quickdraw, High-Impact Reserves, Unrelenting",Charge Time,"controller,pvp"
 ,,"Fluted Barrel, Hammer-Forged Rifling, Full Bore","Accelerated Coils, Projection Fuse","Firmly Planted, Moving Target, Killing Wind","Quickdraw, High-Impact Reserves, Unrelenting",Charge Time,"mkb,pvp"
@@ -278,7 +272,6 @@ Tarantula,Arc,"Fluted Barrel, Smallbore, Hammer-Forged Rifling","Enhanced Batter
 Threaded Needle,Void,"Fluted Barrel, Smallbore, Hammer-Forged Rifling","Enhanced Battery, Ionized Battery, Accelerated Coils","Auto-Loading Holster, Rapid Hit, Field Prep","Vorpal Weapon, Demolitionist, Frenzy",Reload,"mkb,controller,pve"
 ,,"Fluted Barrel, Hammer-Forged Rifling, Full Bore","Accelerated Coils, Projection Fuse","Rangefinder, Killing Wind",Demolitionist,Charge Time,"controller,pvp"
 ,,"Fluted Barrel, Hammer-Forged Rifling, Full Bore","Accelerated Coils, Projection Fuse","Rangefinder, Killing Wind",Demolitionist,Charge Time,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 A Fine Memorial,Arc,"Fluted Barrel, Arrowhead Brake, Smallbore","Appended Mag, High-Caliber Rounds, Armor-Piercing Rounds","Auto-Loading Holster, Field Prep, Subsistence","Frenzy, Demolitionist, Adrenaline Junkie, One for All",Reload,"mkb,controller,pve"
 ,,"Fluted Barrel, Smallbore, Arrowhead Brake","Ricochet Rounds, High-Caliber Rounds","Quickdraw, Heating Up","Snapshot Sights, Elemental Capacitor, Demolitionist",Stability or Handling,"controller,pvp"
 ,,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","High-Caliber Rounds, Ricochet Rounds","Heating Up, Quickdraw","Snapshot Sights, Demolitionist",Range or Handling,"mkb,pvp"
@@ -312,7 +305,6 @@ THE SWARM (Adept),Arc,"Fluted Barrel, Arrowhead Brake, Smallbore","Tactical Mag,
 Thermal Erosion,Solar,"Fluted Barrel, Arrowhead Brake, Smallbore","Appended Mag, High-Caliber Rounds, Armor-Piercing Rounds",Field Prep,"Demolitionist, Dragonfly, Wellspring",Reload,"mkb,controller,pve"
 ,,"Fluted Barrel, Smallbore, Arrowhead Brake","Ricochet Rounds, High-Caliber Rounds","Killing Wind, Quickdraw","Tap the Trigger, Dynamic Sway Reduction, Snapshot Sights",Stability or Handling,"controller,pvp"
 ,,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","High-Caliber Rounds, Ricochet Rounds","Killing Wind, Quickdraw","Tap the Trigger, Dynamic Sway Reduction, Snapshot Sights",Range or Handling,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 BrayTech Werewolf,Kinetic,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Armor-Piercing Rounds, Appended Mag, Extended Mag","Fourth Time's the Charm, Dynamic Sway Reduction","Vorpal Weapon, Swashbuckler, Unrelenting",Reload,"mkb,controller,pve"
 ,,"Fluted Barrel, Arrowhead Brake, Smallbore","Ricochet Rounds, High-Caliber Rounds","Dynamic Sway Reduction, Under Pressure, Slideshot","Tap the Trigger, Eye of the Storm",Stability or Handling,"controller,pvp"
 ,,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","High-Caliber Rounds, Ricochet Rounds","Dynamic Sway Reduction, Slideshot","Tap the Trigger, Eye of the Storm",Handling,"mkb,pvp"
@@ -361,7 +353,7 @@ Reckless Oracle,Void,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Armor-
 Shadow Price,Arc,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Tactical Mag, Appended Mag, Extended Mag","Fourth Time's the Charm, Overflow, Feeding Frenzy","One for All, Disruption Break, Unrelenting, Thresh",Reload,"mkb,controller,pve"
 ,,"Fluted Barrel, Arrowhead Brake, Smallbore","Accurized Rounds, Appended Mag","Killing Wind, Overflow, Surplus","Swashbuckler, Disruption Break",Stability or Handling,"controller,pvp"
 ,,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","Accurized Rounds, Appended Mag","Killing Wind, Overflow, Surplus","Swashbuckler, Disruption Break",Handling,"mkb,pvp"
-Shadow Price(Adept),Arc,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Tactical Mag, Appended Mag, Extended Mag","Fourth Time's the Charm, Overflow, Feeding Frenzy","One for All, Disruption Break, Unrelenting, Thresh",Reload,"mkb,controller,pve"
+Shadow Price (Adept),Arc,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Tactical Mag, Appended Mag, Extended Mag","Fourth Time's the Charm, Overflow, Feeding Frenzy","One for All, Disruption Break, Unrelenting, Thresh",Reload,"mkb,controller,pve"
 ,,"Fluted Barrel, Arrowhead Brake, Smallbore","Accurized Rounds, Appended Mag","Killing Wind, Overflow, Surplus","Swashbuckler, Disruption Break",Stability or Handling,"controller,pvp"
 ,,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","Accurized Rounds, Appended Mag","Killing Wind, Overflow, Surplus","Swashbuckler, Disruption Break",Handling,"mkb,pvp"
 Sorrow's Verse,Arc,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Tactical Mag, Appended Mag, Extended Mag","Subsistence, Feeding Frenzy, Outlaw","Frenzy, One for All, Demolitionist, Harmony, Rampage",Reload,"mkb,controller,pve"
@@ -376,7 +368,6 @@ The Summoner,Solar,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Armor-Pi
 The Summoner (Adept),Solar,"Fluted Barrel, Arrowhead Brake, Corkscrew Rifling","Armor-Piercing Rounds, Appended Mag, Extended Mag","Overflow, Dynamic Sway Reduction","Rampage, Dragonfly",Reload,"mkb,controller,pve"
 ,,"Fluted Barrel, Arrowhead Brake, Smallbore","High-Caliber Rounds, Ricochet Rounds","Moving Target, Dynamic Sway Reduction, Overflow","Rangefinder, Celerity, Elemental Capacitor",Stability or Handling,"controller,pvp"
 ,,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","High-Caliber Rounds, Ricochet Rounds","Moving Target, Dynamic Sway Reduction, Overflow","Rangefinder, Celerity, Elemental Capacitor",Handling,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 Accrued Redemption,Kinetic,"Elastic String, Flexible String, Polymer String","Fiberglass Arrow Shaft, Straight Fletching",Archer's Tempo,"Explosive Head, Rampage, Rapid Hit",Draw Time,"mkb,controller,pve"
 ,,"Elastic String, Flexible String, Polymer String","Fiberglass Arrow Shaft, Straight Fletching","Archer's Tempo, Quickdraw","Explosive Head, Moving Target",Draw Time or Accuracy,"controller,pvp"
 ,,"Elastic String, Flexible String, Polymer String","Fiberglass Arrow Shaft, Straight Fletching","Archer's Tempo, Quickdraw","Explosive Head, Moving Target",Draw Time or Accuracy,"mkb,pvp"
@@ -401,7 +392,6 @@ Tyranny of Heaven,Solar,"Elastic String, Flexible String, Polymer String","Fiber
 Wolftone Draw,Arc,"Elastic String, Flexible String, Polymer String","Fiberglass Arrow Shaft, Straight Fletching","Archer's Tempo, Impulse Amplifier, Shoot to Loot","Frenzy, Dragonfly, Demolitionist",Draw Time,"mkb,controller,pve"
 ,,"Elastic String, Flexible String, Polymer String","Fiberglass Arrow Shaft, Straight Fletching",Archer's Tempo ,"Demolitionist, Harmony",Draw Time or Accuracy,"controller,pvp"
 ,,"Elastic String, Flexible String, Polymer String","Fiberglass Arrow Shaft, Straight Fletching",Archer's Tempo,"Demolitionist, Harmony",Draw Time or Accuracy,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 Cartesian Coordinate,Solar,"Hitmark IS, Cleanshot IS, Red Dot Micro","Accelerated Coils, Liquid Coils, Enhanced Battery","Feeding Frenzy, Lead from Gold, Grave Robber","Vorpal Weapon, High-Impact Reserves, Swashbuckler",Reload,"mkb,controller,pve"
 ,,"Red Dot Micro, Red Dot 2 MOA","Accelerated Coils, Particle Repeater, Projection Fuse","Under Pressure, Slideways","High-Impact Reserves, Snapshot Sights",Stability or Handling,"controller,pvp"
 ,,"Red Dot Micro, Red Dot 2 MOA","Accelerated Coils, Particle Repeater, Projection Fuse","Under Pressure, Slideways","High-Impact Reserves, Snapshot Sights",Handling or Stability,"mkb,pvp"
@@ -450,7 +440,6 @@ Trinary System,Solar,"Arrowhead Brake, Fluted Barrel, Corkscrew Rifling","Liquid
 Zealot's Reward,Void,"Arrowhead Brake, Fluted Barrel, Corkscrew Rifling","Liquid Coils, Enhanced Battery, Ionized Battery","Auto-Loading Holster, Feeding Frenzy","Rampage, High-Impact Reserves, Disruption Break",Reload,"mkb,controller,pve"
 ,,"Fluted Barrel, Arrowhead Brake, Hammer-Forged Rifling","Accelerated Coils, Projection Fuse","Under Pressure, Feeding Frenzy","High-Impact Reserves, Disruption Break",Stability or Handling,"controller,pvp"
 ,,"Fluted Barrel, Arrowhead Brake, Hammer-Forged Rifling","Accelerated Coils, Projection Fuse","Under Pressure, Feeding Frenzy","High-Impact Reserves, Disruption Break",Handling or Stability,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 Ignition Code,Kinetic,"Quick Launch, Smart Drift Control, Linear Compensator","Blinding Grenades, Spike Grenades","Slideshot, Ambitious Assassin, Field Prep","Vorpal Weapon, Demolitionist, Frenzy, One for All",Reload,"mkb,controller,pve"
 ,,"Volatile Launch, Confined Launch, Quick Launch","Proximity Grenades, Spike Grenades","Slideshot, Surplus","Demolitionist, Vorpal Weapon",Blast Radius or Velocity,"controller,pvp"
 ,,"Volatile Launch, Confined Launch, Quick Launch","Proximity Grenades, Spike Grenades","Slideshot, Surplus","Demolitionist, Vorpal Weapon",Blast Radius or Velocity,"mkb,pvp"
@@ -472,7 +461,6 @@ Salvager's Salvo,Arc,Quick Launch,Spike Grenades,"Ambitious Assassin, Demolition
 Truthteller,Void,"Quick Launch, Smart Drift Control, Linear Compensator","Blinding Grenades, Spike Grenades","Auto-Loading Holster, Field Prep, Feeding Frenzy","Disruption Break, Demolitionist, Swashbuckler",Reload,"mkb,controller,pve"
 ,,"Volatile Launch, Confined Launch, Quick Launch","Proximity Grenades, Spike Grenades",Auto-Loading Holster ,"Disruption Break, Demolitionist, Swashbuckler",Blast Radius or Velocity,"controller,pvp"
 ,,"Volatile Launch, Confined Launch, Quick Launch","Proximity Grenades, Spike Grenades",Auto-Loading Holster,"Disruption Break, Demolitionist, Swashbuckler",Blast Radius or Velocity,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 Berenger's Memory,Void,"Quick Launch, Hard Launch, Smart Drift Control","Spike Grenades, Alloy Casing","Field Prep, Clown Cartridge","Disruption Break, Demolitionist, Auto-Loading Holster",Reload,"mkb,controller,pve"
 ,,"Volatile Launch, Confined Launch, Quick Launch","Proximity Grenades, Sticky Grenades","Threat Detector, Pulse Monitor","Demolitionist, Disruption Break",Blast Radius,"controller,pvp"
 ,,"Volatile Launch, Confined Launch, Quick Launch","Proximity Grenades, Sticky Grenades","Threat Detector, Pulse Monitor","Demolitionist, Disruption Break",Blast Radius,"mkb,pvp"
@@ -500,7 +488,6 @@ Outrageous Fortune,Solar,"Quick Launch, Hard Launch, Smart Drift Control",Spike 
 Swarm of the Raven,Void,"Quick Launch, Hard Launch, Smart Drift Control","Spike Grenades, Alloy Casing","Auto-Loading Holster, Field Prep","Ambitious Assassin, Rampage",Reload,"mkb,controller,pve"
 ,,"Volatile Launch, Confined Launch, Quick Launch","Proximity Grenades, Sticky Grenades",Auto-Loading Holster,Rampage,Blast Radius,"controller,pvp"
 ,,"Volatile Launch, Confined Launch, Quick Launch","Proximity Grenades, Sticky Grenades",Auto-Loading Holster,Rampage,Blast Radius,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 Crimil's Dagger,Kinetic,"Fastdraw HCS, Steadyhand HCS, Truesight HCS","Tactical Mag, Appended Mag, Extended Mag","Outlaw, Triple Tap, Auto-Loading Holster","Explosive Payload, Timed Payload, Kill Clip",Reload,"mkb,controller,pve"
 ,,"Steadyhand HCS, Fastdraw HCS","Accurized Rounds, Tactical Mag","Rangefinder, Moving Target, Snapshot Sights","Explosive Payload, Timed Payload, Kill Clip",Handling or Stability,"controller,pvp"
 ,,"Fastdraw HCS, Truesight HCS","Accurized Rounds, Tactical Mag","Rangefinder, Moving Target, Snapshot Sights","Explosive Payload, Timed Payload, Kill Clip",Handling or Range,"mkb,pvp"
@@ -576,7 +563,6 @@ The Palindrome (Adept),Void,"Fluted Barrel, Smallbore, Corkscrew Rifling","Armor
 Waking Vigil,Arc,"Fastdraw HCS, Steadyhand HCS, Truesight HCS","Armor-Piercing Rounds, Appended Mag, Extended Mag","Rapid Hit, Outlaw, Surplus","Kill Clip, Vorpal Weapon, Dragonfly, Disruption Break",Reload,"mkb,controller,pve"
 ,,"Steadyhand HCS, Fastdraw HCS","Ricochet Rounds, High-Caliber Rounds","Rangefinder, Rapid Hit, Killing Wind","Opening Shot, Snapshot Sights, Kill Clip",Handling or Stability,"controller,pvp"
 ,,"Fastdraw HCS, Truesight HCS","High-Caliber Rounds, Ricochet Rounds","Rangefinder, Rapid Hit, Killing Wind","Opening Shot, Snapshot Sights, Kill Clip",Handling or Range,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 Corsair's Wrath,Solar,"Fluted Barrel, Smallbore, Hammer-Forged Rifling","Enhanced Battery, Ionized Battery, Accelerated Coils","Outlaw, No Distractions, Pulse Monitor","High-Impact Reserves, Demolitionist, Thresh",Reload,"mkb,controller,pve"
 ,,"Fluted Barrel, Hammer-Forged Rifling, Full Bore","Accelerated Coils, Projection Fuse","Firmly Planted, Moving Target, Killing Wind","Quickdraw, High-Impact Reserves, Unrelenting",Charge Time,"controller,pvp"
 ,,"Fluted Barrel, Hammer-Forged Rifling, Full Bore","Accelerated Coils, Projection Fuse","Firmly Planted, Moving Target, Killing Wind","Quickdraw, High-Impact Reserves, Unrelenting",Charge Time,"mkb,pvp"
@@ -592,7 +578,6 @@ Tarantula,Arc,"Fluted Barrel, Smallbore, Hammer-Forged Rifling","Enhanced Batter
 Threaded Needle,Void,"Fluted Barrel, Smallbore, Hammer-Forged Rifling","Enhanced Battery, Ionized Battery, Accelerated Coils","Auto-Loading Holster, Rapid Hit, Field Prep","Vorpal Weapon, Demolitionist, Frenzy",Reload,"mkb,controller,pve"
 ,,"Fluted Barrel, Hammer-Forged Rifling, Full Bore","Accelerated Coils, Projection Fuse","Rangefinder, Killing Wind",Demolitionist,Charge Time,"controller,pvp"
 ,,"Fluted Barrel, Hammer-Forged Rifling, Full Bore","Accelerated Coils, Projection Fuse","Rangefinder, Killing Wind",Demolitionist,Charge Time,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 A Fine Memorial,Arc,"Fluted Barrel, Arrowhead Brake, Smallbore","Appended Mag, High-Caliber Rounds, Armor-Piercing Rounds","Auto-Loading Holster, Field Prep, Subsistence","Frenzy, Demolitionist, Adrenaline Junkie, One for All",Reload,"mkb,controller,pve"
 ,,"Fluted Barrel, Smallbore, Arrowhead Brake","Ricochet Rounds, High-Caliber Rounds","Quickdraw, Heating Up","Snapshot Sights, Elemental Capacitor, Demolitionist",Stability or Handling,"controller,pvp"
 ,,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","High-Caliber Rounds, Ricochet Rounds","Heating Up, Quickdraw","Snapshot Sights, Demolitionist",Range or Handling,"mkb,pvp"
@@ -626,8 +611,6 @@ THE SWARM (Adept),Arc,"Fluted Barrel, Arrowhead Brake, Smallbore","Tactical Mag,
 Thermal Erosion,Solar,"Fluted Barrel, Arrowhead Brake, Smallbore","Appended Mag, High-Caliber Rounds, Armor-Piercing Rounds",Field Prep,"Demolitionist, Dragonfly, Wellspring",Reload,"mkb,controller,pve"
 ,,"Fluted Barrel, Smallbore, Arrowhead Brake","Ricochet Rounds, High-Caliber Rounds","Killing Wind, Quickdraw","Tap the Trigger, Dynamic Sway Reduction, Snapshot Sights",Stability or Handling,"controller,pvp"
 ,,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","High-Caliber Rounds, Ricochet Rounds","Killing Wind, Quickdraw","Tap the Trigger, Dynamic Sway Reduction, Snapshot Sights",Range or Handling,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 Chattering Bone,Kinetic,"Arrowhead Brake, Fluted Barrel, Smallbore","Armor-Piercing Rounds, High-Caliber Rounds",Outlaw,"Rampage, High-Impact Reserves",Reload,"mkb,controller,pve"
 ,,"Arrowhead Brake, Chambered Compensator, Smallbore","Ricochet Rounds, High-Caliber Rounds","Rangefinder, Outlaw","Rampage, Under Pressure",Stability or Handling,"controller,pvp"
 ,,"Extended Barrel, Arrowhead Brake, Hammer-Forged Rifling","High-Caliber Rounds, Ricochet Rounds","Rangefinder, Outlaw","Rampage, Under Pressure",Handling or Range,"mkb,pvp"
@@ -682,7 +665,6 @@ Stars in Shadow,Solar,"Arrowhead Brake, Fluted Barrel, Smallbore","Tactical Mag,
 The Third Axiom,Arc,"Arrowhead Brake, Fluted Barrel, Smallbore","Armor Piercing Rounds, Appended Mag, Extended Mag","Feeding Frenzy, Subsistence, Surplus","Rampage, Vorpal Weapon, One for All, Dragonfly",Reload,"mkb,controller,pve"
 ,,"Arrowhead Brake, Chambered Compensator, Smallbore","Ricochet Rounds, High-Caliber Rounds","Rangefinder, Moving Target, Killing Wind","Rampage, Multikill Clip, Headseeker",Stability or Handling,"controller,pvp"
 ,,"Arrowhead Brake, Extended Barrel","High-Caliber Rounds, Ricochet Rounds","Rangefinder, Moving Target, Killing Wind","Rampage, Multikill Clip",Handling or Range,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 Apex Predator,Solar,"Quick Launch, Smart Drift Control, Linear Compensator","Impact Casing, Alloy Casing","Ambitious Assassin, Tracking Module","Auto-Loading Holster, Kill Clip",Reload,"mkb,controller,pve"
 ,,"Volatile Launch, Confined Launch, Quick Launch","Black Powder, High-Velocity Rounds",Tracking Module,Snapshot Sights,Blast Radius,"controller,pvp"
 ,,"Volatile Launch, Confined Launch, Quick Launch","Black Powder, High-Velocity Rounds",Tracking Module,Snapshot Sights,Blast Radius,"mkb,pvp"
@@ -731,7 +713,6 @@ Tomorrow's Answer,Void,"Quick Launch, Smart Drift Control, Linear Compensator","
 Tomorrow's Answer (Adept),Void,"Quick Launch, Smart Drift Control, Linear Compensator","Impact Casing, Alloy Casing","Impulse Amplifier, Auto-Loading Holster, Ambitious Assassin","Chain Reaction, Lasting Impression, Cluster Bomb",Reload,"mkb,controller,pve"
 ,,"Volatile Launch, Confined Launch, Quick Launch","Black Powder, High-Velocity Rounds","Impulse Amplifier, Quickdraw","Chain Reaction, Cluster Bomb",Blast Radius,"controller,pvp"
 ,,"Volatile Launch, Confined Launch, Quick Launch","Black Powder, High-Velocity Rounds","Impulse Amplifier, Quickdraw","Chain Reaction, Cluster Bomb",Blast Radius,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 Hung Jury SR4,Kinetic,"Fluted Barrel, Smallbore, Corkscrew Rifling","Tactical Mag, Appended Mag, Extended Mag","Rapid Hit, Subsistence, Bottomless Grief","Explosive Payload, Firefly, One for All, Adrenaline Junkie",Reload,"mkb,controller,pve"
 ,,"Fluted Barrel, Smallbore  ","Accurized Rounds, Tactical Mag","Moving Target, Rapid Hit, Heating Up, Surplus","Explosive Payload, Adrenaline Junkie, Box Breathing",Stability or Handling,"controller,pvp"
 ,,"Fluted Barrel, Hammer-Forged Rifling, Smallbore","Accurized Rounds, Tactical Mag","Moving Target, Rapid Hit, Heating Up, Surplus","Explosive Payload, Adrenaline Junkie, Box Breathing",Handling,"mkb,pvp"
@@ -783,7 +764,6 @@ Vision of Confluence (Timelost),Solar,"Fluted Barrel, Smallbore, Chambered Compe
 Vouchsafe,Void,"Arrowhead Brake, Fluted Barrel, Smallbore","Tactical Mag, Appended Mag, Extended Mag","Rapid Hit, Outlaw, Surplus, Fourth Time's the Charm","Explosive Payload, Vorpal Weapon, Dragonfly, Multikill Clip",Reload,"mkb,controller,pve"
 ,,"Arrowhead Brake, Chambered Compensator","Accurized Rounds, Tactical Mag","Rapid Hit, Surplus, Killing Wind, Under Pressure","Explosive Payload, Eye of the Storm, Vorpal Weapon",Stability,"controller,pvp"
 ,,"Arrowhead Brake, Extended Barrel","Accurized Rounds, Tactical Mag","Rapid Hit, Surplus, Killing Wind, Under Pressure","Explosive Payload, Eye of the Storm, Vorpal Weapon",Handling,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 Astral Horizon,Kinetic,"Barrel Shroud, Corkscrew Rifling, Smallbore","Tactical Mag, Appended Mag, Extended Mag","Auto-Loading Holster, Lead From Gold","Trench Barrel, Demolitionist",Reload,"mkb,controller,pve"
 ,,Full Choke,"Accurized Rounds, Assault Mag","Surplus, Pulse Monitor","Opening Shot, Demolitionist, Celerity",Range or Handling,"controller,pvp"
 ,,Full Choke,"Accurized Rounds, Assault Mag","Surplus, Pulse Monitor","Opening Shot, Demolitionist, Celerity",Range or Handling,"mkb,pvp"
@@ -868,7 +848,6 @@ Wishbringer,Solar,"Barrel Shroud, Corkscrew Rifling, Smallbore","Tactical Mag, A
 Xenoclast IV,Arc,"Barrel Shroud, Corkscrew Rifling, Smallbore","Tactical Mag, Assault Mag, Appended Mag","Auto-Loading Holster, Grave Robber, Field Prep","Vorpal Weapon, One-Two Punch, Swashbuckler",Reload,"mkb,controller,pve"
 ,,Full Choke,Accurized Rounds,"Surplus, Slideshot, Slideways","Eye of the Storm, Demolitionist, Killing Wind, Vorpal Weapon",Range or Handling,"controller,pvp"
 ,,Full Choke,Accurized Rounds,"Surplus, Slideshot, Slideways","Eye of the Storm, Demolitionist, Killing Wind, Vorpal Weapon",Range or Handling,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 Enigma's Draw,Kinetic,"Quickdot SAS, Control SAS, Shortspec SAS","Armor-Piercing Rounds, Appended Mag, Extended Mag","Triple Tap, Grave Robber, Full Auto Trigger System","Swashbuckler, Demolitionist, Rapid Hit",Reload,"mkb,controller,pve"
 ,,"Quickdot SAS, Control SAS, Shortspec SAS","High-Caliber Rounds, Ricochet Rounds",Opening Shot,"Rangefinder, Rapid Hit, Demolitionist, Swashbuckler",Stability or Handling,"controller,pvp"
 ,,"Quickdot SAS, Control SAS, Shortspec SAS","High-Caliber Rounds, Ricochet Rounds",Opening Shot,"Rangefinder, Rapid Hit, Demolitionist, Swashbuckler",Handling or Range,"mkb,pvp"
@@ -914,7 +893,6 @@ The Last Dance,Arc,"Quickdot SAS, Control SAS, Shortspec SAS","Armor-Piercing Ro
 The Vision,Arc,"Quickdot SAS, Control SAS, Shortspec SAS","Tactical Mag, Appended Mag, Extended Mag","Ambitious Assassin, Grave Robber","One for All, Swashbuckler, Kill Clip, Disruption Break",Reload,"mkb,controller,pve"
 ,,"Quickdot SAS, Control SAS, Shortspec SAS","Accurized Rounds, Tactical Mag","Surplus, Killing Wind",Kill Clip,Stability or Handling,"controller,pvp"
 ,,"Quickdot SAS, Control SAS, Shortspec SAS","Accurized Rounds, Tactical Mag","Surplus, Killing Wind",Kill Clip,Handling or Range,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 Bite of the Fox,Kinetic,"Arrowhead Brake, Fluted Barrel, Corkscrew Rifling","Tactical Mag, Appended Mag, Extended Mag",Rapid Hit,"Explosive Payload, Field Prep",Reload,"mkb,controller,pve"
 ,,"Fluted Barrel, Arrowhead Brake, Hammer-Forged Rifling","Accurized Rounds, Tactical Mag",Snapshot Sights,"Opening Shot, Moving Target, Explosive Payload",Handling,"controller,pvp"
 ,,"Fluted Barrel, Arrowhead Brake, Hammer-Forged Rifling","Accurized Rounds, Tactical Mag",Snapshot Sights,"Opening Shot, Moving Target, Explosive Payload",Handling,"mkb,pvp"
@@ -987,7 +965,6 @@ Uzume RR4 (Adept),Solar,"Arrowhead Brake, Fluted Barrel, Corkscrew Rifling","Tac
 Widow's Bite,Solar,"Arrowhead Brake, Fluted Barrel, Corkscrew Rifling","Tactical Mag, Appended Mag, Extended Mag","Feeding Frenzy, Lead from Gold","Demolitionist, Disruption Break",Reload,"mkb,controller,pve"
 ,,"Fluted Barrel, Arrowhead Brake, Hammer-Forged Rifling","Accurized Rounds, Tactical Mag","Firmly Planted, Slideshot","Quickdraw, Opening Shot",Range,"controller,pvp"
 ,,"Fluted Barrel, Arrowhead Brake, Hammer-Forged Rifling","Accurized Rounds, Tactical Mag","Firmly Planted, Slideshot","Quickdraw, Opening Shot",Range,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 Cold Front,Kinetic,"Fluted Barrel, Smallbore, Corkscrew Rifling","Tactical Mag, Appended Mag, Extended Mag","Subsistence, Surplus","Rampage, One for All, Swashbuckler",Reload,
 ,,"Fluted Barrel, Smallbore, Corkscrew Rifling","Accurized Rounds, Tactical Mag","Dynamic Sway Reduction, Perpetual Motion, Surplus","Harmony, Swashbuckler",Stability or Handling,
 ,,"Fluted Barrel, Hammer-Forged Rifling","Accurized Rounds, Tactical Mag","Perpetual Motion, Dynamic Sway Reduction, Surplus","Harmony, Swashbuckler",Handling or Range,
@@ -1030,7 +1007,6 @@ Shayura's Wrath (Adept),Void,"Fluted Barrel, Smallbore, Corkscrew Rifling","Tact
 Stochastic Variable,Arc,"Fluted Barrel, Smallbore, Corkscrew Rifling","Phase Mag, Appended Mag, Extended Mag","Feeding Frenzy, Ambitious Assassin","Multikill Clip, Dragonfly, Unrelenting",Reload,"mkb,controller,pve"
 ,,"Fluted Barrel, Smallbore, Corkscrew Rifling","Ricochet Rounds, High-Caliber Rounds, Phase Mag","Killing Wind, Surplus, Feeding Frenzy","Multikill Clip, Elemental Capacitor",Stability or Handling,"controller,pvp"
 ,,"Fluted Barrel, Hammer-Forged Rifling","High-Caliber Rounds, Ricochet Rounds, Phase Mag","Killing Wind, Surplus, Feeding Frenzy","Multikill Clip, Elemental Capacitor",Handling or Range,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 Abide the Return,Solar,"Jagged Edge, Honed Edge, Tempered Edge","Swordmaster’s Guard, Enduring Guard, Heavy Guard","Relentless Strikes, Tireless Blade","Whirlwind Blade, Thresh, Disruption Break",Impact,"mkb,controller,pve"
 ,,"Jagged Edge, Honed Edge","Swordmaster’s Guard, Burst Guard",Tireless Blade,En Garde,Impact,"controller,pvp"
 ,,"Jagged Edge, Honed Edge","Swordmaster’s Guard, Burst Guard",Tireless Blade,En Garde,Impact,"mkb,pvp"
@@ -1082,7 +1058,6 @@ The Other Half,Void,"Jagged Edge, Honed Edge, Tempered Edge","Swordmaster’s Gu
 Zephyr,Stasis,"Jagged Edge, Honed Edge, Tempered Edge","Swordmaster’s Guard, Enduring Guard, Heavy Guard","Relentless Strikes, Tireless Blade, Duelist's Trance","Cold Steel, Whirlwind Blade, Harmony",Impact,"mkb,controller,pve"
 ,,"Jagged Edge, Honed Edge","Swordmaster’s Guard, Burst Guard","Tireless Blade, Duelist's Trance",Assassin's Blade,Impact,"controller,pvp"
 ,,"Jagged Edge, Honed Edge","Swordmaster’s Guard, Burst Guard","Tireless Blade, Duelist's Trance",Assassin's Blade,Impact,"mkb,pvp"
-Name,Element,Sights/Barrels,Magazine,Perk 1,Perk 2,Masterwork,Tags
 Retraced Path,Solar,"Fluted Barrel, Smallbore, Corkscrew Rifling","Tactical Battery, Light Battery","Subsistence, Feeding Frenzy","Golden Tricorn, Demolitionist, One for All",Reload,"mkb,controller,pve"
 ,,"Smallbore, Fluted Barrel, Hammer-Forged Rifling","Projection Fuse, Particle Repeater, Tactical Battery","Perpetual Motion, Killing Wind","Demolitionist, Disruption Break, Harmony",Stability or Range,"controller,pvp"
 ,,"Hammer-Forged Rifling, Fluted Barrel, Smallbore","Projection Fuse, Tactical Battery","Perpetual Motion, Killing Wind","Demolitionist, Disruption Break, Harmony",Range,"mkb,pvp"
