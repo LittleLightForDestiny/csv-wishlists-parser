@@ -4,6 +4,7 @@ import { getItemDefinitions, getPlugSetDefinitions } from "../data/manifest";
 import { askForPlugHash } from "../prompts/ask_for_perk_hash";
 
 export async function decidePerkHash(weaponHash: number, perkName: string): Promise<number[]> {
+    perkName = perkName.replace('’', '\'');
     let itemDefs = await getItemDefinitions();
     let plugSetDefs = await getPlugSetDefinitions();
     let weaponDef = itemDefs[weaponHash];

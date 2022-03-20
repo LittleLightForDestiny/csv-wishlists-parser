@@ -1,145 +1,85 @@
-import csvParser from 'csv-parse/lib/sync';
-import fs from 'fs-extra';
-import { getFilename, getOptions, setOptions } from './data/options';
-import { askForHeaderLine, askForNameColumn, askForPerkColumn as askForPerkColumns, askForTagsColumn } from './prompts/ask_for_column_indexes';
-import { decidePerkHash as resolvePerkHash } from './resolvers/resolve_perk_hash';
-import { resolveWeaponHash } from './resolvers/resolve_weapon_hash';
+import fs from "fs-extra";
+import { sheets_v4 } from "googleapis";
+import { PerkSheetStateController } from "./controllers/perk_sheet_state.controller";
+import { getSeasonByItemHash } from "./controllers/season_filter";
+import { getSheetsClient } from "./google_docs";
+import { JsonWishlist, JsonWishlistItem, WishlistTag } from "./interfaces/wishlist.interface";
+import { askForSheets } from "./prompts/ask_for_sheets";
+let sheetsClient: sheets_v4.Sheets;
+// const id = "1D2rZQEvwtq3hWV6ZIu8ytJQloUlg5IIXd_tps01o0pI";
+const id = "1OvBQAh2CsVHskudEpxu65G5_tFkk9IB13OXH1jp6qZk";
 
-interface JsonWishlistItem {
-    hash: number;
-    plugs: number[][];
-    name: string;
-    description: string;
-    tags: string[];
-}
+let wishlistItems: JsonWishlistItem[] = [];
 
-interface JsonWishlist {
-    $schema: String;
-    data: JsonWishlistItem[]
-}
-var wishlist: JsonWishlist = {
-    $schema: "./jsonwishlist.schema.json",
-    data: []
-};
-
-let persistentWeaponName: string = "";
-
-setOptions({ filename: process.argv[2] || "forsaken-pve" });
-
-
-async function saveWishlist(filename: string): Promise<void> {
-    try {
-        await fs.mkdir("./output");
-    } catch (e) { }
-    await fs.writeFile(`./output/${filename}.json`, JSON.stringify(wishlist));
-}
-
-async function getCSV(path: string): Promise<string[][]> {
-    var buffer = await fs.readFile(path);
-    var str = buffer.toString();
-    var parsed = csvParser(str);
-    return parsed;
-}
-
-function parseTags(tags: string): string[] {
-    return tags.split(',').map((t) => {
-        let tag = t.toLowerCase();
-        // switch (tag) {
-            // case "pve":
-            //     return "pve";
-            // case "pvp":
-            //     return "pvp";
-            // case "godpve":
-            //     return "godpve";
-            // case "godpvp":
-            //     return "godpvp";
-        // }
-        return tag;
+async function processSheet(sheet: sheets_v4.Schema$Sheet) {
+    let controller = new PerkSheetStateController(sheet, (hash, perks, tags) => {
+        wishlistItems.push({
+            hash,
+            plugs: perks,
+            tags,
+        });
     });
+    await controller.findHeaderIndex();
+    await controller.findHeaders();
+    await controller.findWeaponIndexes();
+    await controller.processWeapons();
 }
 
-async function parseLine(line: string[]): Promise<JsonWishlistItem[]> {
-    let options = getOptions();
-    var weaponName: string = line[options.nameColumn || 0].trim() || persistentWeaponName.trim();
-    let perkColumns = options.perkColumns || [1, 2, 3, 4];
-    var containsPerks: boolean = perkColumns.some((c) => {
-        return line[c].trim().length > 0;
-    });
-    if (!containsPerks) return [];
-    persistentWeaponName = weaponName;
-    console.log(weaponName);
-    var weaponHashes = await resolveWeaponHash(weaponName);
-    var items: JsonWishlistItem[] = [];
-    for (var w in weaponHashes) {
-        var weaponHash: number = weaponHashes[w];
-        var item: JsonWishlistItem = { name: weaponName, description: "", plugs: [], hash: weaponHash, tags: [] };
-
-        for (let ci in perkColumns) {
-            let c = perkColumns[ci];
-            let perks = await getPerks(weaponHash, line[c]);
-            if (perks.length > 0) {
-                item.plugs.push(perks);
-            }
+async function saveItems() {
+    let files: {
+        [path: string]: {
+            season: number,
+            input: WishlistTag,
+            items: JsonWishlistItem[]
         }
-        item.tags = parseTags(line[options.tagsColumn || 5]);
-        items.push(item);
-
-        var generateGodRoll = false;
-        for (var i in item.plugs) {
-            if (item.plugs[i].length > 1) {
-                generateGodRoll = true;
-            }
+    } = {};
+    for (let build of wishlistItems) {
+        let season = await getSeasonByItemHash(build.hash) || 0;
+        if (build.tags.indexOf(WishlistTag.Mouse) > -1) {
+            let path = `mnk/season-${season?.toString().padStart(2, "0")}.json`;
+            if (!files[path]) files[path] = {
+                season,
+                items: [],
+                input: WishlistTag.Mouse
+            };
+            files[path].items.push(build);
         }
-        if (generateGodRoll) {
-            var godrollPlugs = item.plugs.map((p) => [p[0]]);
-            var godrollTags = item.tags.map((v) => {
-                v = v.toLocaleLowerCase();
-                if (v == "pve") return "godpve";
-                if (v == "pvp") return "godpvp";
-                return v;
-            });
-            let godrollItem: JsonWishlistItem = { name: weaponName, description: "", plugs: godrollPlugs, hash: weaponHash, tags: godrollTags };
-            items.push(godrollItem);
+
+        if (build.tags.indexOf(WishlistTag.Controller) > -1) {
+            let path = `controller/season-${season?.toString().padStart(2, "0")}.json`;
+            if (!files[path]) files[path] = {
+                season,
+                items: [],
+                input: WishlistTag.Controller
+            };
+            files[path].items.push(build);
         }
     }
-    return items;
+    for (let path in files) {
+        let dir = path.substring(0, path.lastIndexOf('/'));
+        let info = files[path];
+        let inputName = info.input == WishlistTag.Controller ? "Controller" : "Mouse and Keyboard";
+        let jsonData: JsonWishlist = {
+            name: `Pandapaxxy's ${inputName} rolls - Season ${info.season}`,
+            description: `Recommendations based on Pandapaxxy's breakdowns on r/sharditorkeepit for ${inputName} on Season ${info.season} weapons.`,
+            data: files[path].items
+        };
+        await fs.ensureDir(`./output/pandapaxxy/${dir}`);
+        await fs.writeJSON(`./output/pandapaxxy/${path}`, jsonData);
+    }
 }
 
-
-async function getPerks(weaponHash: number, perksString: string): Promise<number[]> {
-    var perks: number[] = [];
-    var perkNames = perksString.split(',').map((p) => p.trim()).filter(Boolean);
-    for (var i in perkNames) {
-        var perk = await resolvePerkHash(weaponHash, perkNames[i]);
-        perks = perks.concat(perk);
+async function run() {
+    sheetsClient = await getSheetsClient();
+    let sheet = await sheetsClient.spreadsheets.get({ spreadsheetId: id, includeGridData: true });
+    let sheetIDs = await askForSheets(sheet.data);
+    for (let sheetID of sheetIDs) {
+        let currentSheet = sheet.data.sheets?.find((s) => s.properties?.sheetId == sheetID);
+        if (currentSheet != null) {
+            await processSheet(currentSheet);
+        }
     }
-    return perks;
-}
-
-
-async function run(): Promise<void> {
-    var csv = await getCSV(`csv/${getFilename()}.csv`);
-    let headerLine = await askForHeaderLine(csv);
-    let header = csv[headerLine];
-    let nameColumn = await askForNameColumn(header);
-    let perkColumns = await askForPerkColumns(header);
-    let tagsColumn = await askForTagsColumn(header);
-    setOptions({
-        nameColumn: nameColumn,
-        perkColumns: perkColumns,
-        tagsColumn: tagsColumn
-    });
-    for (var i = headerLine + 1; i < csv.length; i++) {
-        var items = await parseLine(csv[i]);
-        items.forEach((item) => {
-            if (item != null) {
-                item.description += `File auto generated from csv ${getFilename()}`;
-                wishlist.data.push(item);
-            }
-        })
-
-    }
-    saveWishlist(getFilename()!);
+    await saveItems();
 }
 
 run();

@@ -1,10 +1,9 @@
 {
   "name": "csv-to-wishlist",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "start": "ts-node src/index",
+    "start": "node --loader ts-node/esm --experimental-specifier-resolution=node src/index",
     "fix": "ts-node src/fix",
     "add_godrolls": "ts-node src/add_godroll_to_goodroll",
     "add_tag_to_all_rolls": "ts-node src/add_tag_to_all_rolls",
@@ -22,17 +21,20 @@
     "@fast-csv/parse": "^4.3.6",
     "@types/axios": "^0.14.0",
     "@types/dotenv": "^8.2.0",
-    "@types/fs-extra": "^8.1.0",
+    "@types/fs-extra": "^9.0.13",
     "@types/lodash": "^4.14.149",
     "@types/prompts": "^2.0.3",
     "axios": "^0.21.1",
-    "bungie-api-ts": "^2.3.0",
+    "bungie-api-ts": "^4.15.0",
     "csv-parse": "^4.8.6",
     "dotenv": "^8.2.0",
-    "fs-extra": "^8.1.0",
+    "fs-extra": "^10.0.1",
+    "googleapis": "^39.2.0",
     "lodash": "^4.17.19",
     "prompts": "^2.3.1",
-    "ts-node": "^10.2.1",
+    "ts-node": "^10.7.0",
+    "ts-node-esm": "0.0.6",
     "typescript": "^4.4.3"
-  }
+  },
+  "type": "module"
 }

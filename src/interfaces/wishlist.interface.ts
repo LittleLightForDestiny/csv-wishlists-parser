@@ -14,12 +14,13 @@ export interface JsonWishlistItem {
     hash: number;
     plugs: number[][];
     name?: string;
-    description: string;
+    description?: string;
     originalWishlist?: string;
     tags: string[];
 }
 
 export interface JsonWishlist {
-    $schema: String;
+    name: string,
+    description:string, 
     data: JsonWishlistItem[]
 }

@@ -1,6 +1,6 @@
 import fs from 'fs-extra';
-import { DestinyCollectibleDefinition, DestinyInventoryItemDefinition, DestinyPlugSetDefinition } from 'bungie-api-ts/destiny2/interfaces';
-import { getDestinyManifest } from 'bungie-api-ts/destiny2/api';
+import { DestinyCollectibleDefinition, DestinyInventoryItemDefinition, DestinyPlugSetDefinition } from 'bungie-api-ts/destiny2';
+import { getDestinyManifest } from 'bungie-api-ts/destiny2';
 import Axios from 'axios';
 
 const bungieRoot = "https://www.bungie.net";
@@ -37,8 +37,18 @@ export async function getManifest(part: string): Promise<any> {
     return definitions.data[part];
 }
 
+export async function getItemDefinition(hash:string):Promise<DestinyInventoryItemDefinition>{
+    let manifest = await getItemDefinitions();
+    return manifest[hash];
+}
+
 export async function getItemDefinitions():Promise<{[hash:string]:DestinyInventoryItemDefinition}>{
     return await getManifest("DestinyInventoryItemDefinition");
+}
+
+export async function getCollectibleDefinition(hash:string):Promise<DestinyCollectibleDefinition>{
+    let collectibles = await getCollectibleDefinitions();
+    return collectibles[hash];
 }
 
 export async function getCollectibleDefinitions():Promise<{[hash:string]:DestinyCollectibleDefinition}>{

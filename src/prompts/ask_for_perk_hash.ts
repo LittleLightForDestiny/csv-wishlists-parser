@@ -13,13 +13,14 @@ export async function askForPlugHash(weaponName: string, perkName: string, plugH
         let _counts = _(memory)
             .countBy((o) => o)
             .map((v, k) => {
-                return ({ value: parseInt(k), label: `${k} (${v})` });
+                return ({ count: v, hash: parseInt(k), name:'' });
             }).value();
-        _counts.push({
-            value: OTHER,
-            label: "Other"
-        });
-        let result = await askForMultiple(_counts, `Use previously saved values for ${perkName} on ${weaponName} ?`)
+        for(let count of _counts){
+            count.name = defs[`${count.hash}`].displayProperties.name;
+        }
+        let values = _counts.map((c)=>({value:c.hash, label: `${c.name} - ${c.hash} (${c.count})`}));
+        values.push({value:OTHER, label:"Other",});
+        let result = await askForMultiple(values, `Use previously saved values for ${perkName} on ${weaponName} ?`)
         if (result.indexOf(OTHER) < 0) {
             addToMemory(MemoryType.Perk, perkName, result);
             return result;
@@ -28,7 +29,7 @@ export async function askForPlugHash(weaponName: string, perkName: string, plugH
     if (plugHashes.length > 0) {
         let options = plugHashes.map((p) => {
             let def = defs[p];
-            let label = `${def.itemTypeDisplayName} (${def.hash})`;
+            let label = `${def.displayProperties.name} - ${def.itemTypeDisplayName} (${def.hash})`;
             return { label: label, value: p };
         });
         options.push({ label: "Other", value: OTHER });
