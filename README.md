@@ -1,6 +1,11 @@
 ## PandaPaxxy's wishlist parser
 This is a node js parser for pandapaxxy's wishlists
 
+## Pre-requisite
+- npm v6.14 (may work with other versions)
+- node v14.20 (may work other versions)
+get both at https://nodejs.org/en/download/
+
 ## How to use
 1. Clone the git repo
 2. run `npm ci`
