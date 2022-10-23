@@ -6,8 +6,8 @@ import { getSheetsClient } from "./google_docs";
 import { JsonWishlist, JsonWishlistItem, WishlistTag } from "./interfaces/wishlist.interface";
 import { askForSheets } from "./prompts/ask_for_sheets";
 let sheetsClient: sheets_v4.Sheets;
-// const id = "1D2rZQEvwtq3hWV6ZIu8ytJQloUlg5IIXd_tps01o0pI";
-const id = "1OvBQAh2CsVHskudEpxu65G5_tFkk9IB13OXH1jp6qZk";
+const id = "1D2rZQEvwtq3hWV6ZIu8ytJQloUlg5IIXd_tps01o0pI";
+// const id = "1OvBQAh2CsVHskudEpxu65G5_tFkk9IB13OXH1jp6qZk";
 
 let wishlistItems: JsonWishlistItem[] = [];
 

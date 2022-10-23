@@ -4,36 +4,36 @@ import { getItemDefinition, getItemDefinitions, getPlugSetDefinitions } from "..
 import { askForPlugHash } from "../prompts/ask_for_perk_hash";
 
 
-async function resolvePerksOptions(weaponHash: number, perkNames: string):Promise<DestinyInventoryItemDefinition[]> {
+async function resolvePerksOptions(weaponHash: number, perkNames: string): Promise<DestinyInventoryItemDefinition[]> {
     let weaponDef = await getItemDefinition(`${weaponHash}`);
     let socketCounts = [];
-    let perkCategory = weaponDef.sockets.socketCategories.find((c)=>c.socketCategoryHash == 4241085061);
+    let perkCategory = weaponDef.sockets.socketCategories.find((c) => c.socketCategoryHash == 4241085061);
     for (let s of perkCategory!.socketIndexes!) {
         let available = await getAvailablePerks(weaponDef.sockets!.socketEntries[s]);
         let count = getSocketCount(available, perkNames);
-        socketCounts.push({index:s, count:count});
+        socketCounts.push({ index: s, count: count });
     }
-    socketCounts.sort((a,b)=>b.count - a.count);
+    socketCounts.sort((a, b) => b.count - a.count);
     let availablePerks = await getAvailablePerks(weaponDef.sockets!.socketEntries[socketCounts[0].index]);
     return availablePerks;
 }
 
-function getSocketCount(available: DestinyInventoryItemDefinition[], perkNames: string):number {
-    return available.filter((def)=>{
+function getSocketCount(available: DestinyInventoryItemDefinition[], perkNames: string): number {
+    return available.filter((def) => {
         let name = def.displayProperties.name.toLowerCase().trim();
         return perkNames.toLowerCase().indexOf(name) > -1;
     }).length;
 }
 
 
-async function getAvailablePerks(entry: DestinyItemSocketEntryDefinition):Promise<DestinyInventoryItemDefinition[]> {
+async function getAvailablePerks(entry: DestinyItemSocketEntryDefinition): Promise<DestinyInventoryItemDefinition[]> {
     /// IGNORE cosmetics
     let reusable: DestinyItemSocketEntryPlugItemDefinition[] = _.get(entry, `reusablePlugItems`, []);
     let itemDefs = await getItemDefinitions();
     let plugSetDefs = await getPlugSetDefinitions();
     let availablePlugHashes: number[] = [];
     availablePlugHashes = availablePlugHashes.concat(reusable.map((e) => e.plugItemHash));
-    
+
     if (entry.singleInitialItemHash) {
         availablePlugHashes.push(entry.singleInitialItemHash);
     }
@@ -50,19 +50,19 @@ async function getAvailablePerks(entry: DestinyItemSocketEntryDefinition):Promis
     return availablePlugs;
 }
 
-async function resolveSinglePerk(weaponHash:number, perkName:string, options:DestinyInventoryItemDefinition[]):Promise<number[]>{
+async function resolveSinglePerk(weaponHash: number, perkName: string, options: DestinyInventoryItemDefinition[]): Promise<number[]> {
     let validPlugHashes = [];
-    for(let option of options){
-        if(option.displayProperties.name.toLowerCase().trim() == perkName.toLowerCase().trim()){
+    for (let option of options) {
+        if (option.displayProperties.name.toLowerCase().trim() == perkName.toLowerCase().trim()) {
             return [option.hash];
         }
-        if(option.displayProperties.name.toLowerCase().indexOf(perkName.toLowerCase().trim()) > -1){
+        if (option.displayProperties.name.toLowerCase().indexOf(perkName.toLowerCase().trim()) > -1) {
             validPlugHashes.push(option.hash);
         }
     }
-    if(validPlugHashes.length == 1){
+    if (validPlugHashes.length == 1) {
         return validPlugHashes;
-    }else if(validPlugHashes.length > 0){
+    } else if (validPlugHashes.length > 0) {
         let weaponDef = await getItemDefinition(`${weaponHash}`);
         return askForPlugHash(weaponDef.displayProperties.name, perkName, validPlugHashes);
     }
@@ -84,24 +84,24 @@ async function resolveSinglePerk(weaponHash:number, perkName:string, options:Des
 
     const weaponDef = await getItemDefinition(`${weaponHash}`);
 
-    let response = await askForPlugHash(weaponDef.displayProperties.name, perkName, options.map((o)=>o.hash));
-    
-    if(response.length > 0){
+    let response = await askForPlugHash(weaponDef.displayProperties.name, perkName, options.map((o) => o.hash));
+
+    if (response.length > 0) {
         return response;
     }
 
-    
+
     return askForPlugHash(weaponDef.displayProperties.name, perkName, validPlugHashes);
 }
 
 export async function resolvePerkHashes(weaponHash: number, perksString: string): Promise<number[]> {
     perksString = perksString.replace(/’/g, '\'');
     const options = await resolvePerksOptions(weaponHash, perksString);
-    const perksNames = perksString.split(',');
-    let hashes:number[] = [];
-    for(let name of perksNames){
-      let perkHashes = await resolveSinglePerk(weaponHash, name, options);
-      hashes = hashes.concat(perkHashes);
+    const perksNames = perksString.split(',').filter((p) => p.trim().length > 0);
+    let hashes: number[] = [];
+    for (let name of perksNames) {
+        let perkHashes = await resolveSinglePerk(weaponHash, name, options);
+        hashes = hashes.concat(perkHashes);
     }
     hashes = _.uniq(hashes);
     return hashes;

@@ -112,3 +112,4 @@ dist
 
 google.credentials.json
 token.json
+output/*

@@ -109,7 +109,8 @@ export class PerkSheetStateController {
             const perkNames = weaponRow[i].formattedValue;
             const perks = await resolvePerkHashes(weaponHash, perkNames!);
             const godPerkNames = this.getGodPerksString(weaponRow[i]);
-            const godPerks = await resolvePerkHashes(weaponHash, perkNames!);
+            const godPerks = await resolvePerkHashes(weaponHash, godPerkNames!);
+            console.log(perkNames, godPerkNames);
             rollSlots.push(perks);
             godRollSlots.push(godPerks);
         }
@@ -121,7 +122,12 @@ export class PerkSheetStateController {
     getGodPerksString(cell:sheets_v4.Schema$CellData){
         const perkNames = cell.formattedValue;
         const formatRuns = cell.textFormatRuns;
-        if(!formatRuns) return "";
+        if(!formatRuns){
+            if(cell.userEnteredFormat?.textFormat?.bold){
+                return perkNames;
+            }
+            return "";
+        }    
         let end = 0;
         for(let run of formatRuns){
             if(run.format?.bold) continue;
